@@ -11,7 +11,7 @@ function Header() {
     return (
         <div className='font-arial'>
             {/* Absolute Header */}
-            <div className='shadow-2xl w-full h-[15vh] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent'>
+            <div className=' w-full h-[15vh] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent'>
                 {/* Logo */}
                 <div className='h-[100%] px-10'>
                     <img onClick={() => navigate("/")} className=" cursor-pointer h-[90%] max-w-screen object-cover p-1" src={Logo} alt='Sultan Logo' />
@@ -34,7 +34,7 @@ function Header() {
 
             {/* Mobile Navigation */}
             <div
-                className={`absolute top-[15vh] right-0 w-full transition-all duration-500 min-md:hidden   ease-in-out z-40 ${bar ? "h-[65vh] opacity-100" : "h-0 opacity-0"
+                className={`absolute top-[15vh] right-0 w-full transition-all duration-500 min-md:hidden   ease-in-out z-40 ${bar ? " h-[65vh] opacity-100" : "h-0 opacity-0"
                     }`}
             >
                 <div className='bg-white opacity-85 z-0 w-full h-full flex flex-col gap-6 items-center justify-center text-lg'>

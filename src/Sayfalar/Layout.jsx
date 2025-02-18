@@ -3,18 +3,20 @@ import Header from './Header';
 import Anasayfa from './Anasayfa';
 import Footer from './Footer';
 
-function Layout() {
+function Layout({ children }) {
     return (
         <div className='h-[100vh]'>
             {/* Fixed Header */}
             <Header />
 
             {/* Content */}
-            <div className='pt-[15vh] h-screen'> {/* Header yüksekliği kadar padding ekleyin */}
-                <Anasayfa />
+            <div className=''> {/* Header yüksekliği kadar padding ekleyin */}
+                {children}
+            </div>
+            <div className='hidden'>
+                <Footer />
             </div>
 
-            <Footer />
         </div>
     );
 }

@@ -18,7 +18,11 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={
-          <Layout />
+
+          <Layout >
+            <Anasayfa />
+          </Layout >
+
         } />
 
       </Routes>

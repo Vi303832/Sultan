@@ -1,48 +1,52 @@
-import React, { useState } from 'react'
-import Logo from "../assets/Logo1.png"
+import React, { useState } from 'react';
+import Logo from "../assets/Logo1.png";
 import { FaBars } from "react-icons/fa";
+import { useNavigate } from "react-router";
 
 function Header() {
-    let [bar, setbar] = useState(false)
+    const [bar, setbar] = useState(false);
 
+    let navigate = useNavigate();
 
     return (
-        <div className='font-arial relative max-h-screen '>
-            <div className='shadow-2xl w-[100%] h-[15vh] flex justify-between items-center  z-20  fixed top-0  bg-transparent '>
+        <div className='font-arial'>
+            {/* Absolute Header */}
+            <div className='shadow-2xl w-full h-[15vh] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent'>
+                {/* Logo */}
                 <div className='h-[100%] px-10'>
-                    <img className="h-[90%] max-w-screen object-cover p-1 " src={Logo} alt='Sultan Logo' />
+                    <img onClick={() => navigate("/")} className=" cursor-pointer h-[90%] max-w-screen object-cover p-1" src={Logo} alt='Sultan Logo' />
                 </div>
+                {/* Navigation Links */}
                 <div className='px-20 flex gap-12 justify-center items-center text-lg cursor-pointer max-md:hidden'>
-                    <div className='hover:text-sertaltin  '>Salonlarımız</div>
-                    <div className='hover:text-sertaltin  '>Galeri</div>
-                    <div className='hover:text-sertaltin  '>Teklif al</div>
-                    <div className='hover:text-sertaltin  ' >İletişim</div>
-                    <div className='hover:text-sertaltin  '>Hakkımızda</div>
+                    <div onClick={() => navigate("/Salonlar")} className='hover:text-sertaltin cursor-pointer'>Salonlarımız</div>
+                    <div onClick={() => navigate("/Galeri")} className='hover:text-sertaltin cursor-pointer'>Galeri</div>
+                    <div onClick={() => navigate("/Teklif")} className='hover:text-sertaltin cursor-pointer'>Teklif al</div>
+                    <div onClick={() => navigate("/İletişim")} className='hover:text-sertaltin cursor-pointer'>İletişim</div>
+                    <div onClick={() => navigate("/Hakkımızda")} className='hover:text-sertaltin cursor-pointer'>Hakkımızda</div>
                 </div>
+                {/* Mobile Menu */}
                 <div className='hidden max-md:block'>
-                    <div onClick={() => setbar(!bar)} className='cursor-pointer text-2xl px-20 '><FaBars /></div>
-                </div>
-
-            </div>
-
-            <div className={`flex justify-end transition-all duration-1000 ease-linear w-full absolute min-md:hidden  overflow-hidden ${bar ? "h-[100vh]" : "h-0"} `}>
-                <div className={`h-[50vh] gap-12  text-lg w-[20%]  `}>
-                    <div className={` flex-col gap-12 justify-center items-center text-lg cursor-pointer h-[100%] flex mr-48 mt-10 `}>
-                        <div className='h-[70%] absolute bg-beyaz opacity-75 w-[40%]  '></div>
-                        <div className='hover:text-sertaltin z-10  '>Salonlarımız</div>
-                        <div className='hover:text-sertaltin z-10  '>Galeri</div>
-                        <div className='hover:text-sertaltin  z-10 '>Teklif al</div>
-                        <div className='hover:text-sertaltin z-10  ' >İletişim</div>
-                        <div className='hover:text-sertaltin z-10  '>Hakkımızda</div>
+                    <div onClick={() => setbar(!bar)} className='cursor-pointer text-2xl px-20 '>
+                        <FaBars />
                     </div>
                 </div>
-
             </div>
 
-
-
+            {/* Mobile Navigation */}
+            <div
+                className={`absolute top-[15vh] right-0 w-full transition-all duration-500 min-md:hidden   ease-in-out z-40 ${bar ? "h-[65vh] opacity-100" : "h-0 opacity-0"
+                    }`}
+            >
+                <div className='bg-white opacity-85 z-0 w-full h-full flex flex-col gap-6 items-center justify-center text-lg'>
+                    <div onClick={() => navigate("/Salonlar")} className='hover:text-sertaltin cursor-pointer'>Salonlarımız</div>
+                    <div onClick={() => navigate("/Galeri")} className='hover:text-sertaltin cursor-pointer'>Galeri</div>
+                    <div onClick={() => navigate("/Teklif")} className='hover:text-sertaltin cursor-pointer'>Teklif al</div>
+                    <div onClick={() => navigate("/İletişim")} className='hover:text-sertaltin cursor-pointer'>İletişim</div>
+                    <div onClick={() => navigate("/Hakkımızda")} className='hover:text-sertaltin cursor-pointer'>Hakkımızda</div>
+                </div>
+            </div>
         </div>
-    )
+    );
 }
 
-export default Header
+export default Header;

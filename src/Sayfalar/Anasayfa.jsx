@@ -2,7 +2,7 @@ import React from 'react'
 
 function Anasayfa() {
     return (
-        <div className=' bg-altin h-full'>
+        <div className=' bg-altin'>
 
 
 

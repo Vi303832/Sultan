@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import { Routes, Route } from "react-router"
 import Header from "./Sayfalar/Header"
-import Header from "./Sayfalar/Anasayfa"
-import Header from "./Sayfalar/Footer"
-import Header from "./Sayfalar/Galeri"
-import Header from "./Sayfalar/Hakkımızda"
-import Header from "./Sayfalar/İletişim"
-import Header from "./Sayfalar/Salon"
-import Header from "./Sayfalar/Salonlarımız"
-import Header from "./Sayfalar/Teklif"
+import Anasayfa from "./Sayfalar/Anasayfa"
+import Footer from "./Sayfalar/Footer"
+import Galeri from "./Sayfalar/Galeri"
+import Hakkımızda from "./Sayfalar/Hakkımızda"
+import İletişim from "./Sayfalar/İletişim"
+import Salon from "./Sayfalar/Salon"
+import Salonlarımız from "./Sayfalar/Salonlarımız"
+import Teklif from "./Sayfalar/Teklif"
 
 function App() {
 
@@ -16,11 +16,16 @@ function App() {
   return (
     <>
       <Routes>
+        <Route path="/" element={
+          <>
+            <Header />
+            <Anasayfa />
+            <Footer />
+          </>
 
+        } />
 
       </Routes>
-
-
     </>
   )
 }

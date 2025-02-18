@@ -1,1 +1,16 @@
 @import "tailwindcss";
+
+@theme {
+
+  --font-arial:arial;
+--color-altin:#ad925b;
+--color-beyaz:#f8f6ec;
+--color-kalin:#b4a46c;
+--color-sertaltin:#af9057;
+--color-ten:#dcc3a7;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}

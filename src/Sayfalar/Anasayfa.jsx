@@ -2,7 +2,7 @@ import React from 'react'
 
 function Anasayfa() {
     return (
-        <div>Anasayfa</div>
+        <div className='w-full bg-amber-600'>Anasayfa</div>
     )
 }
 

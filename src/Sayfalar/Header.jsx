@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Logo from "../assets/Logo.jpg"
+import Logo from "../assets/Logo1.png"
 import { FaBars } from "react-icons/fa";
 
 function Header() {
@@ -8,9 +8,9 @@ function Header() {
 
     return (
         <div className='font-arial relative max-h-screen '>
-            <div className='shadow-2xl w-[100%] h-[15vh] flex justify-between items-center relative z-20  bg-white '>
+            <div className='shadow-2xl w-[100%] h-[15vh] flex justify-between items-center  z-20  fixed top-0  bg-transparent '>
                 <div className='h-[100%] px-10'>
-                    <img className="h-[90%] max-w-screen object-cover p-1" src={Logo} alt='Sultan Logo' />
+                    <img className="h-[90%] max-w-screen object-cover p-1 " src={Logo} alt='Sultan Logo' />
                 </div>
                 <div className='px-20 flex gap-12 justify-center items-center text-lg cursor-pointer max-md:hidden'>
                     <div className='hover:text-sertaltin  '>Salonlarımız</div>

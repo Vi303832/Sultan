@@ -9,6 +9,7 @@ import İletişim from "./Sayfalar/İletişim"
 import Salon from "./Sayfalar/Salon"
 import Salonlarımız from "./Sayfalar/Salonlarımız"
 import Teklif from "./Sayfalar/Teklif"
+import Layout from './Sayfalar/Layout'
 
 function App() {
 
@@ -17,12 +18,7 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={
-          <>
-            <Header />
-            <Anasayfa />
-            <Footer />
-          </>
-
+          <Layout />
         } />
 
       </Routes>

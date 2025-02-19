@@ -23,8 +23,9 @@ function MdSlider() {
     return (
         <div className='w-full h-[500px] px-10'>
             <Swiper
-                modules={[EffectCoverflow, Pagination]}
+                modules={[EffectCoverflow, Pagination, Autoplay]}
                 effect={'coverflow'}
+                autoplay={{ delay: 2000, disableOnInteraction: false }}
                 loop={true}
                 spaceBetween={10}
                 slidesPerView={2}

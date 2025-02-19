@@ -23,10 +23,11 @@ function SmSlider() {
     return (
         <div className='w-full h-[500px] '>
             <Swiper
-                modules={[EffectCoverflow, Pagination]}
+                modules={[EffectCoverflow, Pagination, Autoplay]}
                 effect={'coverflow'}
                 loop={true}
                 spaceBetween={10}
+                autoplay={{ delay: 2000, disableOnInteraction: false }}
                 slidesPerView={1}
                 pagination={{
                     clickable: true,

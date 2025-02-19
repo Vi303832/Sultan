@@ -11,13 +11,13 @@ function Header() {
     return (
         <div className='font-arial'>
             {/* Absolute Header */}
-            <div className=' w-full h-[15vh] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent'>
+            <div className=' w-full h-[15vh] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent '>
                 {/* Logo */}
                 <div className='h-[100%] px-10'>
                     <img onClick={() => navigate("/")} className=" cursor-pointer h-[90%] max-w-screen object-cover p-1" src={Logo} alt='Sultan Logo' />
                 </div>
                 {/* Navigation Links */}
-                <div className='px-20 flex gap-12 justify-center items-center text-lg cursor-pointer max-md:hidden'>
+                <div className='px-20 w-[100vh] overflow-hidden flex gap-12 justify-center items-center text-lg cursor-pointer max-md:hidden'>
                     <div onClick={() => navigate("/Salonlar")} className='hover:text-sertaltin cursor-pointer'>Salonlarımız</div>
                     <div onClick={() => navigate("/Galeri")} className='hover:text-sertaltin cursor-pointer'>Galeri</div>
                     <div onClick={() => navigate("/Teklif")} className='hover:text-sertaltin cursor-pointer'>Teklif al</div>

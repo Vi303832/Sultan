@@ -1,0 +1,30 @@
+
+.swiper-button-next {
+     right: 10px;
+    color:#f8f6ec;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding:10px;      
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    text-align:center;
+}
+.swiper-pagination-bullet-active {
+    background:#f8f6ec;
+  }
+/* Sol ok */
+.swiper-button-prev {
+    left: 10px;
+    color:#f8f6ec;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding:10px;      
+    width:60px;
+    height:60px;
+    border-radius:30px;
+    text-align:center;
+}
+
+/* On hover */
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}

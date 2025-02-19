@@ -10,6 +10,7 @@ import Salon from "./Sayfalar/Salon"
 import Salonlarımız from "./Sayfalar/Salonlarımız"
 import Teklif from "./Sayfalar/Teklif"
 import Layout from './Sayfalar/Layout'
+import "./style.css"
 
 function App() {
 

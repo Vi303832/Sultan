@@ -3,9 +3,10 @@ import Header from './Header';
 import Anasayfa from './Anasayfa';
 import Footer from './Footer';
 
+
 function Layout({ children }) {
     return (
-        <div className='h-[100vh]'>
+        <div className=' bg-beyaz'>
             {/* Fixed Header */}
             <Header />
 

@@ -14,7 +14,7 @@ const YouTubeVideo = () => {
             <img src={yt} className='h-[100vh] w-[100%] object-cover' />
             <button
                 onClick={handleButtonClick}
-                className="px-4 py-2 bg-kalin text-black hover:text-beyaz cursor-pointer   rounded absolute hover:bg-sertaltin"
+                className="px-4 py-2 bg-kalin text-beyaz cursor-pointer   rounded absolute hover:bg-sertaltin"
             >
                 Videoyu Aç
             </button>

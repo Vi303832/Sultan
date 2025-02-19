@@ -19,22 +19,45 @@ const slides = [slider1, slider2, slider3, slider4, slider5, slider6, slider7];
 
 function SliderComponent() {
     return (
-        <div className='w-full h-[500px] px-10'>
-            <Swiper
-                modules={[Navigation, Pagination, Autoplay]}
-                spaceBetween={5}
-                slidesPerView={3}
-                loop={true} // Sonsuz döngü için
-                autoplay={{ delay: 2000, disableOnInteraction: false }} // Otomatik geçiş
-                navigation
-                pagination={{ clickable: true }}
-            >
-                {slides.map((slide, index) => (
-                    <SwiperSlide key={index}>
-                        <img src={slide} alt={`Slide ${index + 1}`} className="w-full h-[400px] object-cover rounded-lg shadow-lg" />
-                    </SwiperSlide>
-                ))}
-            </Swiper>
+        <div className='w-full h-[500px] '>
+            <div className='max-xl:hidden'>
+                <Swiper
+
+                    modules={[Navigation, Pagination, Autoplay]}
+                    spaceBetween={5}
+                    slidesPerView={3}
+                    loop={true} // Sonsuz döngü için
+                    autoplay={{ delay: 2000, disableOnInteraction: false }} // Otomatik geçiş
+                    navigation
+                    pagination={{ clickable: true }}
+                >
+                    {slides.map((slide, index) => (
+                        <SwiperSlide key={index}>
+                            <img src={slide} alt={`Slide ${index + 1}`} className="w-full h-[80vh] object-cover rounded-lg shadow-lg" />
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+
+            <div className='max-xl:block hidden'>
+                <Swiper
+
+                    modules={[Navigation, Pagination, Autoplay]}
+                    spaceBetween={5}
+                    slidesPerView={2}
+                    loop={true} // Sonsuz döngü için
+                    autoplay={{ delay: 2000, disableOnInteraction: false }} // Otomatik geçiş
+                    navigation
+                    pagination={{ clickable: true }}
+                >
+                    {slides.map((slide, index) => (
+                        <SwiperSlide key={index}>
+                            <img src={slide} alt={`Slide ${index + 1}`} className="w-full h-[80vh] object-cover rounded-lg shadow-lg" />
+                        </SwiperSlide>
+                    ))}
+                </Swiper>
+            </div>
+
         </div>
     );
 }

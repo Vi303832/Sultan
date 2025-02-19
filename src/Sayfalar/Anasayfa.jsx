@@ -3,18 +3,26 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import Heroicon from "../assets/Hero4.png";
 import HeroHakkında from "../assets/HeroHakkında.jpg";
 import { useNavigate } from "react-router";
-
+import Card from './Card';
+import ReCard from './ReCard';
 import SliderComponent from './SliderComponent';
 import MdSlider from "./mdSlider"
 import SmSlider from './smSlider';
+import s11 from "../assets/s11.jpg"
+import s10 from "../assets/s10.jpg"
+import kına from "../assets/kına.jpg"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
+
+
+
+
 
 
 
@@ -65,7 +73,7 @@ function Anasayfa() {
                     <SmSlider />
                 </div>
             </div>
-            <div className='flex justify-center items-center gap-10 w-full max-lg:flex-col max-lg:px-5 font-arial px-20 mb-20'>
+            <div className='flex justify-center items-center gap-10 w-full max-lg:flex-col max-lg:px-5 font-arial px-20 mt-30 mb-60'>
                 <div className=' w-[50%] h-full max-lg:w-[80%] '>
                     <img src={HeroHakkında} className='object-contain  ' />
                 </div>
@@ -83,7 +91,13 @@ function Anasayfa() {
                     </div>
                 </div>
             </div>
-
+            <div className='flex flex-col justify-center items-center py-20 '>
+                <Card yazı="Sultan Düğün Salonları olarak çiftlerimizin en özel günlerinde yanlarında oluyoruz. Şık ve konforlu salonlarımızda unutulmaz düğün organizasyonları düzenleyerek, hayatınızın en önemli anlarını kusursuz hale getiriyoruz.
+                 " başlık="Düğün Organizasyonları" foto={s11} />
+                <ReCard yazı="Nişan, çiftlerin evliliğe adım attıkları özel bir tören olarak büyük bir anlam taşır. Sultan Düğün Salonları olarak, şık dekorasyonumuz ve profesyonel ekibimizle nişan organizasyonlarınızı en güzel şekilde planlıyor ve hayata geçiriyoruz." başlık="Nişan Organizasyonları" foto={s10} />
+                <Card yazı="Sünnet düğünleri, çocuklarımız için önemli bir dönüm noktasıdır. Geniş ve konforlu salonlarımızda, ailelerimizin tüm ihtiyaçlarını karşılayarak eğlenceli ve unutulmaz sünnet organizasyonları düzenliyoruz." başlık="Sünnet Organizasyonları" foto={"https://cagridugunsalonu.com/wp-content/uploads/2023/08/sunnet.jpg"} />
+                <ReCard yazı="Kına gecesi, düğün öncesinde unutulmaz anılar biriktirmenizi sağlayan en özel geleneklerimizden biridir. Sultan Düğün Salonları olarak, bu özel gecenizi en iyi şekilde organize ediyor, şık dekorasyonumuz, profesyonel ekibimiz ve geleneksel dokunuşlarımızla hayallerinizdeki kına gecesini gerçeğe dönüştürüyoruz." başlık="Kına Gecesi Organizasyonları" foto={kına} />
+            </div>
 
 
         </div>

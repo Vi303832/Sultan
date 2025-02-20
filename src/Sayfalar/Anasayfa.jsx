@@ -35,7 +35,7 @@ function Anasayfa() {
     let navigate = useNavigate()
 
     return (
-        <div className='w-[100%] overflow-hidden relative min-h-screen '>
+        <div className='w-[100%] overflow-hidden relative min-h-screen bg-beyaz '>
             <img className='-rotate-45 -top-10 -left-16 absolute ' src={Heroicon} />
 
             <div className='mt-[15vh] flex justify-center items-center h-[80vh]'>

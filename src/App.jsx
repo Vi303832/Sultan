@@ -39,6 +39,13 @@ function App() {
           </Layout >
 
         } />
+        <Route path="/Teklif" element={
+
+          <Layout >
+            <Teklif />
+          </Layout >
+
+        } />
 
 
       </Routes>

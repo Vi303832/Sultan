@@ -10,6 +10,8 @@ import MdSlider from "./mdSlider"
 import SmSlider from './smSlider';
 import s11 from "../assets/s11.jpg"
 import s10 from "../assets/s10.jpg"
+import cont1 from "../assets/contpic.png"
+import cont2 from "../assets/contpic2.png"
 import kına from "../assets/kına.jpg"
 import YouTubeVideo from './YoutubeVideo';
 import YorumSlider from './YorumSlider';
@@ -107,6 +109,19 @@ function Anasayfa() {
                 <div className='px-20 w-[80%] max-lg:w-[100%] max-md:px-0  ' >
                     <YorumSlider />
                 </div>
+            </div>
+
+            <div className='py-20 px-20 w-full flex justify-center items-center' >
+                <img src={cont2} className='w-full h-[80vh] object-cover blur-[3px] opacity-90  ' />
+                <div className='absolute flex flex-col gap-3 items-center p-10 justify-center '>
+                    <div className='bg-black h-full w-full absolute opacity-60  '></div>
+                    <div className='text-4xl text-altin z-10'>En Özel Günlerinizde Yanınızdayız.</div>
+                    <div className='text-beyaz text-xl z-10'>İstekleriniz ve teklifler için bize ulaşın.</div>
+                    <button onClick={() => navigate("/Salonlar")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin  rounded opacity-80 cursor-pointer '>
+                        Teklif Al
+                    </button>
+                </div>
+
             </div>
 
 

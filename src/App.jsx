@@ -10,6 +10,7 @@ import Salon from "./Sayfalar/Salon"
 import Salonlarımız from "./Sayfalar/Salonlarımız"
 import Teklif from "./Sayfalar/Teklif"
 import Layout from './Sayfalar/Layout'
+import Hizmetlerimiz from './Sayfalar/Hizmetlerimiz'
 import "./style.css"
 
 function App() {
@@ -43,6 +44,13 @@ function App() {
 
           <Layout >
             <Teklif />
+          </Layout >
+
+        } />
+        <Route path="/Hizmetlerimiz" element={
+
+          <Layout >
+            <Hizmetlerimiz />
           </Layout >
 
         } />

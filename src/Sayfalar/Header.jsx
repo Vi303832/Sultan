@@ -20,9 +20,10 @@ function Header() {
                 <div className='px-20 w-[100vh] overflow-hidden flex gap-12 justify-center items-center text-lg cursor-pointer max-md:hidden '>
                     <div onClick={() => navigate("/Salonlar")} className='hover:text-sertaltin cursor-pointer'>Salonlarımız</div>
                     <div onClick={() => navigate("/Galeri")} className='hover:text-sertaltin cursor-pointer'>Galeri</div>
+                    <div onClick={() => navigate("/Hizmetlerimiz")} className='hover:text-sertaltin cursor-pointer'>Hizmetlerimiz</div>
                     <div onClick={() => navigate("/Teklif")} className='hover:text-sertaltin cursor-pointer flex flex-row gap-2'><span>Teklif</span> al</div>
                     <div onClick={() => navigate("/İletişim")} className='hover:text-sertaltin cursor-pointer'>İletişim</div>
-                    <div onClick={() => navigate("/Hakkımızda")} className='hover:text-sertaltin cursor-pointer'>Hakkımızda</div>
+
                 </div>
                 {/* Mobile Menu */}
                 <div className='hidden max-md:block'>
@@ -42,7 +43,7 @@ function Header() {
                     <div onClick={() => navigate("/Galeri")} className='hover:text-sertaltin cursor-pointer'>Galeri</div>
                     <div onClick={() => navigate("/Teklif")} className='hover:text-sertaltin cursor-pointer  '>Teklif al</div>
                     <div onClick={() => navigate("/İletişim")} className='hover:text-sertaltin cursor-pointer'>İletişim</div>
-                    <div onClick={() => navigate("/Hakkımızda")} className='hover:text-sertaltin cursor-pointer'>Hakkımızda</div>
+                    <div onClick={() => navigate("/Hizmetlerimiz")} className='hover:text-sertaltin cursor-pointer'>Hizmetlerimiz</div>
                 </div>
             </div>
         </div>

@@ -33,7 +33,7 @@ function Salonlarımız() {
                     </div>
                 </div>
                 <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-scheherazade'>
-                    Sultan Düğün & Davet & Organizasyon
+                    Sultan Düğün & Toplantı Salonları
                 </div>
             </div>
             <div className='min-h-[100vh] '>

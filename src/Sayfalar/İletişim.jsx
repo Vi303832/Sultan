@@ -8,10 +8,10 @@ import { FaPhoneAlt } from "react-icons/fa";
 
 function İletişim() {
 
-    /* useEffect(() => {
-         // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
-         window.scrollTo(0, 0);
-     }, []);*/
+    useEffect(() => {
+        // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className='min-h-[100vh] bg-beyaz font-arial'>

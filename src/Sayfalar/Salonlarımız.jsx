@@ -1,6 +1,7 @@
 import React from 'react'
 import backg from "../assets/Slider/slider2.jpg"
 import SalonCard from './SalonCard'
+
 function Salonlarımız() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>

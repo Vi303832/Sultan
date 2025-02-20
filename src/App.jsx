@@ -32,6 +32,14 @@ function App() {
           </Layout >
 
         } />
+        <Route path="/Galeri" element={
+
+          <Layout >
+            <Galeri />
+          </Layout >
+
+        } />
+
 
       </Routes>
     </>

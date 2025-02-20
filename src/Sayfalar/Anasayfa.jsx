@@ -53,10 +53,10 @@ function Anasayfa() {
                         </div>
                     </div>
                     <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-scheherazade'>
-                        Sultan Düğün & Davet & Organizasyon
+                        Sultan Düğün & Toplantı Salonları
                     </div>
                     <div className='font-arial text-lg font-light opacity-70'>
-                        En özel anınıza en şık şekilde eşlik ediyoruz
+                        En özel anlarınıza en şık şekilde eşlik ediyoruz
                     </div>
                     <button onClick={() => navigate("/Teklif")} className='flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80'>
                         Teklif Alın <FaArrowRightLong />

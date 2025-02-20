@@ -1,8 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import backg from "../assets/Slider/slider2.jpg"
 import SalonCard from './SalonCard'
 
+
 function Salonlarımız() {
+
+    useEffect(() => {
+        // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='min-h-[100vh] bg-beyaz'>
             <div className="relative flex justify-center items-center">

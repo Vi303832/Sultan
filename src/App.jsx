@@ -46,6 +46,20 @@ function App() {
           </Layout >
 
         } />
+        <Route path="/İletişim" element={
+
+          <Layout >
+            <İletişim />
+          </Layout >
+
+        } />
+        <Route path="/Hakkımızda" element={
+
+          <Layout >
+            <Hakkımızda />
+          </Layout >
+
+        } />
 
 
       </Routes>

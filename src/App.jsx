@@ -25,6 +25,13 @@ function App() {
           </Layout >
 
         } />
+        <Route path="/Salonlar" element={
+
+          <Layout >
+            <Salonlarımız />
+          </Layout >
+
+        } />
 
       </Routes>
     </>

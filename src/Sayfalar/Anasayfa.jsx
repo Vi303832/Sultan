@@ -52,7 +52,7 @@ function Anasayfa() {
                             <hr className='text-center w-[150%]' />
                         </div>
                     </div>
-                    <div className='text-5xl max-md:text-4xl max-md:px-10 text-center'>
+                    <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-scheherazade'>
                         Sultan Düğün & Davet & Organizasyon
                     </div>
                     <div className='font-arial text-lg font-light opacity-70'>
@@ -112,7 +112,8 @@ function Anasayfa() {
             </div>
 
             <div className='py-20 px-20 w-full flex justify-center items-center' >
-                <img src={cont2} className='w-full h-[80vh] object-cover blur-[3px] opacity-90  ' />
+
+                <img src={cont2} className='w-full h-[80vh] object-cover  opacity-90  ' />
                 <div className='absolute flex flex-col gap-3 items-center p-10 justify-center '>
                     <div className='bg-black h-full w-full absolute opacity-60  '></div>
                     <div className='text-4xl text-altin z-10'>En Özel Günlerinizde Yanınızdayız.</div>

@@ -3,7 +3,7 @@ import Logo from "../assets/black.png"
 
 function Footer() {
     return (
-        <div className='bg-altin min-h-[70vh] '>
+        <div className='bg-altin min-h-[70vh]  '>
             <div className='flex gap-50 p-20 justify-center max-md:flex-col max-md:items-center'>
                 <div className='flex flex-col items-start gap-5'>
                     <div className=''>

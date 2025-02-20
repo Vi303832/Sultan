@@ -6,7 +6,7 @@ import Footer from './Footer';
 
 function Layout({ children }) {
     return (
-        <div className=' bg-beyaz'>
+        <div className=' '>
             {/* Fixed Header */}
             <Header />
 
@@ -14,7 +14,7 @@ function Layout({ children }) {
             <div className=''> {/* Header yüksekliği kadar padding ekleyin */}
                 {children}
             </div>
-            <div className='hidden'>
+            <div className=''>
                 <Footer />
             </div>
 

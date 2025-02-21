@@ -6,28 +6,37 @@ import nurbanupp from "../assets/Salonlarımız/nurbanupp.jpg"
 import Heroicon from "../assets/Hero4.png";
 import validepp from "../assets/Salonlarımız/Valide1.jpg"
 import { FaArrowRightLong } from "react-icons/fa6";
+import { useNavigate } from 'react-router-dom'
 
 function SalonCard() {
+
+    let navigate = useNavigate()
+
     const content = [
         {
             header: 'Mihribah Sultan',
             img: mihribapp,
+            url: "Mihribah"
         },
         {
             header: 'Kösem Sultan',
             img: kösempp,
+            url: "Kösem"
         },
         {
             header: 'Nurbanu Sultan',
             img: nurbanupp,
+            url: "Nurbanu"
         },
         {
             header: 'Hürrem Sultan ',
             img: hürrempp,
+            url: "Hürrem"
         },
         {
             header: 'Valide Sultan',
             img: validepp,
+            url: "Valide"
         },
 
     ]
@@ -40,7 +49,7 @@ function SalonCard() {
                     <img className='rounded-t-[50%] h-[460px] object-cover w-[95%]' src={m.img} />
                     <div className='text-3xl text-sertaltin'>{m.header}</div>
                     <div className='font-arial w-[70%] text-center'>{m.header} salonumuz hakkında bilgi için tıklayın.</div>
-                    <button className='font-arial text-altin opacity-80 cursor-pointer flex gap-2 justify-center items-center'>Detaylı incele<FaArrowRightLong /></button>
+                    <button onClick={() => navigate(`/${m.url}`)} className='font-arial text-altin opacity-80 cursor-pointer flex gap-2 justify-center items-center'>Detaylı incele<FaArrowRightLong /></button>
 
                 </div>
 

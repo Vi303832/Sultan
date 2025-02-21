@@ -4,6 +4,11 @@ import Header from "./Sayfalar/Header"
 import Anasayfa from "./Sayfalar/Anasayfa"
 import Footer from "./Sayfalar/Footer"
 import Galeri from "./Sayfalar/Galeri"
+import Mihribah from './Sayfalar/Mihribah'
+import Kösem from './Sayfalar/Kösem'
+import Valide from './Sayfalar/Valide'
+import Hürrem from './Sayfalar/Hürrem'
+import Nurbanu from './Sayfalar/Nurbanu'
 
 import Hakkımızda from "./Sayfalar/Hakkımızda"
 import İletişim from "./Sayfalar/İletişim"
@@ -112,8 +117,43 @@ function App() {
           </Layout >
 
         } />
+        <Route path="/Mihribah" element={
 
+          <Layout >
+            <Mihribah />
+          </Layout >
 
+        } />
+        <Route path="/Kösem" element={
+
+          <Layout >
+            <Kösem />
+          </Layout >
+
+        } />
+        <Route path="/Valide" element={
+
+          <Layout >
+            <Valide />
+          </Layout >
+
+        } />
+
+        <Route path="/Hürrem" element={
+
+          <Layout >
+            <Hürrem />
+          </Layout >
+
+        } />
+
+        <Route path="/Nurbanu" element={
+
+          <Layout >
+            <Nurbanu />
+          </Layout >
+
+        } />
 
 
       </Routes>

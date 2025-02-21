@@ -10,6 +10,12 @@ import Salon from "./Sayfalar/Salon"
 import Salonlarımız from "./Sayfalar/Salonlarımız"
 import Teklif from "./Sayfalar/Teklif"
 import Layout from './Sayfalar/Layout'
+import Düğün from './Sayfalar/Düğün'
+import Kına from './Sayfalar/Kına'
+import Sünnet from './Sayfalar/Sünnet'
+import Toplantı from './Sayfalar/Toplantı'
+import Nikah from "./Sayfalar/Nikah"
+import Nişan from './Sayfalar/Nişan'
 import Hizmetlerimiz from './Sayfalar/Hizmetlerimiz'
 import "./style.css"
 
@@ -30,6 +36,41 @@ function App() {
 
           <Layout >
             <Salonlarımız />
+          </Layout >
+
+        } />
+        <Route path="/Düğün" element={
+
+          <Layout >
+            <Düğün />
+          </Layout >
+
+        } />
+        <Route path="/Kına" element={
+
+          <Layout >
+            <Kına />
+          </Layout >
+
+        } />
+        <Route path="/Nişan" element={
+
+          <Layout >
+            <Nişan />
+          </Layout >
+
+        } />
+        <Route path="/Sünnet" element={
+
+          <Layout >
+            <Sünnet />
+          </Layout >
+
+        } />
+        <Route path="/Toplantı" element={
+
+          <Layout >
+            <Toplantı />
           </Layout >
 
         } />
@@ -68,6 +109,14 @@ function App() {
           </Layout >
 
         } />
+        <Route path="/Nikah" element={
+
+          <Layout >
+            <Nikah />
+          </Layout >
+
+        } />
+
 
 
       </Routes>

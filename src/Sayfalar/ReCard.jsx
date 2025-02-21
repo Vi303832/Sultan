@@ -20,7 +20,7 @@ function Card({ yazı, başlık, foto, url }) {
                     <div className='text-5xl text-sertaltin px-3 text-center'>{başlık}</div>
                     <div>{yazı}</div>
                     <button onClick={() => navigate("/Salonlar")} className='flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-md font-light bg-altin opacity-80 w-[60%] max-xl:w-[90%]      '>
-                        <div className='flex gap-1 items-center px-1'><span className='flex gap-1'>{url} <div>Organizasyonlarını</div></span>inceleyin<FaArrowRightLong /> </div>
+                        <div className='flex gap-1 items-center px-1  cursor-pointer'><span className='flex gap-1'>{url} <div>Organizasyonlarını</div></span>inceleyin<FaArrowRightLong /> </div>
                     </button>
                 </div>
                 <div className='h-full w-[50%]  flex justify-center items-center max-lg:hidden  '>

@@ -2,7 +2,7 @@ import React from 'react'
 import { useNavigate } from "react-router";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-function Card({ yazı, başlık, foto }) {
+function Card({ yazı, başlık, foto, url }) {
 
 
     let navigate = useNavigate()
@@ -17,10 +17,10 @@ function Card({ yazı, başlık, foto }) {
                 </div>
 
                 <div className='w-[50%] h-full p-12 flex flex-col gap-8 text-start max-lg:w-full '>
-                    <div className='text-3xl text-sertaltin px-3'>{başlık}</div>
+                    <div className='text-5xl text-sertaltin px-3 text-center'>{başlık}</div>
                     <div>{yazı}</div>
-                    <button onClick={() => navigate("/Salonlar")} className='flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 w-[50%] max-xl:w-[70%]        '>
-                        <div className='flex gap-1 items-center '><span>Salonları</span>inceleyin<FaArrowRightLong /> </div>
+                    <button onClick={() => navigate("/Salonlar")} className='flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-md font-light bg-altin opacity-80 w-[60%] max-xl:w-[90%]      '>
+                        <div className='flex gap-1 items-center px-1'><span className='flex gap-1'>{url} <div>Organizasyonlarını</div></span>inceleyin<FaArrowRightLong /> </div>
                     </button>
                 </div>
                 <div className='h-full w-[50%]  flex justify-center items-center max-lg:hidden  '>

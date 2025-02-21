@@ -4,6 +4,7 @@ import Header from "./Sayfalar/Header"
 import Anasayfa from "./Sayfalar/Anasayfa"
 import Footer from "./Sayfalar/Footer"
 import Galeri from "./Sayfalar/Galeri"
+import Tk from "./Sayfalar/tk"
 import Hakkımızda from "./Sayfalar/Hakkımızda"
 import İletişim from "./Sayfalar/İletişim"
 import Salon from "./Sayfalar/Salon"
@@ -25,6 +26,14 @@ function App() {
   return (
     <>
       <Routes>
+        <Route path="/Tk" element={
+
+
+          <Tk />
+
+
+        } />
+
         <Route path="/" element={
 
           <Layout >

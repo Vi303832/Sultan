@@ -4,6 +4,7 @@ import Gl from "../assets/Gl.png"
 import { MdEmail } from "react-icons/md";
 import { RiMapPin2Fill } from "react-icons/ri";
 import { FaPhoneAlt } from "react-icons/fa";
+import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 
 function İletişim() {
@@ -12,6 +13,17 @@ function İletişim() {
         // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
         window.scrollTo(0, 0);
     }, []);
+
+    const containerStyle = {
+        width: '100%',
+        height: '400px'
+    };
+
+    // Set the center of the map (latitude and longitude)
+    const center = {
+        lat: 40.194981,  // Example latitude, change to your desired location
+        lng: 29.069887,  // Example longitude, change to your desired location
+    };
 
     return (
         <div className='min-h-[100vh] bg-beyaz font-arial'>
@@ -35,7 +47,7 @@ function İletişim() {
                     Salonlarımız, hizmetlerimiz ve daha fazlası hakkında bilgi almak için bizimle hemen iletişime geçin.
                 </div>
                 <div className='flex gap-5 max-md:flex-col'>
-                    <div className='w-[50%] max-md:w-[90%] flex flex-col gap-10  items-start justfiy-center px-20'>
+                    <div className='w-[50%] max-md:w-[90%] flex flex-col gap-10  items-start justfiy-center px-20 pt-5'>
                         <div className='flex gap-5 justify-center items-center '>
                             <span> <RiMapPin2Fill className='text-4xl text-altin' /></span><div><div className='text-2xl'>ADRES</div><div>Selamet Mh. Ulubatlı Hasan Blv. No:81-97 Osmangazi/BURSA</div></div>
                         </div>
@@ -47,8 +59,22 @@ function İletişim() {
                         </div>
                     </div>
 
-                    <div className='w-[50%]'>
-                        şkfşzlkfaldş
+                    <div className='w-[50%] max-md:w-[100%] flex justify-center '>
+                        <div className='w-[90%]'>
+
+                            <LoadScript googleMapsApiKey="AIzaSyB71Ic-cN_SwMtcoFNLPBycM-hVTVDms14">
+
+                                <GoogleMap
+                                    mapContainerStyle={containerStyle}
+                                    center={center}
+                                    zoom={15}
+                                >
+                                    {/* Marker ekleyebilirsiniz */}
+                                    <Marker position={center} />
+                                </GoogleMap>
+                            </LoadScript>
+                        </div>
+
                     </div>
 
                 </div>

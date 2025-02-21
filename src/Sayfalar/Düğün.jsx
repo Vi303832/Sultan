@@ -3,11 +3,21 @@ import backg from "../assets/Slider/slider2.jpg";
 import SalonCard from './SalonCard';
 import s11 from "../assets/s11.jpg";
 import { PiFlowerDuotone } from "react-icons/pi";
+import Galericard from "./Galericard.jsx"
+
+
+
+
 
 function Düğün() {
+    let content = [
 
+        { img: s11 }
+
+    ]
     return (
         <div className='min-h-[100vh] bg-beyaz'>
+
             <div className="relative flex justify-center items-center">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]  object-cover opacity-60" />
                 <div className="absolute top-0 left-0 w-full h-60  bg-gradient-to-b from-white to-transparent"></div>
@@ -33,12 +43,12 @@ function Düğün() {
                 </div>
             </div>
 
-            <div className='min-h-[100vh] max-lg:flex-col flex px-20 max-lg:gap-10  '>
+            <div className='min-h-[70vh]  max-lg:flex-col flex px-20 max-lg:gap-10 items-center justify-center  '>
                 <div className='w-[50%] max-lg:w-full max-lg:flex hidden'>
                     <img src={s11} />
                 </div>
                 <div className='w-[50%] max-lg:w-full'>
-                    <div className='flex flex-col max-lg:w-full gap-10 max-lg:justify-center items-center  '>
+                    <div className='flex flex-col max-lg:w-full gap-5 max-lg:justify-center items-center  '>
                         <div className='text-4xl pb-5'>Düğün Organizasyonu</div>
                         <div>
                             Düğün organizasyonları, çiftlerin hayatlarının en özel anlarından biri olduğu için detaylı planlama, koordinasyon ve dikkat gerektirir. Her çiftin istekleri ve tercihleri farklı olduğundan, kişiye özel hizmet sunmak ve en önemli gününüzde kendinizi ve konuklarınızı özel hissetmek bizim içinde oldukça büyük önem taşır.
@@ -100,6 +110,10 @@ function Düğün() {
                     <img src={s11} />
                 </div>
             </div>
+            <div className='pt-20'>
+                <Galericard cont={content} />
+            </div>
+
         </div>
     )
 }

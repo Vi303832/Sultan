@@ -15,7 +15,7 @@ import Düğün from './Sayfalar/Düğün'
 import Kına from './Sayfalar/Kına'
 import Sünnet from './Sayfalar/Sünnet'
 import Toplantı from './Sayfalar/Toplantı'
-import Nikah from "./Sayfalar/Nikah"
+
 import Nişan from './Sayfalar/Nişan'
 import Hizmetlerimiz from './Sayfalar/Hizmetlerimiz'
 import "./style.css"
@@ -112,13 +112,7 @@ function App() {
           </Layout >
 
         } />
-        <Route path="/Nikah" element={
 
-          <Layout >
-            <Nikah />
-          </Layout >
-
-        } />
 
 
 

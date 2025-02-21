@@ -1,20 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
-import galeri1 from "../assets/Galeri/nurbanu3.jpg";
-import galeri2 from "../assets/Galeri/galeri1.jpg";
-import galeri3 from "../assets/Galeri/galeri3.jpg";
-import galeri4 from "../assets/Galeri/galeri4.jpg";
-import galeri5 from "../assets/Galeri/galeri6.jpg";
-import galeri6 from "../assets/Galeri/galeri7.jpg";
-import galeri7 from "../assets/Galeri/galeri8.jpg";
-import galeri8 from "../assets/Galeri/galeri9.jpg";
-import galeri9 from "../assets/Galeri/galeri10.jpg";
-import galeri10 from "../assets/Galeri/galeri11.jpg";
-import galeri11 from "../assets/Galeri/dgn1.jpg";
-import galeri12 from "../assets/Galeri/dgn2.jpg";
-import galeri13 from "../assets/Galeri/dgn3.jpg";
-import galeri14 from "../assets/Galeri/dgn4.jpg";
-import galeri15 from "../assets/Galeri/dgn5.jpg";
 
 
 
@@ -23,33 +8,21 @@ import galeri15 from "../assets/Galeri/dgn5.jpg";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa"; // Import close icon
 
-function SalonCard() {
+function SalonCard({ cont }) {
+
     const [imgg, setimgg] = useState("");
     const [display, setdisplay] = useState(false);
     const [imagePosition, setImagePosition] = useState({});
+    const [content, setcontent] = useState([])
 
-    const content = [
+    useEffect(() => {
+        if (Array.isArray(cont)) {
+            setcontent(cont);
+        }
 
-        { img: galeri1 },
-
-        { img: galeri12 },
-        { img: galeri11 },
-
-        { img: galeri4 },
-        { img: galeri14 },
-        { img: galeri5 },
-        { img: galeri15 },
-        { img: galeri6 },
-        { img: galeri7 },
-        { img: galeri8 },
-        { img: galeri3 },
-        { img: galeri2 },
-        { img: galeri13 },
-        { img: galeri9 },
-        { img: galeri10 },
+    }, [cont])
 
 
-    ];
 
     const handleClick = (e, img) => {
         const rect = e.target.getBoundingClientRect();
@@ -71,7 +44,7 @@ function SalonCard() {
         <div className="px-20 max-sm:px-5 max-lg:px-10">
             {/* Masonry Layout */}
             <div className="columns-3 gap-5 space-y-5 max-lg:columns-2 max-sm:columns-1">
-                {content.map((m, index) => (
+                {content && content.map((m, index) => (
                     <div key={index}>
                         <img
                             className="w-full rounded-lg shadow-md hover:scale-105 transition-transform duration-300"

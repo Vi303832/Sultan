@@ -1,8 +1,50 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import backg from "../assets/Galeri/Galeripp.jpg"
 import Galericard from "./Galericard.jsx"
+import galeri1 from "../assets/Galeri/nurbanu3.jpg";
+import galeri2 from "../assets/Galeri/galeri1.jpg";
+import galeri3 from "../assets/Galeri/galeri3.jpg";
+import galeri4 from "../assets/Galeri/galeri4.jpg";
+import galeri5 from "../assets/Galeri/galeri6.jpg";
+import galeri6 from "../assets/Galeri/galeri7.jpg";
+import galeri7 from "../assets/Galeri/galeri8.jpg";
+import galeri8 from "../assets/Galeri/galeri9.jpg";
+import galeri9 from "../assets/Galeri/galeri10.jpg";
+import galeri10 from "../assets/Galeri/galeri11.jpg";
+import galeri11 from "../assets/Galeri/dgn1.jpg";
+import galeri12 from "../assets/Galeri/dgn2.jpg";
+import galeri13 from "../assets/Galeri/dgn3.jpg";
+import galeri14 from "../assets/Galeri/dgn4.jpg";
+import galeri15 from "../assets/Galeri/dgn5.jpg";
+
+
 
 function Galeri() {
+
+    const content = [
+
+        { img: galeri1 },
+
+        { img: galeri12 },
+        { img: galeri11 },
+
+        { img: galeri4 },
+        { img: galeri14 },
+        { img: galeri5 },
+        { img: galeri15 },
+        { img: galeri6 },
+        { img: galeri7 },
+        { img: galeri8 },
+        { img: galeri3 },
+        { img: galeri2 },
+        { img: galeri13 },
+        { img: galeri9 },
+        { img: galeri10 },
+
+
+    ];
+
+
     return (
         <div>
             <div className='min-h-[100vh] bg-beyaz'>
@@ -28,7 +70,7 @@ function Galeri() {
                     </div>
                 </div>
                 <div className='min-h-[100vh] '>
-                    <Galericard />
+                    <Galericard cont={content} />
                 </div>
 
 

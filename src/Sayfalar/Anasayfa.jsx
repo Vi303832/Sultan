@@ -105,22 +105,28 @@ function Anasayfa() {
             <div className='pt-10 h-[130vh]  overflow-hidden'>
                 <YouTubeVideo />
             </div>
-            <div className='flex justify-center items-center'>
-                <div className='px-20 w-[80%] max-lg:w-[100%] max-md:px-0  ' >
+            <div className='flex justify-center items-center '>
+                <div className='px-20 w-[80%] max-lg:w-[100%] max-md:px-0 max-md:h-[110vh] ' >
                     <YorumSlider />
                 </div>
             </div>
 
-            <div className='py-20 px-20 w-full flex justify-center items-center' >
+            <div className='py-20 max-lg:py-10 px-20 w-full  max-md:px-5   flex justify-center items-center' >
 
-                <img src={cont2} className='w-full h-[80vh] object-cover  opacity-90  ' />
-                <div className='absolute flex flex-col gap-3 items-center p-10 justify-center '>
-                    <div className='bg-black h-full w-full absolute opacity-60  '></div>
-                    <div className='text-4xl text-altin z-10'>En Özel Günlerinizde Yanınızdayız.</div>
-                    <div className='text-beyaz text-xl z-10'>İstekleriniz ve teklifler için bize ulaşın.</div>
-                    <button onClick={() => navigate("/Teklif")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin  rounded opacity-80 cursor-pointer '>
-                        Teklif Al
-                    </button>
+                <img src={cont2} className='w-full h-[80vh]  object-cover  opacity-90  ' />
+                <div className='absolute max-sm:gap-10 flex flex-col max-sm:h-[70vh] max-sm:w-[70%]  gap-3 items-center p-10 justify-center '>
+                    <div className='bg-black h-full  w-full absolute opacity-60  '></div>
+                    <div className='text-4xl text-altin z-10 text-center'>En Özel Günlerinizde Yanınızdayız.</div>
+                    <div className='text-beyaz text-xl z-10 text-center'>İstekleriniz ve teklifler için bize ulaşın.</div>
+                    <div className='flex gap-5 max-md:flex-col justify-center items-center'>
+                        <button onClick={() => navigate("/Teklif")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin   opacity-90 cursor-pointer '>
+                            Teklif Al <FaArrowRightLong />
+                        </button>
+                        <button onClick={() => navigate("/BeniAra")} className="flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-90 cursor-pointer">
+                            Biz Sizi Arayalım <FaArrowRightLong />
+                        </button>
+                    </div>
+
                 </div>
 
             </div>

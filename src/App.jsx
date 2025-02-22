@@ -9,7 +9,7 @@ import Kösem from './Sayfalar/Kösem'
 import Valide from './Sayfalar/Valide'
 import Hürrem from './Sayfalar/Hürrem'
 import Nurbanu from './Sayfalar/Nurbanu'
-
+import BeniAra from './Sayfalar/BeniAra'
 import Hakkımızda from "./Sayfalar/Hakkımızda"
 import İletişim from "./Sayfalar/İletişim"
 import Salon from "./Sayfalar/Salon"
@@ -93,6 +93,14 @@ function App() {
 
           <Layout >
             <Teklif />
+          </Layout >
+
+        } />
+
+        <Route path="/BeniAra" element={
+
+          <Layout >
+            <BeniAra />
           </Layout >
 
         } />

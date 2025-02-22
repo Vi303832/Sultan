@@ -72,9 +72,14 @@ function Hizmetlerimiz() {
                         Sultan Düğün & Davet & Organizasyon
                     </div>
 
-                    <button onClick={() => navigate("/Teklif")} className='flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 cursor-pointer'>
-                        Teklif Alın <FaArrowRightLong />
-                    </button>
+                    <div className='flex gap-5 max-md:flex-col justify-center items-center'>
+                        <button onClick={() => navigate("/Teklif")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin   opacity-80 cursor-pointer '>
+                            Teklif Al <FaArrowRightLong />
+                        </button>
+                        <button onClick={() => navigate("/BeniAra")} className="flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 cursor-pointer">
+                            Biz Sizi Arayalım <FaArrowRightLong />
+                        </button>
+                    </div>
                 </div>
             </div>
 

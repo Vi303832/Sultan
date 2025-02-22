@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
-
-
+import { useNavigate } from "react-router";
 
 
 
@@ -9,6 +8,8 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { FaTimes } from "react-icons/fa"; // Import close icon
 
 function SalonCard({ cont }) {
+
+    let navigate = useNavigate();
 
     const [imgg, setimgg] = useState("");
     const [display, setdisplay] = useState(false);
@@ -133,9 +134,15 @@ function SalonCard({ cont }) {
                         <div className="text-5xl max-md:text-4xl max-md:px-10 text-center font-scheherazade">
                             Sultan Düğün & Davet & Organizasyon
                         </div>
-                        <button className="flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 cursor-pointer">
-                            Teklif Alın <FaArrowRightLong />
-                        </button>
+                        <div className="flex  gap-5 items-center">
+                            <button onClick={() => navigate("/Teklif")} className="flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 cursor-pointer">
+                                Teklif Alın <FaArrowRightLong />
+                            </button>
+                            <button onClick={() => navigate("/BeniAra")} className="flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 cursor-pointer">
+                                Biz Sizi Arayalım <FaArrowRightLong />
+                            </button>
+                        </div>
+
                     </div>
                 </div>
             </div>

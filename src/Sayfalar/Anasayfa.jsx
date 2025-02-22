@@ -58,7 +58,7 @@ function Anasayfa() {
                     <div className='font-arial text-lg font-light opacity-70'>
                         En özel anlarınıza en şık şekilde eşlik ediyoruz
                     </div>
-                    <button onClick={() => navigate("/Teklif")} className='flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80'>
+                    <button onClick={() => navigate("/Teklif")} className=' cursor-pointer  flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80'>
                         Teklif Alın <FaArrowRightLong />
                     </button>
                 </div>
@@ -118,7 +118,7 @@ function Anasayfa() {
                     <div className='bg-black h-full w-full absolute opacity-60  '></div>
                     <div className='text-4xl text-altin z-10'>En Özel Günlerinizde Yanınızdayız.</div>
                     <div className='text-beyaz text-xl z-10'>İstekleriniz ve teklifler için bize ulaşın.</div>
-                    <button onClick={() => navigate("/Salonlar")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin  rounded opacity-80 cursor-pointer '>
+                    <button onClick={() => navigate("/Teklif")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin  rounded opacity-80 cursor-pointer '>
                         Teklif Al
                     </button>
                 </div>

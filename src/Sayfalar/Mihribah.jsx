@@ -1,4 +1,5 @@
 import React from 'react'
+import Heroicon from "../assets/Hero4.png";
 import mihribah1 from "../assets/Salon/Mihriba.jpg"
 import mihribah2 from "../assets/Salon/mihriba2.jpg"
 import mihribah2left from "../assets/Salon/mihribah2left.jpg"
@@ -10,6 +11,8 @@ import mihribah6 from "../assets/Salon/mihrba6.jpg"
 import mihribah7 from "../assets/Salon/mihriba7.jpg"
 import mihribah8 from "../assets/Salon/mihriba8.jpg"
 import Galericard from "./Galericard.jsx"
+
+import { LuCrown } from "react-icons/lu";
 
 
 
@@ -37,7 +40,7 @@ function Mihribah() {
     return (
 
         <div className='bg-beyaz  min-h-screen'>
-
+            <img className='-rotate-45 -top-10 -left-16 absolute ' src={Heroicon} />
             <div className='pt-[25vh] pb-20 max-lg:px-0    px-20'>
                 <div className='w-full h-[40vh]  gap-5 justify-center items-center mb-10 hidden max-lg:flex  '>
                     <img src={mihribah2left} className='h-full object-cover hidden max-lg:flex  w-[30%]  rounded-tl-full' />
@@ -79,17 +82,17 @@ function Mihribah() {
 
                 </div>
                 <div>
-                    <div className='px-20 text-5xl text-center text-altin py-30'>
+                    <div className='px-20 text-5xl text-center text-altin font-cormorant max-lg:px-5 font-bold max-lg:py-10 py-30'>
 
                         Sultan Düğün & Toplantı Salonları
                     </div>
                     {/*SS*/}
-                    <div className='flex w-full px-20 '>
+                    <div className='flex max-lg:flex-col max-lg:gap-10 w-full px-20 max-lg:px-5 '>
                         {/*SS1*/}
-                        <div className='w-[50%] justify-center items-center'>
+                        <div className='w-[50%] justify-center items-center max-lg:w-full'>
                             <div className='flex flex-col gap-10     '>
                                 <div className='flex flex-col gap-5 items-center'>
-                                    <div className='text-3xl text-center'>
+                                    <div className='text-3xl text-center '>
                                         Mihribah Sultan Kaç Kişilik Kapasiteye Sahiptir?
                                     </div>
                                     <div className='w-[50%] text-center'>
@@ -109,12 +112,12 @@ function Mihribah() {
                         </div>
                         {/*SS2*/}
 
-                        <div className='flex flex-col gap-10 w-[50%]  items-center '>
+                        <div className='flex flex-col  gap-10 w-[50%]  max-lg:w-full items-center '>
 
                             <div className='text-3xl'>
                                 Neden Mihribah Sultan?
                             </div>
-                            <div className='flex flex-col gap-10 w-[50%] items-center'>
+                            <div className='flex flex-col  gap-10 w-[50%] items-center'>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
                                     <div className='text-center w-[90%]'>400 Arası Kapasite</div>
@@ -146,6 +149,10 @@ function Mihribah() {
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
+                                <div className='text-4xl text-altin'>
+                                    <LuCrown />
+                                </div>
+
 
                             </div>
                         </div>
@@ -156,6 +163,12 @@ function Mihribah() {
                     {/*SS*/}
 
                 </div>
+                <div className=' max-md:text-4xl max-md:px-10 text-center text-altin font-cormorant font-bold mt-30'>
+                    <div className='flex flex-col justify-center items-center gap-5'>
+                        <div className='text-6xl text-b'>Galeri</div>
+                    </div>
+                </div>
+
 
                 <div className='pt-30 '>
                     <Galericard cont={content} />

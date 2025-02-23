@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Heroicon from "../assets/Hero4.png";
 import mihribah1 from "../assets/Salon/Mihriba.jpg"
+
+import h1 from "../assets/Salon/hürrem1.jpg"
+import h2 from "../assets/Salon/hürrem2.jpg"
+import h3 from "../assets/Salon/hürrem3.jpg"
+
 
 import mihribah2left from "../assets/Salon/Hürremleft.jpg"
 import mihribah2right from "../assets/Salon/Hürremright.jpg"
@@ -13,14 +18,23 @@ import { LuCrown } from "react-icons/lu";
 
 function Hürrem() {
 
+
+
     const content = [
 
-        { img: mihribah1 },
+        { img: h1 },
+        { img: h2 },
+        { img: h3 },
 
 
     ];
 
 
+
+    useEffect(() => {
+        // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
+        window.scrollTo(0, 0);
+    }, []);
 
 
 

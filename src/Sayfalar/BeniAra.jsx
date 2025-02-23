@@ -24,7 +24,7 @@ export default function BeniAra() {
         e.preventDefault();
 
         try {
-            const response = await axios.post("https://formspree.io/f/mzzdonob", formData, {
+            const response = await axios.post("https://formspree.io/f/mgvoqpzp", formData, {
                 headers: {
                     "Content-Type": "application/json"
                 }
@@ -62,8 +62,8 @@ export default function BeniAra() {
             <div className='min-h-[60vh] flex  justify-center items-center pb-20 font-arial '>
                 <form onSubmit={handleSubmit} className='bg-white w-[70%] mx-auto flex rounded-lg shadow-2xl justify-center items-center flex-col gap-10 p-12 max-md:w-full max-md:mx-5'>
                     <div className='flex flex-col justify-center items-center gap-5'>
-                        <div className='text-4xl text-altin text-center'>TEKLİF AL</div>
-                        <div className='text-center'>Salonumuz için merak ettiğiniz tüm soruları bize mesaj olarak gönderebilirsiniz. En kısa sürede size dönüş yapılacaktır.
+                        <div className='text-4xl text-altin text-center flex gap-5'>BİZ SİZİ ARAYALIM<FaPhoneAlt /> </div>
+                        <div className='text-center'>En kısa sürede dönüş yapılacaktır.
 
                         </div>
                     </div>
@@ -101,31 +101,9 @@ export default function BeniAra() {
                                 required className='w-full h-full border-b-2 pl-2 border-altin  border-t-2 border-r-2 rounded-r-4xl outline-0' />
 
                         </div>
-                        <div className='w-[30%] max-md:w-[50%] rounded-4xl h-10 flex justify-center items-center border-2 border-altin'>
-                            <select
-                                name="category"
-                                value={formData.category}
-                                onChange={handleChange}
-                                required className='w-full h-full border-0 outline-0'>
-                                <option value="" className='text-center text-altin'>Organizasyon Seç</option>
-                                <option value="Düğün Organizasyonu" className='text-center text-altin'>Düğün Organizasyonu</option>
-                                <option value="Sünnet Organizasyonu" className='text-center text-altin'>Sünnet Organizasyonu</option>
-                                <option value="Nişan Organizasyonu" className='text-center text-altin'>Nişan Organizasyonu</option>
-                                <option value="Kına Organizasyonu" className='text-center text-altin'>Kına Organizasyonu</option>
-                                <option value="Toplantı,Seminer,Konferans" className='text-center text-altin'>Toplantı, Seminer, Konferans</option>
 
-                            </select>
-
-                        </div>
 
                     </div>
-
-                    <textarea
-                        name="message"
-                        placeholder="Mesajınızı buraya yazın..."
-                        value={formData.message}
-                        onChange={handleChange}
-                        required className='w-[50%] h-[20vh] border-2 border-altin outline-0 rounded-2xl max-md:w-[70%]  py-1 px-2'></textarea>
 
 
                     <button

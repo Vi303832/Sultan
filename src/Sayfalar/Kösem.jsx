@@ -1,11 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Heroicon from "../assets/Hero4.png";
 import mihribah1 from "../assets/Salon/Mihriba.jpg"
+import kösem1 from "../assets/Salon/Kösem1.jpg"
+import kösem2 from "../assets/Salon/kösem2.jpg"
+import kösem3 from "../assets/Salon/kösem3.jpg"
+import kösem4 from "../assets/Salon/kösem4.jpg"
 
 import mihribah2left from "../assets/Salon/Kösemleft.jpg"
 import mihribah2right from "../assets/Salon/Kösemright.jpg"
 
 import Galericard from "./Galericard.jsx"
+
+
+
+
+
+
+
+
 
 import { LuCrown } from "react-icons/lu";
 
@@ -15,12 +27,18 @@ function Kösem() {
 
     const content = [
 
-        { img: mihribah1 },
-
-
+        { img: kösem1 },
+        { img: kösem2 },
+        { img: kösem3 },
+        { img: kösem4 },
     ];
 
 
+
+    useEffect(() => {
+        // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
+        window.scrollTo(0, 0);
+    }, []);
 
 
 

@@ -16,6 +16,22 @@ import galeri12 from "../assets/Galeri/dgn2.jpg";
 import galeri13 from "../assets/Galeri/dgn3.jpg";
 import galeri14 from "../assets/Galeri/dgn4.jpg";
 import galeri15 from "../assets/Galeri/dgn5.jpg";
+import f1 from "../assets/Hizmet/1.jpg"
+import f2 from "../assets/Hizmet/2.png"
+import f3 from "../assets/Hizmet/3.png"
+import f4 from "../assets/Hizmet/Düğün1.jpg"
+import f5 from "../assets/Hizmet/Nişan1.jpg"
+import n1 from "../assets/Salon/nurbanu1.jpg"
+import n2 from "../assets/Salon/nurbanu2.jpg"
+
+
+import h1 from "../assets/Salon/hürrem1.jpg"
+import h2 from "../assets/Salon/hürrem2.jpg"
+import h3 from "../assets/Salon/hürrem3.jpg"
+
+
+
+
 
 
 
@@ -23,23 +39,54 @@ function Galeri() {
 
     const content = [
 
-        { img: galeri1 },
+
 
         { img: galeri12 },
+
         { img: galeri11 },
+        { img: f1 },
+        { img: f2 },
+        { img: f3 },
+        { img: f4 },
+        { img: f5 },
 
         { img: galeri4 },
         { img: galeri14 },
         { img: galeri5 },
-        { img: galeri15 },
-        { img: galeri6 },
-        { img: galeri7 },
-        { img: galeri8 },
-        { img: galeri3 },
-        { img: galeri2 },
-        { img: galeri13 },
-        { img: galeri9 },
+        { img: n1 },
+
+        { img: n2 },
         { img: galeri10 },
+        { img: galeri1 },
+
+        { img: galeri15 },
+
+
+        { img: h1 },
+
+        { img: galeri6 },
+
+        { img: galeri7 },
+
+        { img: galeri8 },
+
+        { img: galeri3 },
+        { img: h2 },
+
+        { img: galeri2 },
+
+        { img: galeri13 },
+
+        { img: galeri9 },
+        { img: h3 },
+
+
+
+
+
+
+
+
 
 
     ];

@@ -2,9 +2,15 @@ import React, { useEffect } from 'react';
 import backg from "../assets/Slider/slider2.jpg";
 import SalonCard from './SalonCard';
 import s11 from "../assets/s11.jpg";
+import s10 from "../assets/s10.jpg";
+import yt from "../assets/yt.jpg";
 import { PiFlowerDuotone } from "react-icons/pi";
 import Galericard from "./Galericard.jsx"
-
+import f1 from "../assets/Hizmet/1.jpg"
+import f2 from "../assets/Hizmet/2.png"
+import f3 from "../assets/Hizmet/3.png"
+import f4 from "../assets/Hizmet/Düğün1.jpg"
+import f5 from "../assets/Hizmet/Nişan1.jpg"
 
 
 
@@ -12,9 +18,24 @@ import Galericard from "./Galericard.jsx"
 function Düğün() {
     let content = [
 
-        { img: s11 }
+        { img: f1 },
+        { img: f2 },
+        { img: f3 },
+        { img: f4 },
+        { img: f5 },
+        { img: s11 },
+
+        { img: s10 },
+        { img: yt },
 
     ]
+
+
+    useEffect(() => {
+        // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='min-h-[100vh] bg-beyaz'>
 

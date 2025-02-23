@@ -4,6 +4,13 @@ import SalonCard from './SalonCard';
 import s11 from "../assets/s11.jpg";
 import { PiFlowerDuotone } from "react-icons/pi";
 import Galericard from "./Galericard.jsx"
+import f1 from "../assets/Hizmet/1.jpg"
+import f2 from "../assets/Hizmet/2.png"
+import f3 from "../assets/Hizmet/3.png"
+import f4 from "../assets/Hizmet/Düğün1.jpg"
+import f5 from "../assets/Hizmet/Nişan1.jpg"
+import kına from "../assets/kına.jpg"
+
 
 
 
@@ -11,10 +18,20 @@ import Galericard from "./Galericard.jsx"
 
 function Kına() {
     let content = [
-
-        { img: s11 }
+        { img: f1 },
+        { img: f2 },
+        { img: f3 },
+        { img: f4 },
+        { img: f5 },
+        { img: s11 },
 
     ]
+
+    useEffect(() => {
+        // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='min-h-[100vh] bg-beyaz'>
 
@@ -45,7 +62,7 @@ function Kına() {
 
             <div className='min-h-[70vh]  max-lg:flex-col flex px-20 max-lg:gap-10 items-center justify-center  '>
                 <div className='w-[50%] max-lg:w-full max-lg:flex hidden'>
-                    <img src={s11} />
+                    <img src={kına} />
                 </div>
                 <div className='w-[50%] max-lg:w-full'>
                     <div className='flex flex-col max-lg:w-full gap-5 max-lg:justify-center items-center  '>
@@ -107,7 +124,7 @@ function Kına() {
                     </div>
                 </div>
                 <div className='w-[50%] max-lg:hidden'>
-                    <img src={s11} />
+                    <img src={kına} />
                 </div>
             </div>
             <div className='pt-20'>

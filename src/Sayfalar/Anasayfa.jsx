@@ -10,7 +10,7 @@ import MdSlider from "./mdSlider"
 import SmSlider from './smSlider';
 import s11 from "../assets/s11.jpg"
 import s10 from "../assets/s10.jpg"
-import cont1 from "../assets/contpic.png"
+
 import cont2 from "../assets/contpic2.png"
 import kına from "../assets/kına.jpg"
 import YouTubeVideo from './YoutubeVideo';

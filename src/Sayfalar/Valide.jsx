@@ -1,10 +1,17 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Heroicon from "../assets/Hero4.png";
 import mihribah1 from "../assets/Salon/Mihriba.jpg"
+
+
+import n1 from "../assets/Salon/nurbanu1.jpg"
+import n2 from "../assets/Salon/nurbanu2.jpg"
+import n3 from "../assets/Salon/nurbanu3.jpg"
+
 
 import mihribah2left from "../assets/Salon/Valideleft.jpg"
 import mihribah2right from "../assets/Salon/Valideright.jpg"
 
+import f2 from "../assets/Hizmet/2.png"
 import Galericard from "./Galericard.jsx"
 
 import { LuCrown } from "react-icons/lu";
@@ -15,12 +22,21 @@ function Valide() {
 
     const content = [
 
-        { img: mihribah1 },
+        { img: n1 },
+        { img: n3 },
+        { img: n2 },
+
+
 
 
     ];
 
 
+
+    useEffect(() => {
+        // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
+        window.scrollTo(0, 0);
+    }, []);
 
 
 

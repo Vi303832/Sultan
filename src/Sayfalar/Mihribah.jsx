@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Heroicon from "../assets/Hero4.png";
 import mihribah1 from "../assets/Salon/Mihriba.jpg"
 import mihribah2 from "../assets/Salon/mihriba2.jpg"
@@ -31,6 +31,11 @@ function Mihribah() {
 
     ];
 
+
+    useEffect(() => {
+        // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
+        window.scrollTo(0, 0);
+    }, []);
 
 
 

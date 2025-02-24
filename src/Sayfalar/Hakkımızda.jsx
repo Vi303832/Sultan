@@ -1,9 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hkkfoto from "../assets/Hakkımızda.jpg"
 import Gl from "../assets/Gl.png"
 import HeroHakkında from "../assets/HeroHakkında.jpg";
 
 function Hakkımızda() {
+
+
+    useEffect(() => {
+        // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='min-h-[100vh] bg-beyaz'>
             <div className="relative flex justify-center items-center">

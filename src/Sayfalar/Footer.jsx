@@ -35,10 +35,9 @@ function Footer() {
                     <div className='flex flex-col gap-5 font-arial'>
                         <div>email@hotmail.com</div>
                         <div>email@hotmail.com</div>
-                        <div>email@hotmail.com</div>
                         <div className='flex gap-5'>
-                            <div>tel1</div>
-                            <div>tel2</div>
+                            <div>532 795 54 95</div>
+                            <div>532 795 54 95</div>
                         </div>
 
                     </div>

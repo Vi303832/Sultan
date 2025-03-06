@@ -63,7 +63,7 @@ function Sünnet() {
                     <div className='flex flex-col max-lg:w-full gap-5 max-lg:justify-center items-center  '>
                         <div className='text-4xl pb-5'>Sünnet Organizasyonu</div>
                         <div>
-                            Sünnet düğünü, erkek çocuklarının sünnet edilmesinin ardından gerçekleşir. Sünnet düğünü, bu önemli dini uygulamayı toplumun katılımıyla hep birlikte kutlama amacı taşır.
+                            Sünnet düğünü, sadece bir gelenek değil, ailenin ve topluluğun katılımıyla yapılan önemli bir kutlamadır. Sultan Düğün Salonları, bu özel günün anlamına uygun şık ve konforlu bir ortam sunar. Uzman ekibimiz, sünnet düğününüzü sevdiklerinizle birlikte mutlu bir şekilde kutlayabilmeniz için her detayı en ince ayrıntısına kadar planlar.
                         </div>
                         <div className='text-3xl'>Hizmetlerimiz:</div>
                     </div>
@@ -71,7 +71,7 @@ function Sünnet() {
                         <div className='w-[50%] max-lg:w-[90%] flex flex-col gap-2'>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>1000 kişilik kapasite (800 iç mekan / 200 teras)</div>
+                                <div className='w-[90%]'>1200 kişiye kadar kapasite </div>
                             </div>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />

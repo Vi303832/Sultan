@@ -70,7 +70,7 @@ function Nişan() {
                     <div className='flex flex-col max-lg:w-full gap-5 max-lg:justify-center items-center  '>
                         <div className='text-4xl pb-5'>Nişan Organizasyonu</div>
                         <div>
-                            Nişan, bir çiftin niyetlerini belli ettiği ve sevdiklerine açıkladığı, evliliğe dair ilk adımı attıklarını gösterdikleri ve sembolik bir söz verdikleri kutlamadır. Nişan, evlilik hazırlıklarının başladığı ve topluluğa duyurulduğu bir dönemin başlangıcını simgeler. Genellikle gelin ve damat adaylarının aileleri ve yakın arkadaşlarıyla bir araya gelerek kutlama şeklinde gerçekleştirilir.
+                            Nişan, çiftlerin birbirlerine duyduğu sevgiyi, saygıyı ve bağlılığı tüm sevdikleriyle paylaşmalarının anlamlı bir adımıdır. Sultan Düğün Salonları'nda, nişanınızı özel ve unutulmaz kılacak tüm detaylar sizin için özenle hazırlanır. Aileniz ve dostlarınızla birlikte bu mutlu günü kutlamak, şık ve modern bir atmosferde gerçekleşir.
                         </div>
                         <div className='text-3xl'>Hizmetlerimiz:</div>
                     </div>
@@ -78,7 +78,7 @@ function Nişan() {
                         <div className='w-[50%] max-lg:w-[90%] flex flex-col gap-2'>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>1000 kişilik kapasite (800 iç mekan / 200 teras)</div>
+                                <div className='w-[90%]'>1200 kişiye kadar kapasite </div>
                             </div>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />

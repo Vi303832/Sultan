@@ -67,7 +67,7 @@ function Toplantı() {
                     <div className='flex flex-col max-lg:w-full gap-5 max-lg:justify-center items-center  '>
                         <div className='text-4xl pb-5'>Toplantı Organizasyonu</div>
                         <div>
-                            Toplantı, seminer ve konferans hizmetleri, profesyonel etkinlikler düzenlemek isteyen kişilere veya kurumlara yönelik sunulan organizasyon hizmetleridir. Bu tür etkinlikler, bilgi paylaşımı, eğitim, işbirliği ve iletişimi artırma amaçlarıyla gerçekleştirilir. İşte bu hizmet türleri hakkında daha detaylı bilgi:
+                            İş dünyasında başarılı bir etkinlik, profesyonellik ve konforu bir araya getirir. Sultan Düğün Salonları olarak, toplantı ve seminerleriniz için modern ve işlevsel salon seçenekleri sunuyoruz. Şehir merkezinde, ulaşım kolaylığı sağlayan mekanımızda, etkinliklerinizi başarıyla gerçekleştirmeniz için her türlü organizasyonu titizlikle planlıyoruz.
                         </div>
                         <div className='text-3xl'>Hizmetlerimiz:</div>
                     </div>
@@ -75,7 +75,7 @@ function Toplantı() {
                         <div className='w-[50%] max-lg:w-[90%] flex flex-col gap-2'>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>1000 kişilik kapasite (800 iç mekan / 200 teras)</div>
+                                <div className='w-[90%]'>1200 kişiye kadar kapasite </div>
                             </div>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />

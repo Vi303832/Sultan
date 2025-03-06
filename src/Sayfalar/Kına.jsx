@@ -68,7 +68,7 @@ function Kına() {
                     <div className='flex flex-col max-lg:w-full gap-5 max-lg:justify-center items-center  '>
                         <div className='text-4xl pb-5'>Toplantı Organizasyonu</div>
                         <div>
-                            Kına gecesi, genellikle renkli ve eğlenceli bir atmosferde geçer. Bu etkinliğin en önemli özelliklerinden biri, gelin adayının ellerine ve ayaklarına kına yakılmasıdır. Kına gecesi âdeti, bekârlık döneminin sona erdiğini ve yeni bir evlilik hayatına adım atıldığını anlatır. Kına yakılması hem geleneksel bir adettir, hem de gelin adayına “mutluluk getirmesi” ve “kötü enerjileri uzaklaştırması” amaçlanır.
+                            Kına gecesi, geleneksel ve eğlenceli bir atmosferde, yeni bir hayata adım atmanın coşkusunu yaşadığınız özel bir gecedir. Sultan Düğün Salonları olarak, gelin adayımıza kına yakılmasından, renkli etkinliklere kadar her anı unutulmaz kılacak şekilde tasarlıyoruz. Gecenizi, sevdiklerinizle birlikte keyifli ve anlam dolu bir kutlamaya dönüştürmek için tüm detayları sizin için düşünüyoruz.
                         </div>
                         <div className='text-3xl'>Hizmetlerimiz:</div>
                     </div>
@@ -76,7 +76,7 @@ function Kına() {
                         <div className='w-[50%] max-lg:w-[90%] flex flex-col gap-2'>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>1000 kişilik kapasite (800 iç mekan / 200 teras)</div>
+                                <div className='w-[90%]'>1200 kişiye kadar kapasite </div>
                             </div>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />

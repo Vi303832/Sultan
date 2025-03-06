@@ -72,7 +72,7 @@ function Düğün() {
                     <div className='flex flex-col max-lg:w-full gap-5 max-lg:justify-center items-center  '>
                         <div className='text-4xl pb-5'>Düğün Organizasyonu</div>
                         <div>
-                            Düğün organizasyonları, çiftlerin hayatlarının en özel anlarından biri olduğu için detaylı planlama, koordinasyon ve dikkat gerektirir. Her çiftin istekleri ve tercihleri farklı olduğundan, kişiye özel hizmet sunmak ve en önemli gününüzde kendinizi ve konuklarınızı özel hissetmek bizim içinde oldukça büyük önem taşır.
+                            Hayatınızın en özel anını, şık ve ferah salonlarımızda sevdiklerinizle birlikte unutulmaz kılın. Her çiftin hayalini gerçeğe dönüştürmek için uzman ekibimizle birlikte, düğün gününüzde her detay özenle planlanır. Düğün salonlarımızda, sıcak bir atmosferde, konuklarınıza en iyi hizmeti sunarak, siz ve misafirlerinizin mutlu bir şekilde ayrılmasını sağlıyoruz.
                         </div>
                         <div className='text-3xl'>Hizmetlerimiz:</div>
                     </div>
@@ -80,7 +80,7 @@ function Düğün() {
                         <div className='w-[50%] max-lg:w-[90%] flex flex-col gap-2'>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>1000 kişilik kapasite (800 iç mekan / 200 teras)</div>
+                                <div className='w-[90%]'>1200 kişiye kadar kapasite </div>
                             </div>
                             <div className='flex gap-2 items-center justify-start w-full  '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />

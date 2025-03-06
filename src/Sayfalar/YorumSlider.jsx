@@ -51,7 +51,7 @@ export default function YorumSlider() {
             >
                 {content.map((p, index) => {
                     return (
-                        <SwiperSlide className="p-7 pb-16 " key={index}>
+                        <SwiperSlide className="p-7 pb-16  relative max-sm:right-1 " key={index}>
                             <div className=' flex justify-center'>
                                 <div className='flex flex-col items-center gap-3 w-[70%] '>
                                     <h1 className="font-bold">{p.header}</h1>

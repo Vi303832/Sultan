@@ -59,7 +59,7 @@ function İletişim() {
                         </div>
                     </div>
 
-                    <div className='w-[50%] max-md:w-[100%] flex justify-center '>
+                    <div className='w-[50%] max-md:w-[100%] max-md:pb-10 flex justify-center '>
                         <div className='w-[90%]'>
 
                             <LoadScript googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>

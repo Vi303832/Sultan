@@ -66,7 +66,7 @@ function Anasayfa() {
             </div>
 
             {/* Swiper Slider */}
-            <div className='py-20 '>
+            <div className='py-20  '>
                 <div className='h-[80vh] flex slider-container max-lg:hidden px-10'>
                     <SliderComponent />
                 </div>
@@ -78,7 +78,7 @@ function Anasayfa() {
                     <SmSlider />
                 </div>
             </div>
-            <div className='flex justify-center items-center gap-10 w-full max-lg:flex-col max-lg:px-5 font-arial px-20 mt-30 mb-60'>
+            <div className='flex justify-center items-center gap-10 w-full max-lg:flex-col max-lg:px-5 font-arial max-lg:mt-0 px-20 mt-30 mb-60'>
                 <div className=' w-[50%] h-full max-lg:w-[80%] '>
                     <img src={HeroHakkında} className='object-contain  ' />
                 </div>
@@ -113,7 +113,7 @@ function Anasayfa() {
                 </div>
             </div>
 
-            <div className='py-20 max-lg:py-10 px-20 w-full  max-md:px-5   flex justify-center items-center' >
+            <div className='py-20 max-lg:py-10 px-20 w-full  max-md:px-5 max-sm:pt-40  flex justify-center items-center' >
 
                 <img src={cont2} className='w-full h-[80vh]  object-cover  opacity-90  ' />
                 <div className='absolute max-sm:gap-10 flex flex-col max-sm:h-[70vh] max-sm:w-[70%]  gap-3 items-center p-10 justify-center '>

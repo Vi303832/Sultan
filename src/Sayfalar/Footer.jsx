@@ -49,7 +49,7 @@ function Footer() {
                     <div className='text-3xl'>Salonlarımız</div>
                     <div className='flex flex-col gap-5 font-arial'>
 
-                        <div className='cursor-pointer hover:text-altin' onClick={() => navigate("/Mihribah")}>Mihribah Sultan</div>
+                        <div className='cursor-pointer hover:text-altin' onClick={() => navigate("/Mihribah")}>Mihrimah Sultan</div>
                         <div className='cursor-pointer hover:text-altin' onClick={() => navigate("/Kösem")}>Kösem Sultan</div>
                         <div className='cursor-pointer hover:text-altin' onClick={() => navigate("/Nurbanu")}>Nurbanu Sultan</div>
                         <div className='cursor-pointer hover:text-altin' onClick={() => navigate("/Hürrem")}>Hürrem Sultan</div>

@@ -14,9 +14,9 @@ function SalonCard() {
 
     const content = [
         {
-            header: 'Mihribah Sultan',
+            header: 'Mihrimah Sultan',
             img: mihribapp,
-            url: "Mihribah"
+            url: "Mihrimah"
         },
         {
             header: 'Kösem Sultan',

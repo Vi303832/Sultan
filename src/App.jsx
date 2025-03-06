@@ -125,7 +125,7 @@ function App() {
           </Layout >
 
         } />
-        <Route path="/Mihribah" element={
+        <Route path="/Mihrimah" element={
 
           <Layout >
             <Mihribah />

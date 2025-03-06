@@ -9,7 +9,7 @@ function Footer() {
     let navigate = useNavigate()
 
     return (
-        <div className='bg-kalin min-h-[50vh]  '>
+        <div className='bg-kalin min-h-[50vh] w-full overflow-hidden  '>
             <div className='flex gap-40 pt-12 mx-30   justify-around max-md:flex-col max-md:items-center items-start text-beyaz font-scheherazade '>
 
                 <div className='flex flex-col  gap-5 min-w-[30vh] '>

@@ -11,6 +11,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import galeri8 from "../assets/Galeri/galeri9.jpg";
 import galeri14 from "../assets/Galeri/dgn4.jpg";
 import galeri7 from "../assets/Galeri/galeri8.jpg";
+import nurbanu1 from "../assets/Salon/nurbanu1.jpg"
 
 function Hizmetlerimiz() {
     let navigate = useNavigate()
@@ -54,7 +55,7 @@ function Hizmetlerimiz() {
                     <Card yazı="Nişan, çiftlerin evliliğe adım attıkları özel bir tören olarak büyük bir anlam taşır. Sultan Düğün Salonları olarak, şık dekorasyonumuz ve profesyonel ekibimizle nişan organizasyonlarınızı en güzel şekilde planlıyor ve hayata geçiriyoruz." başlık="Nişan Organizasyonları" foto={s10} url={"Nişan"} />
                     <Card yazı="Sünnet düğünleri, çocuklarımız için önemli bir dönüm noktasıdır. Geniş ve konforlu salonlarımızda, ailelerimizin tüm ihtiyaçlarını karşılayarak eğlenceli ve unutulmaz sünnet organizasyonları düzenliyoruz." başlık="Sünnet Organizasyonları" foto={galeri8} url={"Sünnet"} />
                     <Card yazı="Kına gecesi, düğün öncesinde unutulmaz anılar biriktirmenizi sağlayan en özel geleneklerimizden biridir. Sultan Düğün Salonları olarak, bu özel gecenizi en iyi şekilde organize ediyor, şık dekorasyonumuz, profesyonel ekibimiz ve geleneksel dokunuşlarımızla hayallerinizdeki kına gecesini gerçeğe dönüştürüyoruz." başlık="Kına Gecesi Organizasyonları" foto={kına} url={"Kına"} />
-                    <Card yazı="" başlık="Toplantı Organizasyonları" foto={galeri8} url={"Toplantı"} />
+                    <Card yazı="Sultan Düğün Salonları olarak, kurumsal etkinlikler ve toplantılar için şık ve konforlu salonlarımızda profesyonel hizmet sunuyoruz. İhtiyaçlarınıza özel düzenlemelerle, toplantılarınızın verimli ve etkileyici geçmesini sağlıyoruz." başlık="Toplantı Organizasyonları" foto={nurbanu1} url={"Toplantı"} />
                 </div>
             </div>
             <div className=' flex justify-center items-center h-[60vh] pb-20'>

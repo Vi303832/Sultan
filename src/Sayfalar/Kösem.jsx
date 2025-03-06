@@ -103,7 +103,7 @@ function Kösem() {
                                         Kösem Sultan Kaç Kişilik Kapasiteye Sahiptir?
                                     </div>
                                     <div className='w-[50%] text-center'>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi perspiciatis numquam voluptatum aliquid veritatis cumque illo optio consequuntur. Doloremque tenetur quas odit, debitis error nobis autem provident ab fugiat quod?
+                                        Kösem Sultan Düğün Salonu, 350 kişilik kapasitesiyle geniş ve ferah bir ortamda, tüm davetli listeniz için rahat bir alan sunmaktadır. Şık dekorasyonu ve üstün hizmet kalitesiyle, her tür organizasyona ev sahipliği yapabilecek donanıma sahiptir.
                                     </div>
                                 </div>
                                 <div className='flex flex-col gap-5 items-center'>
@@ -127,7 +127,7 @@ function Kösem() {
                             <div className='flex flex-col  gap-10 w-[50%] items-center'>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>400 Arası Kapasite</div>
+                                    <div className='text-center w-[90%]'>350-400 Arası Kapasite</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>

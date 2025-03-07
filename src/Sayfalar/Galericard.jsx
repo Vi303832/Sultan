@@ -134,7 +134,7 @@ function SalonCard({ cont }) {
                         <div className="text-5xl max-md:text-4xl max-md:px-10 text-center font-scheherazade">
                             Sultan Düğün & Davet & Organizasyon
                         </div>
-                        <div className="flex  gap-5 items-center">
+                        <div className="flex  gap-5 items-center max-sm:flex-col">
                             <button onClick={() => navigate("/Teklif")} className="flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 cursor-pointer">
                                 Teklif Alın <FaArrowRightLong />
                             </button>

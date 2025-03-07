@@ -12,7 +12,7 @@ function Salonlarımız() {
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>
-            <div className="relative flex justify-center items-center">
+            <div className="relative flex justify-center items-center overflow-hidden">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]  object-cover opacity-60" />
                 <div className="absolute top-0 left-0 w-full h-60  bg-gradient-to-b from-white to-transparent"></div>
                 <div className='text-7xl max-md:text-5xl max-md:px-10 text-center absolute   mt-30 font-scheherazade  '>
@@ -25,11 +25,11 @@ function Salonlarımız() {
                         <span className='text-7xl'>S</span>ULTA
                         <span className='text-7xl'>N</span>
                     </div>
-                    <div className='w-full flex flex-col items-center'>
-                        <hr className='text-center w-[150%]' />
-                        <hr className='text-center w-[150%]' />
-                        <hr className='text-center w-[150%]' />
-                        <hr className='text-center w-[150%]' />
+                    <div className='w-full flex flex-col items-center  '>
+                        <hr className='text-center w-[150%] max-xs:!w-[120%]  ' />
+                        <hr className='text-center w-[150%] max-xs:!w-[120%] ' />
+                        <hr className='text-center w-[150%] max-xs:!w-[120%] ' />
+                        <hr className='text-center w-[150%] max-xs:!w-[120%] ' />
                     </div>
                 </div>
                 <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-scheherazade'>

@@ -121,22 +121,26 @@ function Anasayfa() {
                 </div>
             </div>
 
-            <div className='h-[30vh] hidden max-xxs:block'>
+            <div className='h-[15vh] hidden max-xxs:block'>
 
             </div>
 
             <div className='py-20 max-lg:py-10 px-20 w-full max-xxs:py-30 max-md:px-5  flex justify-center items-center  max-xs:px-2' >
 
-                <img src={cont2} className='w-full h-[80vh] max-xs:h-[100vh]   object-cover  opacity-90  ' />
-                <div className='absolute max-sm:gap-10 flex flex-col max-sm:h-[70vh] max-sm:w-[70%]  gap-3 items-center p-10 justify-center '>
-                    <div className='bg-black h-full max-xs:h-[90vh]   w-full absolute opacity-60  '></div>
-                    <div className='text-4xl text-altin z-10 text-center'>En Özel Günlerinizde Yanınızdayız.</div>
-                    <div className='text-beyaz text-xl z-10 text-center'>İstekleriniz ve teklifler için bize ulaşın.</div>
-                    <div className='flex gap-5 max-md:flex-col justify-center items-center'>
-                        <button onClick={() => navigate("/Teklif")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin   opacity-90 cursor-pointer '>
+                <img src={cont2} className='w-full  max-xs:h-[50vh]  h-[80vh]    object-cover  opacity-90  ' />
+
+                <div className='absolute max-sm:gap-10 flex flex-col max-sm:h-[70vh] max-sm:w-[70%]  max-xs:!h-[40vh]  gap-3 items-center p-10  max-xs:p-0 justify-center max-xs:!w-[80%]   '>
+
+                    <div className='bg-black h-full max-xs:h-[50vh]    w-full absolute opacity-60  '></div>
+
+                    <div className='text-4xl text-altin z-10 max-xs:text-xl text-center '>En Özel Günlerinizde Yanınızdayız.</div>
+                    <div className='text-beyaz text-xl z-10 max-xs:text-sm  text-center'>İstekleriniz ve teklifler için bize ulaşın.</div>
+
+                    <div className='flex gap-5  max-md:flex-col justify-center items-center'>
+                        <button onClick={() => navigate("/Teklif")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin max-xs:px-3 max-xs:py-2  opacity-90 cursor-pointer max-xs:text-sm '>
                             Teklif Al <FaArrowRightLong />
                         </button>
-                        <button onClick={() => navigate("/BeniAra")} className="flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-90 cursor-pointer">
+                        <button onClick={() => navigate("/BeniAra")} className="flex gap-2 px-8 py-2 max-xs:py-2 max-xs:px-3  max-xs:text-sm text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-90 cursor-pointer  ">
                             Biz Sizi Arayalım <FaArrowRightLong />
                         </button>
                     </div>

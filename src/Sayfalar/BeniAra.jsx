@@ -56,11 +56,11 @@ export default function BeniAra() {
                         <span className='text-7xl'>S</span>ULTA
                         <span className='text-7xl'>N</span>
                     </div>
-                    <div className='w-full flex flex-col items-center'>
-                        <hr className='text-center w-[150%]' />
-                        <hr className='text-center w-[150%]' />
-                        <hr className='text-center w-[150%]' />
-                        <hr className='text-center w-[150%]' />
+                    <div className='w-full flex flex-col items-center  '>
+                        <hr className='text-center w-[150%] max-xs:!w-[120%]  ' />
+                        <hr className='text-center w-[150%] max-xs:!w-[120%] ' />
+                        <hr className='text-center w-[150%] max-xs:!w-[120%] ' />
+                        <hr className='text-center w-[150%] max-xs:!w-[120%] ' />
                     </div>
                 </div>
 

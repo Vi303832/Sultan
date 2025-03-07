@@ -20,7 +20,7 @@ function Header() {
 
 
     return (
-        <div className='font-arial w-[100vw] overflow-hidden'>
+        <div className='font-arial w-[100vw] overflow-hidden '>
             {/* Absolute Header */}
             <div className=' w-full h-[15vh] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent overflow-hidden'>
                 {/* Logo */}

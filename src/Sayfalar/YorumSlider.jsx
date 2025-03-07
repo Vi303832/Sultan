@@ -38,7 +38,7 @@ export default function YorumSlider() {
     return (
         <div>
             <div className='flex flex-col justify-center items-center gap-3'>
-                <div className='text-5xl'>Müşteri Yorumları</div>
+                <div className='text-5xl text-center'>Müşteri Yorumları</div>
                 <img src={Gl} className='h-[10vh]' />
             </div>
 
@@ -47,15 +47,15 @@ export default function YorumSlider() {
                 loop={true}
                 spaceBetween={30}
                 navigation
-                className="rewind"
+                className="rewind   "
             >
                 {content.map((p, index) => {
                     return (
-                        <SwiperSlide className="p-7 pb-16  relative max-sm:right-1 " key={index}>
+                        <SwiperSlide className="p-7 max-xs:p-0  pb-16  relative max-sm:right-1   " key={index}>
                             <div className=' flex justify-center'>
-                                <div className='flex flex-col items-center gap-3 w-[70%] '>
+                                <div className='flex flex-col items-center gap-3 w-[70%]  '>
                                     <h1 className="font-bold">{p.header}</h1>
-                                    <p className='text-center'>{p.info}</p>
+                                    <p className='text-center text-sm'>{p.info}</p>
                                     <div><img src={Logo} className='h-[20vh]' /></div>
                                 </div>
                             </div>

@@ -10,8 +10,8 @@ const YouTubeVideo = () => {
     };
 
     return (
-        <div className="flex flex-col items-center justify-center px-20 max-md:p-5">
-            <img src={yt} className='h-[100vh] w-[100%] object-cover' />
+        <div className="flex flex-col  items-center justify-center   px-20 max-xs:px-0 max-md:p-5 max-sm:p-0 max-sm:px-2  max-xs:w-full ">
+            <img src={yt} className='h-[100vh]  max-xs:h-[60vh] w-[100%] object-cover' />
             <button
                 onClick={handleButtonClick}
                 className="px-4 py-2 bg-kalin text-beyaz cursor-pointer   rounded absolute hover:bg-sertaltin"
@@ -25,8 +25,11 @@ const YouTubeVideo = () => {
                     <div className=" absolute  w-full h-[100vh] flex justify-center items-center ">
 
                         <div className='w-[60%] h-[60%] max-md:w-[85%]   '>
-                            <div className='z-20 text-5xl absolute text-beyaz max-md:w-[85%]  w-[60%]'>
-                                <button onClick={() => setShowVideo(false)} className=' -right-12 absolute cursor-pointer -top-10 bg-[#00000066] hover:bg-[#000000b3] rounded-full  '><IoClose />
+                            <div className='z-20 text-5xl absolute text-beyaz max-md:w-[85%]  w-[60%] max-xs:text-3xl'>
+                                <button onClick={() => setShowVideo(false)} className=' -right-12 absolute cursor-pointer -top-10 bg-[#00000066] hover:bg-[#000000b3] rounded-full 
+                                max-xs:-right-7 max-xs:-top-0
+                                
+                                '><IoClose />
                                 </button>
 
                             </div>+

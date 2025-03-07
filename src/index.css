@@ -10,7 +10,8 @@
 --color-kalin:#b4a46c;
 --color-sertaltin:#af9057;
 --color-ten:#dcc3a7;
-
+--breakpoint-xxs:400px;
+--breakpoint-xs:600px;
 }
 
 html {
@@ -26,3 +27,16 @@ html {
   
 }
 
+@media screen and (max-width: 450px) {
+  .swiper-button-next, .swiper-button-prev {
+    width: 40px !important;
+    height: 40px !important;
+    bottom: 10px !important; /* Daha küçük bir değer ile yukarıya kaydırma */
+    position: absolute !important;
+  }
+
+  .swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 25px !important;
+  }
+
+}

@@ -20,12 +20,12 @@ function Header() {
 
 
     return (
-        <div className='font-arial'>
+        <div className='font-arial w-[100vw] overflow-hidden'>
             {/* Absolute Header */}
-            <div className=' w-full h-[15vh] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent '>
+            <div className=' w-full h-[15vh] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent overflow-hidden'>
                 {/* Logo */}
-                <div className='h-[100%] px-10'>
-                    <img onClick={() => handlenav("/")} className=" cursor-pointer h-[90%] max-w-screen object-cover p-1" src={Logo} alt='Sultan Logo' />
+                <div className='h-[100%] px-10 max-xxs:w-[25vh]  max-xxs:px-2 max-xxs:h-[100%] '>
+                    <img onClick={() => handlenav("/")} className=" cursor-pointer h-[90%] max-xxs:h-full max-xxs:w-full  max-w-screen object-cover p-1" src={Logo} alt='Sultan Logo' />
                 </div>
                 {/* Navigation Links */}
                 <div className='px-20 w-[100vh] overflow-hidden flex gap-12 justify-center items-center text-lg cursor-pointer max-md:hidden '>
@@ -38,7 +38,7 @@ function Header() {
                 </div>
                 {/* Mobile Menu */}
                 <div className='hidden max-md:block'>
-                    <div onClick={() => setbar(!bar)} className='cursor-pointer text-2xl px-20 '>
+                    <div onClick={() => setbar(!bar)} className='cursor-pointer text-2xl px-20 max-xs:px-10 '>
                         <FaBars />
                     </div>
                 </div>

@@ -141,7 +141,7 @@ function Anasayfa() {
                         <button onClick={() => navigate("/Teklif")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin max-xs:px-3 max-xs:py-2  opacity-90 cursor-pointer max-xs:text-[16px]'>
                             Teklif Al <FaArrowRightLong />
                         </button>
-                        <button onClick={() => navigate("/BeniAra")} className="flex gap-2 px-8 py-2 max-xs:py-2 max-xs:px-3  max-xs:text-[16px]text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-90 cursor-pointer  ">
+                        <button onClick={() => navigate("/BeniAra")} className="flex gap-2 text-white px-8 py-2 max-xs:py-2 max-xs:px-3  max-xs:text-[16px]text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-90 cursor-pointer  ">
                             Biz Sizi Arayalım <FaArrowRightLong />
                         </button>
                     </div>

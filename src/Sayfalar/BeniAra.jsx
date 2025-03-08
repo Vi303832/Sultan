@@ -74,7 +74,7 @@ export default function BeniAra() {
                         </div>
                     </div>
                     <div className='flex flex-col gap-5 w-full items-center '>
-                        <div className='w-[50%] max-md:w-[70%]  h-10 flex justify-center items-center '><FaUser className='border-2 text-beyaz border-altin  bg-altin rounded-l-4xl h-10 w-[15%] p-2' />
+                        <div className='w-[50%] max-md:w-[70%] max-xs:!w-[90%] max-xxs:!w-[110%] h-10 flex justify-center items-center '><FaUser className=' max-xs:w-[20%] max-xxs:w-[25%] max-[360px]:!w-[30%]  border-2 text-beyaz border-altin  bg-altin rounded-l-4xl h-10 w-[15%] p-2' />
 
                             <input
                                 type='text'
@@ -85,7 +85,7 @@ export default function BeniAra() {
                                 required className=' outline-0  w-full h-full border-b-2 pl-2 border-altin  border-t-2 border-r-2 rounded-r-4xl' />
 
                         </div>
-                        <div className='w-[50%] max-md:w-[70%] h-10 flex justify-center items-center '><IoMdMail className=' outline-0  border-2 text-beyaz border-altin  bg-altin rounded-l-4xl h-10 w-[15%] p-2' />
+                        <div className='w-[50%] max-md:w-[70%] max-xs:!w-[90%] max-xxs:!w-[110%] h-10 flex justify-center items-center '><IoMdMail className=' max-xs:w-[20%] max-xxs:w-[25%] max-[360px]:!w-[30%] outline-0  border-2 text-beyaz border-altin  bg-altin rounded-l-4xl h-10 w-[15%] p-2' />
 
                             <input
                                 type="email"
@@ -96,7 +96,7 @@ export default function BeniAra() {
                                 required className=' pl-2 w-full h-full border-b-2 border-altin  border-t-2 border-r-2 rounded-r-4xl outline-0' />
 
                         </div>
-                        <div className='w-[50%] max-md:w-[70%] h-10 flex justify-center items-center '><FaPhoneAlt className='border-2 outline-0  text-beyaz border-altin  bg-altin rounded-l-4xl h-10 w-[15%] p-2' />
+                        <div className='w-[50%] max-md:w-[70%] max-xs:!w-[90%] max-xxs:!w-[110%] h-10 flex justify-center items-center '><FaPhoneAlt className=' max-xs:w-[20%] max-xxs:w-[25%] max-[360px]:!w-[30%]  border-2 outline-0  text-beyaz border-altin  bg-altin rounded-l-4xl h-10 w-[15%] p-2' />
 
                             <input
                                 type="tel"

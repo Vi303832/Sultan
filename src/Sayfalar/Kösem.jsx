@@ -47,7 +47,7 @@ function Kösem() {
     return (
 
         <div className='bg-beyaz  min-h-screen'>
-            <img className='-rotate-45 -top-10 -left-16 absolute ' src={Heroicon} />
+            <img className='-rotate-45 -top-10 -left-16 absolute overflow-hidden w-[90%] ' src={Heroicon} />
             <div className='pt-[25vh] pb-20 max-lg:px-0    px-20'>
                 <div className='w-full h-[40vh]  gap-5 justify-center items-center mb-10 hidden max-lg:flex  '>
                     <img src={mihribah2left} className='h-full object-cover hidden max-lg:flex  w-[30%]  rounded-tl-full' />
@@ -62,11 +62,11 @@ function Kösem() {
                                     <span className='text-7xl'>S</span>ULTA
                                     <span className='text-7xl'>N</span>
                                 </div>
-                                <div className='w-full flex flex-col items-center'>
-                                    <hr className='text-center w-[150%]' />
-                                    <hr className='text-center w-[150%]' />
-                                    <hr className='text-center w-[150%]' />
-                                    <hr className='text-center w-[150%]' />
+                                <div className='w-full flex flex-col items-center  '>
+                                    <hr className='text-center w-[150%] max-xs:w-[120%]' />
+                                    <hr className='text-center w-[150%] max-xs:w-[120%]' />
+                                    <hr className='text-center w-[150%] max-xs:w-[120%]' />
+                                    <hr className='text-center w-[150%] max-xs:w-[120%]' />
                                 </div>
                             </div>
                             <div className='text-5xl font-scheherazade text-center '>Kösem Sultan</div>

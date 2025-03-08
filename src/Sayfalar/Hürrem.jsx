@@ -43,7 +43,7 @@ function Hürrem() {
     return (
 
         <div className='bg-beyaz  min-h-screen'>
-            <img className='-rotate-45 -top-10 -left-16 absolute ' src={Heroicon} />
+            <img className='-rotate-45 -top-10 -left-16 absolute overflow-hidden w-[90%] ' src={Heroicon} />
             <div className='pt-[25vh] pb-20 max-lg:px-0    px-20'>
                 <div className='w-full h-[40vh]  gap-5 justify-center items-center mb-10 hidden max-lg:flex  '>
                     <img src={mihribah2left} className='h-full object-cover hidden max-lg:flex  w-[30%]  rounded-tl-full' />
@@ -58,11 +58,11 @@ function Hürrem() {
                                     <span className='text-7xl'>S</span>ULTA
                                     <span className='text-7xl'>N</span>
                                 </div>
-                                <div className='w-full flex flex-col items-center'>
-                                    <hr className='text-center w-[150%]' />
-                                    <hr className='text-center w-[150%]' />
-                                    <hr className='text-center w-[150%]' />
-                                    <hr className='text-center w-[150%]' />
+                                <div className='w-full flex flex-col items-center  '>
+                                    <hr className='text-center w-[150%] max-xs:w-[120%]' />
+                                    <hr className='text-center w-[150%] max-xs:w-[120%]' />
+                                    <hr className='text-center w-[150%] max-xs:w-[120%]' />
+                                    <hr className='text-center w-[150%] max-xs:w-[120%]' />
                                 </div>
                             </div>
                             <div className='text-5xl font-scheherazade text-center '>Hürrem Sultan</div>
@@ -87,7 +87,9 @@ function Hürrem() {
                 <div>
                     <div className='px-20 text-5xl text-center text-altin font-cormorant max-lg:px-5 font-bold max-lg:py-10 py-30'>
 
-                        Sultan Düğün & Toplantı Salonları
+                        Sultan Düğün <span className='max-xs:hidden'>&</span>
+                        <div className='hidden max-xs:block'> & </div>
+                        Toplantı Salonları
                     </div>
                     {/*SS*/}
                     <div className='flex max-lg:flex-col max-lg:gap-10 w-full px-20 max-lg:px-5 '>
@@ -98,7 +100,7 @@ function Hürrem() {
                                     <div className='text-3xl text-center '>
                                         Hürrem Sultan Kaç Kişilik Kapasiteye Sahiptir?
                                     </div>
-                                    <div className='w-[50%] text-center'>
+                                    <div className='w-[50%] text-center max-xs:w-[75%]'>
                                         Hürrem Sultan Düğün Salonu, 750 kişilik kapasitesiyle geniş ve ferah bir ortamda, tüm davetli listeniz için rahat bir alan sunmaktadır. Şık dekorasyonu ve üstün hizmet kalitesiyle, her tür organizasyona ev sahipliği yapabilecek donanıma sahiptir.
                                     </div>
                                 </div>
@@ -106,7 +108,7 @@ function Hürrem() {
                                     <div className='text-3xl text-center'>
                                         Hürrem Sultan Hizmetler Nelerdir ?
                                     </div>
-                                    <div className='w-[50%] text-center'>
+                                    <div className='w-[50%] text-center max-xs:w-[75%]'>
                                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi perspiciatis numquam voluptatum aliquid veritatis cumque illo optio consequuntur. Doloremque tenetur quas odit, debitis error nobis autem provident ab fugiat quod?
                                     </div>
                                 </div>
@@ -117,7 +119,7 @@ function Hürrem() {
 
                         <div className='flex flex-col  gap-10 w-[50%]  max-lg:w-full items-center '>
 
-                            <div className='text-3xl'>
+                            <div className='text-3xl text-center'>
                                 Neden Hürrem Sultan?
                             </div>
                             <div className='flex flex-col  gap-10 w-[50%] items-center'>

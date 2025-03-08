@@ -74,11 +74,12 @@ function Anasayfa() {
                     <MdSlider />
                 </div>
 
-                <div className='h-[80vh] flex slider-container min-md:hidden px-10 max-xs:px-5 max-xxs:px-2'>
+                <div className='h-[80vh] max-xxs:h-[50vh] flex slider-container min-md:hidden px-10 max-xs:px-5 max-xxs:px-2'>
                     <SmSlider />
                 </div>
             </div>
-            <div className='flex justify-center items-center gap-10 w-full  max-lg:flex-col max-lg:px-5 font-arial max-lg:mt-0 px-20  max-xxs:px-0   max-xs:gap-2   mt-30 mb-60 '>
+
+            <div className='flex justify-center items-center gap-10 w-full  max-lg:flex-col max-lg:px-5 font-arial max-lg:mt-0 px-20  max-xxs:px-0   max-xs:gap-2   mt-30 mb-60 max-sm:!mb-20  '>
 
                 <div className=' w-[50%] h-full max-xs:h-[40vh]      max-lg:w-[80%] flex items-center justify-center overflow-hidden max-xxs:w-full      '>
                     <img src={HeroHakkında} className=' max-xxs:hidden object-contain max-xs:h-full  max-xs:object-cover      ' />
@@ -89,11 +90,11 @@ function Anasayfa() {
                 </div>
 
 
-                <div className='flex flex-col justify-start max-lg:w-[80%] items-start max-xs:items-center gap-10 max-xs:gap-5 w-[50%] '>
+                <div className='flex flex-col justify-start max-lg:w-[80%]   items-start max-xs:items-center gap-10 max-xs:gap-5 w-[50%] '>
                     <div className='text-5xl text-sertaltin text-center max-xs:text-3xl '>
                         Sultan Düğün Salonları Bursa
                     </div>
-                    <div className=' opacity-80 max-xs:text-sm max-xs:text-center   max-xs:w-[80vw] max-xxs:w-[95vw]'>
+                    <div className=' opacity-80 max-xs:text-[16px] max-xs:text-center   max-xs:w-[80vw] max-xxs:w-[95vw]'>
                         Şehir merkezinde bulunan Sultan Düğün Salonları Osmangazi/Bursa 2015’ten beri çiftlerimizin düğün, nişan, kına gibi en özel günlerine ev sahipliği yapıyor. İçerisinde bulunan 5 düğün salonu seçeneği ve terasıyla konukların ilgisini çekiyor. Uzman aynı zamanda dinamik çalışan kadromuzla davetlilerimizi memnun etmek ve salonumuzdan gülümseyerek ayrılmalarını sağlamak için özen gösteriyoruz. Merkezi bir konumda yer alıyor olmamız ulaşım konusunda büyük bir kolaylığı beraberinde getiriyor..
                     </div>
                     <div className='max-xs:flex max-xs:w-full max-xs:justify-center'>
@@ -121,26 +122,26 @@ function Anasayfa() {
                 </div>
             </div>
 
-            <div className='h-[15vh] hidden max-xxs:block'>
+            <div className=' hidden max-xxs:!block  max-xxs:h-[10vh]'>
 
             </div>
 
             <div className='py-20 max-lg:py-10 px-20 w-full max-xxs:py-30 max-md:px-5  flex justify-center items-center  max-xs:px-2' >
 
-                <img src={cont2} className='w-full  max-xs:h-[50vh]  h-[80vh]    object-cover  opacity-90  ' />
+                <img src={cont2} className='w-full  max-xs:h-[50vh] max-xxs:h-[60vh] h-[80vh]    object-cover  opacity-90  ' />
 
                 <div className='absolute max-sm:gap-10 flex flex-col max-sm:h-[70vh] max-sm:w-[70%]  max-xs:!h-[40vh]  gap-3 items-center p-10  max-xs:p-0 justify-center max-xs:!w-[80%]   '>
 
-                    <div className='bg-black h-full max-xs:h-[50vh]    w-full absolute opacity-60  '></div>
+                    <div className='bg-black h-full max-xs:h-[50vh] max-xxs:h-[60vh]   w-full absolute opacity-60  '></div>
 
                     <div className='text-4xl text-altin z-10 max-xs:text-xl text-center '>En Özel Günlerinizde Yanınızdayız.</div>
-                    <div className='text-beyaz text-xl z-10 max-xs:text-sm  text-center'>İstekleriniz ve teklifler için bize ulaşın.</div>
+                    <div className='text-beyaz text-xl z-10 max-xs:text-[16px] text-center'>İstekleriniz ve teklifler için bize ulaşın.</div>
 
                     <div className='flex gap-5  max-md:flex-col justify-center items-center'>
-                        <button onClick={() => navigate("/Teklif")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin max-xs:px-3 max-xs:py-2  opacity-90 cursor-pointer max-xs:text-sm '>
+                        <button onClick={() => navigate("/Teklif")} className=' z-10 flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin max-xs:px-3 max-xs:py-2  opacity-90 cursor-pointer max-xs:text-[16px]'>
                             Teklif Al <FaArrowRightLong />
                         </button>
-                        <button onClick={() => navigate("/BeniAra")} className="flex gap-2 px-8 py-2 max-xs:py-2 max-xs:px-3  max-xs:text-sm text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-90 cursor-pointer  ">
+                        <button onClick={() => navigate("/BeniAra")} className="flex gap-2 px-8 py-2 max-xs:py-2 max-xs:px-3  max-xs:text-[16px]text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-90 cursor-pointer  ">
                             Biz Sizi Arayalım <FaArrowRightLong />
                         </button>
                     </div>

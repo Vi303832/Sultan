@@ -46,7 +46,7 @@ function SalonCard() {
         <div className='flex px-20 flex-wrap justify-center min-h-full max-sm:px-5  items-center gap-x-10 gap-y-20'>
             {content.map((m) =>
                 <div className='w-[25rem]    h-[90%] flex flex-col gap-3 justfiy-center items-center font-cormorant '>
-                    <img className='rounded-t-full h-[460px] max-xxs:!h-[400px]  object-cover w-[95%]' src={m.img} />
+                    <img className='rounded-t-full h-[460px] max-xxs:!h-[360px]  object-cover w-[95%]' src={m.img} />
                     <div className='text-3xl text-sertaltin'>{m.header}</div>
                     <div className='font-arial w-[70%] text-center'>{m.header} salonumuz hakkında bilgi için tıklayın.</div>
                     <button onClick={() => navigate(`/${m.url}`)} className='font-arial text-altin opacity-80 cursor-pointer flex gap-2 justify-center items-center'>Detaylı incele<FaArrowRightLong /></button>

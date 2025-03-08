@@ -36,9 +36,9 @@ function Anasayfa() {
 
     return (
         <div className='w-[100%] overflow-hidden relative min-h-screen bg-beyaz '>
-            <img className='-rotate-45 -top-10 -left-16 absolute  max-xxs:-left-27' src={Heroicon} />
+            <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-xxs:-left-27' src={Heroicon} />
 
-            <div className='mt-[15vh] flex justify-center items-center h-[80vh]'>
+            <div className='mt-[15vh] max-xs:mt-[20vh] flex justify-center items-center h-[80vh]'>
                 <div className='flex flex-col gap-5 items-center '>
                     <div className='text-sertaltin  text-5xl max-md:text-3 font-scheherazade  flex flex-col items-center'>
                         <div className='font-bold'>

@@ -42,20 +42,20 @@ function İletişim() {
                 </div>
             </div>
 
-            <div className='min-h-[100vh] '>
-                <div className='flex justify-center px-20 pb-10 text-center'>
+            <div className='min-h-[100vh] w-full overflow-hidden '>
+                <div className='flex justify-center max-sm:px-5 px-20 pb-10 text-center'>
                     Salonlarımız, hizmetlerimiz ve daha fazlası hakkında bilgi almak için bizimle hemen iletişime geçin.
                 </div>
-                <div className='flex gap-5 max-md:flex-col'>
-                    <div className='w-[50%] max-md:w-[90%] flex flex-col gap-10  items-start justfiy-center px-20 pt-5'>
-                        <div className='flex gap-5 justify-center items-center '>
-                            <span> <RiMapPin2Fill className='text-4xl text-altin' /></span><div><div className='text-2xl'>ADRES</div><div>Selamet Mh. Ulubatlı Hasan Blv. No:81-97 Osmangazi/BURSA</div></div>
+                <div className='flex gap-5 max-md:flex-col w-full overflow-hidden '>
+                    <div className='w-[50%] max-md:w-[90%] flex flex-col gap-10  items-start justfiy-center px-20 max-sm:px-5 pt-5 '>
+                        <div className='flex gap-5 justify-center items-center  '>
+                            <span> <RiMapPin2Fill className='text-4xl text-altin' /></span><div><div className='text-2xl'>ADRES</div><div className='max-[340px]:!text-sm' >Selamet Mh. Ulubatlı Hasan Blv. No:81-97 Osmangazi/BURSA</div></div>
                         </div>
                         <div className='flex gap-5 justify-center items-center  '>
-                            <span> <MdEmail className='text-4xl text-altin' /></span><div><div className='text-2xl'>E-POSTA</div><div>Sultadüğünsalonları@hotmail.com</div></div>
+                            <span> <MdEmail className='text-4xl text-altin' /></span><div><div className='text-2xl '>E-POSTA</div><div className='max-[340px]:!text-sm'>Sultadüğünsalonları@hotmail.com</div></div>
                         </div>
                         <div className='flex gap-5 justify-center items-center '>
-                            <span> <FaPhoneAlt className='text-4xl text-altin' /></span><div><div className='text-2xl'>TELEFON</div><div>Selamet Mh. Ulubatlı Hasan Blv. No:81-97 Osmangazi/BURSA</div></div>
+                            <span> <FaPhoneAlt className='text-4xl text-altin' /></span><div><div className='text-2xl'>TELEFON</div><div className='max-[340px]:!text-sm'>Selamet Mh. Ulubatlı Hasan Blv. No:81-97 Osmangazi/BURSA</div></div>
                         </div>
                     </div>
 

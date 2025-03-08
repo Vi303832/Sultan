@@ -22,13 +22,13 @@ function Header() {
     return (
         <div className='font-arial w-[100vw] overflow-hidden '>
             {/* Absolute Header */}
-            <div className=' w-full h-[15vh] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent overflow-hidden'>
+            <div className=' w-full h-[100px] flex justify-between items-center z-50 absolute top-0 left-0 right-0 bg-transparent overflow-hidden'>
                 {/* Logo */}
-                <div className='h-[100%] px-10 max-xxs:w-[25vh]  max-xxs:px-2 max-xxs:h-[100%] '>
-                    <img onClick={() => handlenav("/")} className=" cursor-pointer h-[90%] max-xxs:h-full max-xxs:w-full  max-w-screen object-cover p-1" src={Logo} alt='Sultan Logo' />
+                <div className='h-[100%] px-10 max-xs:w-[150px]  max-[340px]:!right-3 relative  max-xs:px-2 max-xs:h-[100%] '>
+                    <img onClick={() => handlenav("/")} className=" cursor-pointer h-[100px] max-xs:h-full max-xs:w-full  max-w-screen object-cover p-1" src={Logo} alt='Sultan Logo' />
                 </div>
                 {/* Navigation Links */}
-                <div className='px-20 w-[100vh] overflow-hidden flex gap-12 justify-center items-center text-lg cursor-pointer max-md:hidden '>
+                <div className='px-20 w-[45%] max-xl:w-[55%] max-lg:w-[65%] overflow-hidden flex gap-12 justify-center items-center text-lg cursor-pointer max-[860px]:!hidden '>
                     <div onClick={() => navigate("/Salonlar")} className='hover:text-sertaltin cursor-pointer'>Salonlarımız</div>
                     <div onClick={() => navigate("/Galeri")} className='hover:text-sertaltin cursor-pointer'>Galeri</div>
                     <div onClick={() => navigate("/Hizmetlerimiz")} className='hover:text-sertaltin cursor-pointer'>Hizmetlerimiz</div>
@@ -37,7 +37,7 @@ function Header() {
 
                 </div>
                 {/* Mobile Menu */}
-                <div className='hidden max-md:block'>
+                <div className='hidden max-[860px]:!block'>
                     <div onClick={() => setbar(!bar)} className='cursor-pointer text-2xl px-20 max-xs:px-10 '>
                         <FaBars />
                     </div>
@@ -46,7 +46,7 @@ function Header() {
 
             {/* Mobile Navigation */}
             <div
-                className={`absolute top-[15vh] right-0 w-full transition-all duration-500 min-md:hidden   ease-in-out z-40 ${bar ? " h-[65vh] opacity-100" : "h-0 opacity-0"
+                className={`absolute top-[15vh] right-0 w-full transition-all duration-500 min-[860px]:!hidden   ease-in-out z-40 ${bar ? " h-[65vh] opacity-100" : "h-0 opacity-0"
                     }`}
             >
                 <div className='  bg-white opacity-85 z-0 w-full  h-full flex flex-col gap-6 items-center justify-center text-lg'>

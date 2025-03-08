@@ -36,14 +36,16 @@ function Anasayfa() {
 
     return (
         <div className='w-[100%] overflow-hidden relative min-h-screen bg-beyaz '>
-            <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-xxs:-left-27' src={Heroicon} />
+            <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src={Heroicon} />
 
-            <div className='mt-[15vh] max-xs:mt-[20vh] flex justify-center items-center h-[80vh]'>
+            <div className='mt-[15vh] max-xs:mt-[20vh] flex justify-center items-center h-[35vw] max-xl:h-[40vw] max-lg:h-[50vw]  max-md:h-[60vw] max-sm:h-[70vw]  
+              max-xs:!h-[80vw]  max-xxs:!h-[105vw] max-[350px]:!h-[130vw]   '>
                 <div className='flex flex-col gap-5 items-center '>
-                    <div className='text-sertaltin  text-5xl max-md:text-3 font-scheherazade  flex flex-col items-center'>
-                        <div className='font-bold'>
-                            <span className='text-7xl'>S</span>ULTA
-                            <span className='text-7xl'>N</span>
+                    <div className='text-sertaltin  text-8xl max-lg:!text-5xl font-scheherazade  flex flex-col items-center'>
+                        <div className=' '>
+                            <span className='text-9xl max-lg:text-7xl'>S</span>
+                            ULTA
+                            <span className='text-9xl max-lg:text-7xl'>N</span>
                         </div>
                         <div className='w-full flex flex-col items-center  '>
                             <hr className='text-center w-[150%] max-xs:w-[120%]' />
@@ -52,7 +54,7 @@ function Anasayfa() {
                             <hr className='text-center w-[150%] max-xs:w-[120%]' />
                         </div>
                     </div>
-                    <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-scheherazade'>
+                    <div className='text-5xl max-lg:text-4xl max-md:px-10 text-center font-cormorant'>
                         Sultan Düğün & Toplantı Salonları
                     </div>
                     <div className='font-arial text-lg font-light opacity-70 text-center'>

@@ -34,7 +34,7 @@ function İletişim() {
             </div>
             <div className='mt-[15vh] flex justify-center items-center flex-col gap-3 '>
 
-                <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-scheherazade'>
+                <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-cormorant'>
                     <div className='flex flex-col justify-center items-center gap-3'>
                         <div className='text-5xl'>İletişim</div>
                         <img src={Gl} className='h-[10vh]' />

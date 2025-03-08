@@ -1,7 +1,16 @@
+@font-face{
+font-family: Scheherazaded;
+src: url("../src/assets/scheherazade.new-semibold.ttf")
 
 
+}
+@font-face{
+  font-family: cormorante;
+  src: url("../src/assets/cormorant.semi.otf")
+  
+  
+  }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Scheherazade+New:wght@400;500;600;700&family=Signika:wght@300..700&display=swap');
 
 
 @import "tailwindcss";
@@ -9,8 +18,8 @@
 @theme {
 
   --font-arial:arial;
-  --font-scheherazade:scheherazade,"Scheherazade New";
-  --font-cormorant:cormorant;
+  --font-scheherazade:Scheherazaded;
+  --font-cormorant:cormorante;
 --color-altin:#ad925b;
 --color-beyaz:#f8f6ec;
 --color-kalin:#b4a46c;

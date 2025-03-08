@@ -18,6 +18,23 @@ function Header() {
 
     }
 
+    let handlenav1 = (path) => {
+
+        if (bar) {
+            navigate(path);
+            setbar(false);
+
+
+        }
+        else {
+
+            return
+        }
+
+
+    }
+
+
 
     return (
         <div className='font-arial w-[100vw] overflow-hidden '>
@@ -50,11 +67,11 @@ function Header() {
                     }`}
             >
                 <div className='  bg-white opacity-85 z-0 w-full  h-full flex flex-col gap-6 items-center justify-center text-lg'>
-                    <div onClick={() => handlenav("/Salonlar")} className='hover:text-sertaltin cursor-pointer'>Salonlarımız</div>
-                    <div onClick={() => handlenav("/Galeri")} className='hover:text-sertaltin cursor-pointer'>Galeri</div>
-                    <div onClick={() => handlenav("/Teklif")} className='hover:text-sertaltin cursor-pointer  '>Teklif al</div>
-                    <div onClick={() => handlenav("/İletişim")} className='hover:text-sertaltin cursor-pointer'>İletişim</div>
-                    <div onClick={() => handlenav("/Hizmetlerimiz")} className='hover:text-sertaltin cursor-pointer'>Hizmetlerimiz</div>
+                    <div onClick={() => handlenav1("/Salonlar")} className={`hover:text-sertaltin  ${bar ? "cursor-pointer" : "cursor-default"}`}>Salonlarımız</div>
+                    <div onClick={() => handlenav1("/Galeri")} className={`hover:text-sertaltin  ${bar ? "cursor-pointer" : "cursor-default"}`}>Galeri</div>
+                    <div onClick={() => handlenav1("/Teklif")} className={`hover:text-sertaltin  ${bar ? "cursor-pointer" : "cursor-default"}`}>Teklif al</div>
+                    <div onClick={() => handlenav1("/İletişim")} className={`hover:text-sertaltin  ${bar ? "cursor-pointer" : "cursor-default"}`}>İletişim</div>
+                    <div onClick={() => handlenav1("/Hizmetlerimiz")} className={`hover:text-sertaltin  ${bar ? "cursor-pointer" : "cursor-default"}`}>Hizmetlerimiz</div>
                 </div>
             </div>
         </div>

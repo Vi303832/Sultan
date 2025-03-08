@@ -38,7 +38,7 @@ export default function YorumSlider() {
     return (
         <div>
             <div className='flex flex-col justify-center items-center gap-3'>
-                <div className='text-5xl text-center'>Müşteri Yorumları</div>
+                <div className='text-5xl text-center font-cormorant' >Müşteri Yorumları</div>
                 <img src={Gl} className='h-[10vh]' />
             </div>
 

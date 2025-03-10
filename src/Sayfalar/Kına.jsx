@@ -55,7 +55,7 @@ function Kına() {
                         <hr className='text-center w-[150%]' />
                     </div>
                 </div>
-                <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-scheherazade'>
+                <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-cormorant'>
                     Sultan Düğün & Toplantı Salonları
                 </div>
             </div>

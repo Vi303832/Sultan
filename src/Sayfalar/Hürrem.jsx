@@ -68,7 +68,7 @@ function Hürrem() {
                             <div className='text-5xl font-scheherazade text-center '>Hürrem Sultan</div>
 
                             <div className='w-[90%] text-center pt-5 max-lg:w-full'>
-                                Salonlarımızı sade ve şık bir tasarımla buluşturuyoruz. Beyaz örtülerin serili olduğu yuvarlak masalarımıza ağırlıklı olarak kapitone tarzdaki sandalyelerimiz eşlik ediyor. Sandalyelerimizin renkleri farklılık gösteriyor ve halılarımız, suplalarımızın renkleri de buna göre seçiliyor. Kahverengi sandalyelerimizin bulunduğu salonda kahve tonlarında suplalar, beyaz sandalyelerin yerleştirildiği alanımıza gümüş suplalar kullanmamız bu uyuma örnek gösterilebilir. Dökümlü şamdanlarımız masalarımızı süsleyen diğer aksesuar. Kristal avizelerimizse salonumuzun ışıltı kaynağı.
+                                Hürrem Salonu, altın ve krem tonlarının lüks ile buluştuğu özel bir tasarıma sahiptir. Sandalyelerde kullanılan açık tonlar, altın suplalarla tamamlanırken, halılardaki desenler ve duvar detayları salonun ihtişamını artırmaktadır. Masaları süsleyen gösterişli dökümlü şamdanlar, aydınlatmalarla birlikte sıcak ve davetkâr bir ortam oluşturmaktadır. Kristal avizeler ve altın detaylı süslemeler, bu salonun benzersiz atmosferini taçlandırmaktadır.
 
                             </div>
 
@@ -108,8 +108,8 @@ function Hürrem() {
                                     <div className='text-3xl text-center'>
                                         Hürrem Sultan Hizmetler Nelerdir ?
                                     </div>
-                                    <div className='w-[50%] text-center max-xs:w-[75%]'>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi perspiciatis numquam voluptatum aliquid veritatis cumque illo optio consequuntur. Doloremque tenetur quas odit, debitis error nobis autem provident ab fugiat quod?
+                                    <div className='w-[70%] text-center '>
+                                        Altın detayların göz kamaştırdığı Hürrem Salonu, ihtişamı ve şıklığı bir araya getirerek davetlerinize özel bir atmosfer katar. Parıltılı avizeleri, zarif işlemeleri ve gösterişli dekorasyonu ile misafirlerinizi büyüleyen bu salon, geleneksel zarafeti modern tasarım anlayışıyla birleştirir. Konforlu oturma düzeni ve sıcak aydınlatma seçenekleri ile her türlü organizasyonunuz için ideal bir mekân sunar.
                                     </div>
                                 </div>
                             </div>
@@ -131,26 +131,26 @@ function Hürrem() {
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Şık Ve Modern Tasarım</div>
+                                    <div className='text-center w-[90%]'>Altın rengi detaylarıyla ihtişamlı bir atmosfer</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Büyük Dans Pisti  Kolonsuz Salon</div>
+                                    <div className='text-center w-[90%]'>Lüks ve konforlu oturma düzeni </div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
 
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Açılır Kapanır Tavan Sistemi</div>
+                                    <div className='text-center w-[90%]'>Göz alıcı şamdanlar ve özel tasarım dekorasyon</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Profesyonel Hizmetler</div>
+                                    <div className='text-center w-[90%]'>Geniş ve ferah dans pisti</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>

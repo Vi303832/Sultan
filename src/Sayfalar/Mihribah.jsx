@@ -70,7 +70,7 @@ function Mihribah() {
                             <div className='text-5xl font-scheherazade text-center '>Mihrimah Sultan</div>
 
                             <div className='w-[90%] text-center pt-5 max-lg:w-full '>
-                                Salonlarımızı sade ve şık bir tasarımla buluşturuyoruz. Beyaz örtülerin serili olduğu yuvarlak masalarımıza ağırlıklı olarak kapitone tarzdaki sandalyelerimiz eşlik ediyor. Sandalyelerimizin renkleri farklılık gösteriyor ve halılarımız, suplalarımızın renkleri de buna göre seçiliyor. Kahverengi sandalyelerimizin bulunduğu salonda kahve tonlarında suplalar, beyaz sandalyelerin yerleştirildiği alanımıza gümüş suplalar kullanmamız bu uyuma örnek gösterilebilir. Dökümlü şamdanlarımız masalarımızı süsleyen diğer aksesuar. Kristal avizelerimizse salonumuzun ışıltı kaynağı.
+                                Mihribah Salonu, şık ve lüks tasarımıyla göz kamaştıran bir etkinlik alanıdır. Altın detaylar, zarif şamdanlar ve gösterişli avizeler ile süslenmiş salon, düğün, nişan, kına ve özel davetler için mükemmel bir atmosfer sunar. Özel ışıklandırma sistemleriyle sıcak ve samimi bir ambiyans sağlanırken, geniş oturma düzeni ile konforlu bir organizasyon deneyimi sunar.
 
                             </div>
 
@@ -110,8 +110,8 @@ function Mihribah() {
                                     <div className='text-3xl text-center'>
                                         Mihrimah Sultan Hizmetler Nelerdir ?
                                     </div>
-                                    <div className='w-[50%] text-center max-xs:w-[75%]'>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi perspiciatis numquam voluptatum aliquid veritatis cumque illo optio consequuntur. Doloremque tenetur quas odit, debitis error nobis autem provident ab fugiat quod?
+                                    <div className='w-[70%] text-center '>
+                                        Mihrimah Sultan Düğün Salonu, gösterişli dekorasyonu ve lüks detaylarıyla özel günlerinizi unutulmaz kılar. Çocuklar için düşünülmüş oyun alanı, minik misafirlerinizin eğlenceli vakit geçirmesini sağlarken, geniş dans pisti özgürce eğlenmek isteyen misafirleriniz için mükemmel bir alan sunar. Özenle tasarlanmış ışıklandırma ve ses sistemleri, her anınızı kusursuz hale getirirken, rahat oturma düzeniyle konuklarınıza keyifli bir deneyim sunar.
                                     </div>
                                 </div>
                             </div>
@@ -133,26 +133,32 @@ function Mihribah() {
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Şık Ve Modern Tasarım</div>
+                                    <div className='text-center w-[90%]'>Göz alıcı mimarisiyle zarif bir atmosfer</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Büyük Dans Pisti  Kolonsuz Salon</div>
+                                    <div className='text-center w-[90%]'>Ferah ve geniş dans pisti</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
 
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Açılır Kapanır Tavan Sistemi</div>
+                                    <div className='text-center w-[90%]'>Çocuklara özel oyun alanı</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Profesyonel Hizmetler</div>
+                                    <div className='text-center w-[90%]'>Gelişmiş ses ve ışık teknolojileri</div>
+                                    <hr className=' w-[40%] text-altin'></hr>
+
+                                </div>
+                                <div className='flex items-center justify-center gap-1 w-full'>
+                                    <hr className=' w-[40%] text-altin'></hr>
+                                    <div className='text-center w-[90%]'>Davetliler için konforlu oturma düzeni</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>

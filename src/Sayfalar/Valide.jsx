@@ -64,8 +64,8 @@ function Valide() {
                             </div>
                             <div className='text-5xl font-scheherazade text-center '>Valide Sultan</div>
 
-                            <div className='w-[90%] text-center pt-5 max-lg:w-full text-lg'>
-                                Salonlarımızı sade ve şık bir tasarımla buluşturuyoruz. Beyaz örtülerin serili olduğu yuvarlak masalarımıza ağırlıklı olarak kapitone tarzdaki sandalyelerimiz eşlik ediyor. Sandalyelerimizin renkleri farklılık gösteriyor ve halılarımız, suplalarımızın renkleri de buna göre seçiliyor. Kahverengi sandalyelerimizin bulunduğu salonda kahve tonlarında suplalar, beyaz sandalyelerin yerleştirildiği alanımıza gümüş suplalar kullanmamız bu uyuma örnek gösterilebilir. Dökümlü şamdanlarımız masalarımızı süsleyen diğer aksesuar. Kristal avizelerimizse salonumuzun ışıltı kaynağı.
+                            <div className='w-[90%] text-center pt-5 max-lg:w-full '>
+                                Valide Salonu, ferah ve aydınlık yapısıyla özel etkinlikler için mükemmel bir mekandır. Teras katta yer alması sayesinde geniş bir manzara sunar ve doğal ışık alır. Üstü açılır tavanı sayesinde açık hava keyfi yaşamak mümkündür. Altın detaylı sandalyeler, zarif çiçek süslemeleri ve büyük şamdanlarla dekore edilen salon, hem gündüz hem de gece organizasyonları için uygundur. Büyük ve geniş yapısıyla konuklarınıza rahat ve nezih bir ortam sunar.
 
                             </div>
 
@@ -105,8 +105,8 @@ function Valide() {
                                     <div className='text-3xl text-center'>
                                         Valide Sultan Hizmetler Nelerdir ?
                                     </div>
-                                    <div className='w-[50%] text-center max-xs:w-[75%]'>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi perspiciatis numquam voluptatum aliquid veritatis cumque illo optio consequuntur. Doloremque tenetur quas odit, debitis error nobis autem provident ab fugiat quod?
+                                    <div className='w-[70%] text-center'>
+                                        Valide Sultan Düğün Salonu, büyüleyici atmosferi ve benzersiz teknolojik donanımları ile öne çıkıyor. Açılır kapanır tavanı sayesinde farklı hava koşullarında bile konforlu bir ortam sunarken, salona araç çıkarma imkanı ile özel organizasyonlarınıza ayrıcalık katıyor. Geniş ve kolonsuz dans pisti, konuklarınıza ferah bir alan sunarken, en son teknolojiye sahip ses ve ışık sistemleri her anınızı daha özel hale getiriyor.
                                     </div>
                                 </div>
                             </div>
@@ -128,20 +128,26 @@ function Valide() {
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Şık Ve Modern Tasarım</div>
+                                    <div className='text-center w-[90%]'>Açılır kapanır tavan sistemi ile eşsiz bir atmosfer</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Büyük Dans Pisti  Kolonsuz Salon</div>
+                                    <div className='text-center w-[90%]'>Salon içerisine araç çıkarma imkanı sunan asansör sistemi</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
 
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Açılır Kapanır Tavan Sistemi</div>
+                                    <div className='text-center w-[90%]'>Büyük ve geniş dans pisti</div>
+                                    <hr className=' w-[40%] text-altin'></hr>
+
+                                </div>
+                                <div className='flex items-center justify-center gap-1 w-full'>
+                                    <hr className=' w-[40%] text-altin'></hr>
+                                    <div className='text-center w-[90%]'>Özel tasarlanmış lüks iç mimari</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>

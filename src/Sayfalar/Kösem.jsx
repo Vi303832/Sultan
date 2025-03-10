@@ -72,8 +72,7 @@ function Kösem() {
                             <div className='text-5xl font-scheherazade text-center '>Kösem Sultan</div>
 
                             <div className='w-[90%] text-center pt-5 max-lg:w-full'>
-                                Salonlarımızı sade ve şık bir tasarımla buluşturuyoruz. Beyaz örtülerin serili olduğu yuvarlak masalarımıza ağırlıklı olarak kapitone tarzdaki sandalyelerimiz eşlik ediyor. Sandalyelerimizin renkleri farklılık gösteriyor ve halılarımız, suplalarımızın renkleri de buna göre seçiliyor. Kahverengi sandalyelerimizin bulunduğu salonda kahve tonlarında suplalar, beyaz sandalyelerin yerleştirildiği alanımıza gümüş suplalar kullanmamız bu uyuma örnek gösterilebilir. Dökümlü şamdanlarımız masalarımızı süsleyen diğer aksesuar. Kristal avizelerimizse salonumuzun ışıltı kaynağı.
-
+                                Kösem Salonu, altın tonlarının sıcaklığını ve zarafetini yansıtan ihtişamlı bir atmosfere sahiptir. Kahverengi kapitone sandalyeler, altın suplalar ve sıcak tonlardaki dekorasyon unsurlarıyla klasik bir şıklık oluşturulmuştur. Kırmızı ve altın rengi halılar, aynalar ve duvar kaplamalarıyla uyum içerisindedir. Kristal avizeler, salonun ışıltısını artırırken, dökümlü şamdanlar ve çiçek detayları masalara zarafet katmaktadır.
                             </div>
 
 
@@ -110,8 +109,8 @@ function Kösem() {
                                     <div className='text-3xl text-center'>
                                         Kösem Sultan Hizmetler Nelerdir ?
                                     </div>
-                                    <div className='w-[50%] text-center'>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi perspiciatis numquam voluptatum aliquid veritatis cumque illo optio consequuntur. Doloremque tenetur quas odit, debitis error nobis autem provident ab fugiat quod?
+                                    <div className='w-[70%] text-center'>
+                                        Kösem Sultan Düğün Salonu, misafirlerinize hem konforlu hem de estetik açıdan tatmin edici bir ortam sunar. Özel olarak tasarlanmış oyun odası sayesinde çocuklar için eğlenceli bir alan sağlanırken, kolonsuz geniş alanıyla konuklarınıza özgürce dans etme imkanı sunar. Profesyonel ses ve ışık sistemleri, her organizasyonu unutulmaz bir hale getirirken, rahat oturma düzeni ile misafirlerinize konforlu bir deneyim yaşatır.
                                     </div>
                                 </div>
                             </div>
@@ -133,26 +132,32 @@ function Kösem() {
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Şık Ve Modern Tasarım</div>
+                                    <div className='text-center w-[90%]'>Zarif ve modern detaylarla tasarlanmış salon</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Büyük Dans Pisti  Kolonsuz Salon</div>
+                                    <div className='text-center w-[90%]'>Kolonsuz geniş dans pisti</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
 
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Açılır Kapanır Tavan Sistemi</div>
+                                    <div className='text-center w-[90%]'>Çocuklar için özel oyun odası</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Profesyonel Hizmetler</div>
+                                    <div className='text-center w-[90%]'>Profesyonel ışık ve ses sistemi</div>
+                                    <hr className=' w-[40%] text-altin'></hr>
+
+                                </div>
+                                <div className='flex items-center justify-center gap-1 w-full'>
+                                    <hr className=' w-[40%] text-altin'></hr>
+                                    <div className='text-center w-[90%]'>Konforlu ve şık oturma düzeni</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>

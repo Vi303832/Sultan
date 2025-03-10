@@ -67,7 +67,7 @@ function Nurbanu() {
                             <div className='text-5xl font-scheherazade text-center '>Nurbanu Sultan</div>
 
                             <div className='w-[90%] text-center pt-5 max-lg:w-full'>
-                                Salonlarımızı sade ve şık bir tasarımla buluşturuyoruz. Beyaz örtülerin serili olduğu yuvarlak masalarımıza ağırlıklı olarak kapitone tarzdaki sandalyelerimiz eşlik ediyor. Sandalyelerimizin renkleri farklılık gösteriyor ve halılarımız, suplalarımızın renkleri de buna göre seçiliyor. Kahverengi sandalyelerimizin bulunduğu salonda kahve tonlarında suplalar, beyaz sandalyelerin yerleştirildiği alanımıza gümüş suplalar kullanmamız bu uyuma örnek gösterilebilir. Dökümlü şamdanlarımız masalarımızı süsleyen diğer aksesuar. Kristal avizelerimizse salonumuzun ışıltı kaynağı.
+                                Nurbanu Salonu, beyazın asaleti ve modern tasarım anlayışıyla buluşturulmuştur. Beyaz kapitone sandalyeler, gümüş suplalar ve gri tonlarındaki halılar ile ferah ve zarif bir ambiyans yaratılmıştır. Kristal avizeler ve şık aydınlatmalar, salonun ışık dengesini tamamlayarak göz alıcı bir ortam sunmaktadır. Aynalar ve dekoratif duvar kağıtları ile derinlik hissi kazandırılan bu alan, davetleriniz için şık ve sofistike bir atmosfer sağlar.
 
                             </div>
 
@@ -107,8 +107,8 @@ function Nurbanu() {
                                     <div className='text-3xl text-center'>
                                         Nurbanu Sultan Hizmetler Nelerdir ?
                                     </div>
-                                    <div className='w-[50%] text-center max-xs:w-[75%]'>
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi perspiciatis numquam voluptatum aliquid veritatis cumque illo optio consequuntur. Doloremque tenetur quas odit, debitis error nobis autem provident ab fugiat quod?
+                                    <div className='w-[70%] text-center '>
+                                        Zarif detaylarla süslenmiş, modern ve klasik dokunuşların harmanlandığı Nurbanu Salonu, özel günleriniz için büyüleyici bir atmosfer sunar. Göz alıcı avizeleri, şık duvar desenleri ve ferah oturma düzeniyle misafirlerinize konforlu bir deneyim vadeder. Beyaz ve krem tonlarının ağırlıkta olduğu bu salon, zarafeti ve sadeliği ön planda tutarak unutulmaz davetleriniz için kusursuz bir ortam oluşturur.
                                     </div>
                                 </div>
                             </div>
@@ -130,26 +130,28 @@ function Nurbanu() {
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Şık Ve Modern Tasarım</div>
+                                    <div className='text-center w-[90%]'>
+                                        Şık ve modern tasarımıyla zarif bir atmosfer
+                                    </div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Büyük Dans Pisti  Kolonsuz Salon</div>
+                                    <div className='text-center w-[90%]'>Geniş ve konforlu oturma düzeni</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
 
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Açılır Kapanır Tavan Sistemi</div>
+                                    <div className='text-center w-[90%]'>Özel tasarlanmış lüks iç mimari</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>
                                 <div className='flex items-center justify-center gap-1 w-full'>
                                     <hr className=' w-[40%] text-altin'></hr>
-                                    <div className='text-center w-[90%]'>Profesyonel Hizmetler</div>
+                                    <div className='text-center w-[90%]'>Üstün ses ve ışık sistemi ile kusursuz deneyim</div>
                                     <hr className=' w-[40%] text-altin'></hr>
 
                                 </div>

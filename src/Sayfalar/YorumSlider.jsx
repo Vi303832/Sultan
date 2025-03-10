@@ -56,7 +56,7 @@ export default function YorumSlider() {
                                 <div className='flex flex-col items-center gap-3 w-[70%]  '>
                                     <h1 className="font-bold">{p.header}</h1>
                                     <p className='text-center text-sm'>{p.info}</p>
-                                    <div><img src={Logo} className='h-[20vh]' /></div>
+                                    <div><img src={Logo} className='h-[100px]' /></div>
                                 </div>
                             </div>
 

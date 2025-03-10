@@ -39,10 +39,10 @@ function Düğün() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>
 
-            <div className="relative flex justify-center items-center">
-                <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]  object-cover opacity-60" />
+            <div className="relative flex justify-center items-center w-full overflow-hidden">
+                <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]   object-cover opacity-60" />
                 <div className="absolute top-0 left-0 w-full h-60  bg-gradient-to-b from-white to-transparent"></div>
-                <div className='text-7xl max-md:text-5xl max-md:px-10 text-center absolute   mt-30 font-cormorant  '>
+                <div className='text-7xl max-md:text-5xl max-md:px-10 text-center absolute   mt-30 font-cormorant   '>
                     <div>Düğün Organizasyonu</div>
                 </div>
             </div>
@@ -64,17 +64,18 @@ function Düğün() {
                 </div>
             </div>
 
-            <div className='min-h-[70vh]  max-lg:flex-col flex px-20 max-lg:gap-10 items-center justify-center  '>
-                <div className='w-[50%] max-lg:w-full max-lg:flex hidden'>
+            <div className='min-h-[70vh] w-full  max-lg:flex-col flex px-20 max-lg:gap-10 items-center justify-center   '>
+                <div className='w-[50%] max-xxs:!w-[150%] max-xxs:!h-[150%]  max-lg:w-full max-lg:flex  hidden'>
                     <img src={s11} />
+
                 </div>
-                <div className='w-[50%] max-lg:w-full'>
+                <div className='w-[50%] max-lg:w-full '>
                     <div className='flex flex-col max-lg:w-full gap-5 max-lg:justify-center items-center  '>
-                        <div className='text-4xl pb-5'>Düğün Organizasyonu</div>
-                        <div>
+                        <div className='text-4xl pb-5 max-xs:text-center'>Düğün Organizasyonu</div>
+                        <div className='max-xs:text-center '>
                             Hayatınızın en özel anını, şık ve ferah salonlarımızda sevdiklerinizle birlikte unutulmaz kılın. Her çiftin hayalini gerçeğe dönüştürmek için uzman ekibimizle birlikte, düğün gününüzde her detay özenle planlanır. Düğün salonlarımızda, sıcak bir atmosferde, konuklarınıza en iyi hizmeti sunarak, siz ve misafirlerinizin mutlu bir şekilde ayrılmasını sağlıyoruz.
                         </div>
-                        <div className='text-3xl'>Hizmetlerimiz:</div>
+                        <div className='text-3xl '>Hizmetlerimiz:</div>
                     </div>
                     <div className='py-2 flex flex-row max-lg:flex-col max-lg:gap-2 items-center justify-center'>
                         <div className='w-[50%] max-lg:w-[90%] flex flex-col gap-2'>
@@ -127,7 +128,7 @@ function Düğün() {
                         </div>
                     </div>
                 </div>
-                <div className='w-[50%] max-lg:hidden'>
+                <div className='w-[50%] relative max-[1700px]:left-10 max-lg:hidden  max-[1300px]:-top-10   '>
                     <img src={s11} />
                 </div>
             </div>

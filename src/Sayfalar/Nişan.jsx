@@ -37,7 +37,7 @@ function Nişan() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>
 
-            <div className="relative flex justify-center items-center">
+            <div className="relative flex justify-center items-center w-full overflow-hidden">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]  object-cover opacity-60" />
                 <div className="absolute top-0 left-0 w-full h-60  bg-gradient-to-b from-white to-transparent"></div>
                 <div className='text-7xl max-md:text-5xl max-md:px-10 text-center absolute   mt-30 font-cormorant  '>
@@ -63,13 +63,13 @@ function Nişan() {
             </div>
 
             <div className='min-h-[70vh]  max-lg:flex-col flex px-20 max-lg:gap-10 items-center justify-center  '>
-                <div className='w-[50%] max-lg:w-full max-lg:flex hidden'>
+                <div className='w-[50%] max-xxs:!w-[150%] max-xxs:!h-[150%]  max-lg:w-full max-lg:flex  hidden'>
                     <img src={s10} />
                 </div>
                 <div className='w-[50%] max-lg:w-full'>
                     <div className='flex flex-col max-lg:w-full gap-5 max-lg:justify-center items-center  '>
-                        <div className='text-4xl pb-5'>Nişan Organizasyonu</div>
-                        <div>
+                        <div className='text-4xl pb-5 max-xs:text-center'>Nişan Organizasyonu</div>
+                        <div className='max-xs:text-center'>
                             Nişan, çiftlerin birbirlerine duyduğu sevgiyi, saygıyı ve bağlılığı tüm sevdikleriyle paylaşmalarının anlamlı bir adımıdır. Sultan Düğün Salonları'nda, nişanınızı özel ve unutulmaz kılacak tüm detaylar sizin için özenle hazırlanır. Aileniz ve dostlarınızla birlikte bu mutlu günü kutlamak, şık ve modern bir atmosferde gerçekleşir.
                         </div>
                         <div className='text-3xl'>Hizmetlerimiz:</div>
@@ -125,7 +125,7 @@ function Nişan() {
                         </div>
                     </div>
                 </div>
-                <div className='w-[50%] max-lg:hidden'>
+                <div className='w-[50%] relative max-[1700px]:left-10 max-lg:hidden  max-[1300px]:-top-10   '>
                     <img src={s10} />
                 </div>
             </div>

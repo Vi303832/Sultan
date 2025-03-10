@@ -33,13 +33,9 @@ function Footer() {
                 <div className='flex flex-col gap-10 h-[50vh] items-center text-center max-sm:h-[25vh]'>
                     <div className='text-3xl relative top-5 font-cormorant'>İletişim</div>
                     <div className='flex flex-col gap-5 font-arial items-center'>
-                        <div>email@hotmail.com</div>
-                        <div>email@hotmail.com</div>
-                        <div className='flex gap-5'>
-                            <div>532 795 54 95</div>
-                            <div>532 795 54 95</div>
-                        </div>
-
+                        <div>bursasultandugunsalonlari@gmail.com</div>
+                        <div>0542 202 5781</div>
+                        <div>0224 532 0 532</div>
                     </div>
                 </div>
 

@@ -109,8 +109,9 @@ function Galeri() {
                 <div className='min-h-[100vh]'>
 
                     {isLoading ? (
-                        <div className="flex justify-center items-center h-screen">
-                            <div className="absolute text-7xl z-20">Loading...</div>
+                        <div className="  z-20 h-full w-full  flex justify-center items-center">
+                            <div className="w-24 h-24 border-8 border-t-8 absolute top-60   border-t-altin border-r-amber-200 border-b-white   rounded-full animate-spin"></div>
+                            <div className='absolute top-100 text-3xl '>Yükleniyor...</div>
                         </div>
                     ) : (
                         <Galericard cont={content} />

@@ -83,7 +83,7 @@ function Toplantı() {
                             </div>
                             <div className='w-full flex gap-2 items-center '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>Gelin odası</div>
+                                <div className='w-[90%]'>Profesyonel ses yalıtımı</div>
                             </div>
                             <div className='flex w-full gap-2 items-center '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
@@ -91,13 +91,13 @@ function Toplantı() {
                             </div>
                             <div className='flex gap-2 w-full items-center '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>Çocuk Oyun Salonu</div>
+                                <div className='w-[90%]'>Özel karşılama ve vale hizmeti</div>
                             </div>
                         </div>
                         <div className='w-[50%] max-lg:w-[90%] flex flex-col gap-2 '>
                             <div className='flex gap-2 items-center  w-full '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>Tek kişilik pasta servisi</div>
+                                <div className='w-[90%]'>Kahve, ikram, yemek servisi</div>
                             </div>
                             <div className='flex gap-2 items-center w-full'>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
@@ -105,7 +105,7 @@ function Toplantı() {
                             </div>
                             <div className='flex gap-2 items-center '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>Palyaço, Hostes</div>
+                                <div className='w-[90%]'>Özel sahne ve sunum ekipmanları</div>
                             </div>
                             <div className='flex gap-2 items-center '>
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
@@ -115,10 +115,7 @@ function Toplantı() {
                                 <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
                                 <div className='w-[90%]'>Havalandırma, klima ve jeneratör</div>
                             </div>
-                            <div className='flex gap-2 items-center '>
-                                <PiFlowerDuotone className='text-2xl w-[10%] h-[5vh]' />
-                                <div className='w-[90%]'>Son sistem ses ve ışık donanımı</div>
-                            </div>
+
                         </div>
                     </div>
                 </div>

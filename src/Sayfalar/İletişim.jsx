@@ -52,10 +52,20 @@ function İletişim() {
                             <span> <RiMapPin2Fill className='text-4xl text-altin' /></span><div><div className='text-2xl'>ADRES</div><div className='max-[340px]:!text-sm' >Selamet Mh. Ulubatlı Hasan Blv. No:81-97 Osmangazi/BURSA</div></div>
                         </div>
                         <div className='flex gap-5 justify-center items-center  '>
-                            <span> <MdEmail className='text-4xl text-altin' /></span><div><div className='text-2xl '>E-POSTA</div><div className='max-[340px]:!text-sm'>Sultadüğünsalonları@hotmail.com</div></div>
+                            <span> <MdEmail className='text-4xl text-altin' /></span><div><div className='text-2xl '>E-POSTA</div><div className='max-[340px]:!text-sm'>bursasultandugunsalonlari@gmail.com</div></div>
                         </div>
                         <div className='flex gap-5 justify-center items-center '>
-                            <span> <FaPhoneAlt className='text-4xl text-altin' /></span><div><div className='text-2xl'>TELEFON</div><div className='max-[340px]:!text-sm'>Selamet Mh. Ulubatlı Hasan Blv. No:81-97 Osmangazi/BURSA</div></div>
+                            <span> <FaPhoneAlt className='text-4xl text-altin' /></span><div><div className='text-2xl '>TELEFON</div><div className='max-[340px]:!text-sm'>
+                                <div className='flex flex-col gap-2 pt-1'>
+
+                                    <div>0542 202 5781</div>
+                                    <div>0224 532 0 532</div>
+
+                                </div>
+
+
+
+                            </div></div>
                         </div>
                     </div>
 

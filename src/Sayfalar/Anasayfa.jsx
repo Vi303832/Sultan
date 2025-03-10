@@ -76,12 +76,12 @@ function Anasayfa() {
                     <MdSlider />
                 </div>
 
-                <div className='h-[80vh] max-xxs:h-[50vh] flex slider-container min-md:hidden px-10 max-xs:px-5 max-xxs:px-2'>
+                <div className='h-[80vh] max-xxs:h-[50vh] max-xs:h-[60vh]  flex slider-container min-md:hidden px-10 max-xs:px-5 max-xxs:px-2 '>
                     <SmSlider />
                 </div>
             </div>
 
-            <div className='flex justify-center items-center gap-10 w-full  max-lg:flex-col max-lg:px-5 font-arial max-lg:mt-0 px-20  max-xxs:px-0   max-xs:gap-2   mt-30 mb-60 max-sm:!mb-20  '>
+            <div className='flex justify-center items-center gap-10 w-full  max-lg:flex-col max-lg:px-5 font-arial max-lg:mt-0 px-20  max-xxs:px-0   max-xs:gap-2  mt-30   max-xxs:!h-[700px]    mb-60 max-sm:!mb-20  '>
 
                 <div className=' w-[50%] h-full max-xs:h-[40vh]      max-lg:w-[80%] flex items-center justify-center overflow-hidden max-xxs:w-full      '>
                     <img src={HeroHakkında} className=' max-xxs:hidden object-contain max-xs:h-full  max-xs:object-cover      ' />

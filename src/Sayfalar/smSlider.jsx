@@ -21,7 +21,7 @@ const slides = [slider1, slider2, slider3, slider4, slider5, slider6, slider7];
 
 function SmSlider() {
     return (
-        <div className='w-full h-[500px] '>
+        <div className='w-full h-[500px]  '>
             <Swiper
                 modules={[EffectCoverflow, Pagination, Autoplay]}
                 effect={'coverflow'}

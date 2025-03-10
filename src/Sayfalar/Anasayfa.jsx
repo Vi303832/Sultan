@@ -100,7 +100,7 @@ function Anasayfa() {
                         Şehir merkezinde bulunan Sultan Düğün Salonları Osmangazi/Bursa 2015’ten beri çiftlerimizin düğün, nişan, kına gibi en özel günlerine ev sahipliği yapıyor. İçerisinde bulunan 5 düğün salonu seçeneği ve terasıyla konukların ilgisini çekiyor. Uzman aynı zamanda dinamik çalışan kadromuzla davetlilerimizi memnun etmek ve salonumuzdan gülümseyerek ayrılmalarını sağlamak için özen gösteriyoruz. Merkezi bir konumda yer alıyor olmamız ulaşım konusunda büyük bir kolaylığı beraberinde getiriyor..
                     </div>
                     <div className='max-xs:flex max-xs:w-full max-xs:justify-center'>
-                        <button onClick={() => navigate("/Salonlar")} className=' cursor-pointer  max-xxs:px-4 max-xxs:py-2  flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80'>
+                        <button onClick={() => navigate("/Salonlar")} className=' cursor-pointer  max-xxs:px-4 max-xxs:py-2  flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 max-xs:font-cormorant max-xs:text-xl'>
                             Salonları İnceleyin <FaArrowRightLong />
                         </button>
                     </div>

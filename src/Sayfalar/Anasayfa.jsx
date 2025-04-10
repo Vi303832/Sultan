@@ -106,7 +106,7 @@ function Anasayfa() {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col justify-center items-center pb-20  text-center  '>
+            <div className='flex flex-col justify-center items-center pb-20  text-center   '>
                 <Card yazı="Sultan Düğün Salonları olarak çiftlerimizin en özel günlerinde yanlarında oluyoruz. Şık ve konforlu salonlarımızda unutulmaz düğün organizasyonları düzenleyerek, hayatınızın en önemli anlarını kusursuz hale getiriyoruz.
                     " başlık="Düğün Organizasyonları" foto={s11} url={"Düğün"} />
                 <ReCard yazı="Nişan, çiftlerin evliliğe adım attıkları özel bir tören olarak büyük bir anlam taşır. Sultan Düğün Salonları olarak, şık dekorasyonumuz ve profesyonel ekibimizle nişan organizasyonlarınızı en güzel şekilde planlıyor ve hayata geçiriyoruz." başlık="Nişan Organizasyonları" foto={s10} url={"Nişan"} />

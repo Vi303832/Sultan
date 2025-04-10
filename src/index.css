@@ -1,57 +1,114 @@
-@font-face{
-font-family: Scheherazaded;
-src: url("../src/assets/scheherazade.new-semibold.ttf")
-
-
+@font-face {
+    font-family: Scheherazaded;
+    src: url("../src/assets/scheherazade.new-semibold.ttf");
 }
-@font-face{
-  font-family: cormorante;
-  src: url("../src/assets/cormorant.semi.otf")
-  
-  
-  }
 
-
+@font-face {
+    font-family: cormorante;
+    src: url("../src/assets/cormorant.semi.otf");
+}
 
 @import "tailwindcss";
 
 @theme {
-
-  --font-arial:arial;
-  --font-scheherazade:Scheherazaded;
-  --font-cormorant:cormorante;
---color-altin:#ad925b;
---color-beyaz:#f8f6ec;
---color-kalin:#b4a46c;
---color-sertaltin:#af9057;
---color-ten:#dcc3a7;
---breakpoint-xxs:400px;
---breakpoint-xs:600px;
+    --font-arial: arial;
+    --font-scheherazade: Scheherazaded;
+    --font-cormorant: cormorante;
+    --color-altin: #ad925b;
+    --color-beyaz: #f8f6ec;
+    --color-kalin: #b4a46c;
+    --color-sertaltin: #af9057;
+    --color-ten: #dcc3a7;
+    --breakpoint-xxs: 400px;
+    --breakpoint-xs: 600px;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-@layer utilities {
-  .custom-arch {
+body {
+    font-family: var(--font-arial);
+    background-color: var(--color-beyaz);
+    color: #333;
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+    animation: slideUp 0.5s ease-in-out;
+}
+
+/* Custom Components */
+.custom-arch {
     clip-path: path("M0,100 Q50,0 100,100 V100 H0 Z");
-  }
- 
-  
-  
 }
 
+/* Hover Effects */
+.hover-scale {
+    transition: transform 0.3s ease;
+}
+
+.hover-scale:hover {
+    transform: scale(1.05);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--color-beyaz);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--color-sertaltin);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--color-kalin);
+}
+
+/* Responsive Adjustments */
 @media screen and (max-width: 450px) {
-  .swiper-button-next, .swiper-button-prev {
-    width: 40px !important;
-    height: 40px !important;
-    bottom: 10px !important; /* Daha küçük bir değer ile yukarıya kaydırma */
-    position: absolute !important;
-  }
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 40px !important;
+        height: 40px !important;
+        bottom: 10px !important;
+        position: absolute !important;
+    }
 
-  .swiper-button-next::after, .swiper-button-prev::after {
-    font-size: 25px !important;
-  }
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 25px !important;
+    }
+}
 
+/* Utility Classes */
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.backdrop-blur {
+    backdrop-filter: blur(8px);
+}
+
+.transition-all {
+    transition: all 0.3s ease-in-out;
 }

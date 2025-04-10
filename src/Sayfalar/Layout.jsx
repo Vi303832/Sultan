@@ -1,23 +1,20 @@
 import React from 'react';
 import Header from './Header';
-import Anasayfa from './Anasayfa';
 import Footer from './Footer';
-
 
 function Layout({ children }) {
     return (
-        <div className=' '>
-            {/* Fixed Header */}
+        <div className='min-h-screen flex flex-col'>
+            {/* Header */}
             <Header />
 
             {/* Content */}
-            <div className=''> {/* Header yüksekliği kadar padding ekleyin */}
+            <main className='flex-grow'>
                 {children}
-            </div>
-            <div className=''>
-                <Footer />
-            </div>
+            </main>
 
+            {/* Footer */}
+            <Footer />
         </div>
     );
 }

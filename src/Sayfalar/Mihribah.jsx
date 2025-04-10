@@ -67,7 +67,7 @@ function Mihribah() {
                                     <hr className='text-center w-[150%] max-xs:w-[120%]' />
                                 </div>
                             </div>
-                            <div className='text-5xl font-scheherazade text-center '>Mihrimah Sultan</div>
+                            <div className='text-5xl font-scheherazade text-center  '>Mihrimah Sultan</div>
 
                             <div className='w-[90%] text-center pt-5 max-lg:w-full '>
                                 Mihribah Salonu, şık ve lüks tasarımıyla göz kamaştıran bir etkinlik alanıdır. Altın detaylar, zarif şamdanlar ve gösterişli avizeler ile süslenmiş salon, düğün, nişan, kına ve özel davetler için mükemmel bir atmosfer sunar. Özel ışıklandırma sistemleriyle sıcak ve samimi bir ambiyans sağlanırken, geniş oturma düzeni ile konforlu bir organizasyon deneyimi sunar.

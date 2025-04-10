@@ -82,7 +82,7 @@ function SalonCard({ cont }) {
                     {/* Close Button */}
                     <button
                         onClick={closeModal}
-                        className="absolute top-5 right-5 text-white text-4xl bg-black rounded-full p-2 shadow-lg z-60"
+                        className="absolute top-5 right-5 text-white text-4xl bg-black rounded-full p-2 shadow-lg z-60 cursor-pointer"
                     >
                         <FaTimes />
                     </button>

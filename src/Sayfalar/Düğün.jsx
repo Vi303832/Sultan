@@ -58,12 +58,14 @@ function Düğün() {
         <div className='min-h-[100vh] bg-beyaz'>
             {/* Hero Section */}
             <div className="relative flex justify-center items-center w-full overflow-hidden">
-                <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]   object-cover opacity-60" />
-                <div className="absolute top-0 left-0 w-full h-60  bg-gradient-to-b from-white to-transparent"></div>
-                <div className='text-7xl max-md:text-5xl max-md:px-10 text-center absolute   mt-30 font-cormorant   '>
+                <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh] object-cover opacity-60" />
+                <div className="absolute top-0 left-0 w-full h-60 bg-gradient-to-b from-white to-transparent"></div>
+                <div className='text-7xl max-md:text-5xl max-md:px-10 text-center absolute mt-30 font-cormorant text-shadow'>
                     <div>Düğün Organizasyonu</div>
                 </div>
             </div>
+
+            {/* Title Section */}
             <div className='mt-[15vh] flex justify-center items-center flex-col gap-3 pb-30'>
                 <div className='text-sertaltin text-5xl font-scheherazade flex flex-col items-center font-bold'>
                     <div className='font-bold'>
@@ -71,10 +73,10 @@ function Düğün() {
                         <span className='text-7xl'>N</span>
                     </div>
                     <div className='w-full flex flex-col items-center'>
-                        <hr className='text-center w-[150%]' />
-                        <hr className='text-center w-[150%]' />
-                        <hr className='text-center w-[150%]' />
-                        <hr className='text-center w-[150%]' />
+                        <hr className='text-center w-[150%] border-sertaltin opacity-30' />
+                        <hr className='text-center w-[150%] border-sertaltin opacity-30' />
+                        <hr className='text-center w-[150%] border-sertaltin opacity-30' />
+                        <hr className='text-center w-[150%] border-sertaltin opacity-30' />
                     </div>
                 </div>
                 <div className='text-5xl max-md:text-4xl max-md:px-10 text-center font-cormorant'>
@@ -96,7 +98,7 @@ function Düğün() {
                     {/* Text Content */}
                     <div className='w-full lg:w-1/2'>
                         <div className='flex flex-col gap-5'>
-                            <div className='text-4xl pb-5 max-xs:text-center font-cormorant'>Düğün Organizasyonu</div>
+                            <div className='text-5xl pb-5 max-xs:text-center font-cormorant font-bold text-sertaltin'>Düğün Organizasyonu</div>
                             <div className='max-xs:text-center text-lg leading-relaxed'>
                                 Hayatınızın en özel anını, şık ve ferah salonlarımızda sevdiklerinizle birlikte unutulmaz kılın. Her çiftin hayalini gerçeğe dönüştürmek için uzman ekibimizle birlikte, düğün gününüzde her detay özenle planlanır. Düğün salonlarımızda, sıcak bir atmosferde, konuklarınıza en iyi hizmeti sunarak, siz ve misafirlerinizin mutlu bir şekilde ayrılmasını sağlıyoruz.
                             </div>
@@ -115,7 +117,7 @@ function Düğün() {
 
                 {/* Services Section */}
                 <div className='w-full'>
-                    <div className='text-3xl font-cormorant mb-8 max-sm:text-center'>Hizmetlerimiz</div>
+                    <div className='text-4xl mb-8 max-sm:text-center font-cormorant font-bold text-sertaltin'>Hizmetlerimiz</div>
                     <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                         {services.map((service, index) => (
                             <div

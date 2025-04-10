@@ -18,14 +18,14 @@ function Card({ yazı, başlık, foto, url }) {
                 <div className='w-[50%] max-lg:w-full max-xs:pb-10 max-xs:p-0  p-12 flex flex-col gap-8 text-start  max-xs:items-center '>
                     <div className='text-5xl text-sertaltin  text-start w-[50%]  max-sm:text-4xl  max-xs:text-3xl   max-xs:pt-5 max-xs:text-center max-xs:w-full '>{başlık}</div>
                     <div className='max-xs:text-[16px]  max-xs:text-center opacity-80'>{yazı}</div>
-                    <button onClick={() => navigate(`/${url}`)} className='flex gap-2 px-8 py-2 max-xs:hidden text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 hover:opacity-100 transition-all duration-300'>
-                        <div className='flex gap-2 items-center'>
+                    <button onClick={() => navigate(`/${url}`)} className='flex gap-2 px-8 py-2 max-xs:hidden text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80 hover:opacity-100 transition-all duration-300 cursor-pointer'>
+                        <div className='flex gap-2 items-center '>
                             <span>Detaylı Bilgi</span>
                             <FaArrowRightLong />
                         </div>
                     </button>
-                    <button onClick={() => navigate(`/${url}`)} className='hidden max-xs:flex gap-2 px-6 py-2 text-beyaz justify-center items-center  text-lg bg-altin opacity-80 hover:opacity-100 transition-all duration-300 '>
-                        <div className='flex gap-2 items- cursor-pointer'>
+                    <button onClick={() => navigate(`/${url}`)} className='hidden max-xs:flex gap-2 px-6 py-2 text-beyaz justify-center items-center  text-lg bg-altin opacity-80 hover:opacity-100 transition-all duration-300 cursor-pointer  '>
+                        <div className='flex gap-2  items-center '>
                             <span>Detaylı Bilgi</span>
                             <FaArrowRightLong />
                         </div>

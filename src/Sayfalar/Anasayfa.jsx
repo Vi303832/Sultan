@@ -10,6 +10,7 @@ import MdSlider from "./mdSlider"
 import SmSlider from './smSlider';
 import s11 from "../assets/s11.jpg"
 import s10 from "../assets/s10.jpg"
+import sünnet1 from "../assets/sünnet1.jpg"
 import nurbanu1 from "../assets/Salon/nurbanu1.jpg"
 import cont2 from "../assets/contpic2.png"
 import kına from "../assets/kına.jpg"
@@ -57,8 +58,8 @@ function Anasayfa() {
                     <div className='text-5xl max-lg:text-4xl max-md:px-10 text-center font-cormorant'>
                         Sultan Düğün & Toplantı Salonları
                     </div>
-                    <div className='font-arial text-lg font-light opacity-70 text-center'>
-                        En özel anlarınıza en şık şekilde eşlik ediyoruz
+                    <div className='font-arial text-lg font-light opacity-70 text-center   max-md:text-[16px]'>
+                        En özel anlarınıza  en şık şekilde  eşlik ediyoruz
                     </div>
                     <button onClick={() => navigate("/Teklif")} className=' cursor-pointer  flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80'>
                         Teklif Alın <FaArrowRightLong />
@@ -110,7 +111,7 @@ function Anasayfa() {
                 <Card yazı="Sultan Düğün Salonları olarak çiftlerimizin en özel günlerinde yanlarında oluyoruz. Şık ve konforlu salonlarımızda unutulmaz düğün organizasyonları düzenleyerek, hayatınızın en önemli anlarını kusursuz hale getiriyoruz.
                     " başlık="Düğün Organizasyonları" foto={s11} url={"Düğün"} />
                 <ReCard yazı="Nişan, çiftlerin evliliğe adım attıkları özel bir tören olarak büyük bir anlam taşır. Sultan Düğün Salonları olarak, şık dekorasyonumuz ve profesyonel ekibimizle nişan organizasyonlarınızı en güzel şekilde planlıyor ve hayata geçiriyoruz." başlık="Nişan Organizasyonları" foto={s10} url={"Nişan"} />
-                <Card yazı="Sünnet düğünleri, çocuklarımız için önemli bir dönüm noktasıdır. Geniş ve konforlu salonlarımızda, ailelerimizin tüm ihtiyaçlarını karşılayarak eğlenceli ve unutulmaz sünnet organizasyonları düzenliyoruz." başlık="Sünnet Organizasyonları" foto={"https://cagridugunsalonu.com/wp-content/uploads/2023/08/sunnet.jpg"} url={"Sünnet"} />
+                <Card yazı="Sünnet düğünleri, çocuklarımız için önemli bir dönüm noktasıdır. Geniş ve konforlu salonlarımızda, ailelerimizin tüm ihtiyaçlarını karşılayarak eğlenceli ve unutulmaz sünnet organizasyonları düzenliyoruz." başlık="Sünnet Organizasyonları" foto={sünnet1} url={"Sünnet"} />
                 <ReCard yazı="Kına gecesi, düğün öncesinde unutulmaz anılar biriktirmenizi sağlayan en özel geleneklerimizden biridir. Sultan Düğün Salonları olarak, bu özel gecenizi en iyi şekilde organize ediyor, şık dekorasyonumuz, profesyonel ekibimiz ve geleneksel dokunuşlarımızla hayallerinizdeki kına gecesini gerçeğe dönüştürüyoruz." başlık="Kına Gecesi Organizasyonları" foto={kına} url={"Kına"} />
                 <Card yazı="Sultan Düğün Salonları olarak, kurumsal etkinlikler ve toplantılar için şık ve konforlu salonlarımızda profesyonel hizmet sunuyoruz. İhtiyaçlarınıza özel düzenlemelerle, toplantılarınızın verimli ve etkileyici geçmesini sağlıyoruz." başlık="Toplantı Organizasyonları" foto={nurbanu1} url={"Toplantı"} />
             </div>

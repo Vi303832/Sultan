@@ -4,7 +4,6 @@ import Gl from "../assets/Gl.png"
 import { MdEmail } from "react-icons/md";
 import { RiMapPin2Fill } from "react-icons/ri";
 import { FaPhoneAlt } from "react-icons/fa";
-import { GoogleMap, LoadScript, Marker } from '@react-google-maps/api';
 
 
 function İletişim() {
@@ -13,17 +12,6 @@ function İletişim() {
         // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
         window.scrollTo(0, 0);
     }, []);
-
-    const containerStyle = {
-        width: '100%',
-        height: '400px'
-    };
-
-    // Set the center of the map (latitude and longitude)
-    const center = {
-        lat: 40.194981,  // Example latitude, change to your desired location
-        lng: 29.069887,  // Example longitude, change to your desired location
-    };
 
     return (
         <div className='min-h-[100vh] bg-beyaz font-arial'>
@@ -71,20 +59,17 @@ function İletişim() {
 
                     <div className='w-[50%] max-md:w-[100%] max-md:pb-10 flex justify-center '>
                         <div className='w-[90%]'>
-
-                            <LoadScript googleMapsApiKey={import.meta.env.VITE_GOOGLE_MAPS_API_KEY}>
-
-                                <GoogleMap
-                                    mapContainerStyle={containerStyle}
-                                    center={center}
-                                    zoom={15}
-                                >
-                                    {/* Marker ekleyebilirsiniz */}
-                                    <Marker position={center} />
-                                </GoogleMap>
-                            </LoadScript>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.6349415338154!2d29.070086!3d40.194936999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14ca3e6d598aae47%3A0xd2b9a613b16c5604!2sSultan%20Wedding%20Salons!5e0!3m2!1sen!2str!4v1746744737687!5m2!1sen!2str"
+                                width="600"
+                                height="450"
+                                style={{ border: 0 }}
+                                allowFullScreen=""
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                                className="w-full h-[400px]"
+                            ></iframe>
                         </div>
-
                     </div>
 
                 </div>

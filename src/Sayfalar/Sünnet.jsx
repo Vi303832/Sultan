@@ -24,6 +24,7 @@ import f5 from "../assets/Hizmet/Nişan1.jpg"
 import galeri8 from "../assets/Galeri/galeri9.jpg";
 import s10 from "../assets/s10.jpg";
 import yt from "../assets/yt.jpg";
+import SEOHelmet from './SEOHelmet';
 
 function Sünnet() {
     let content = [
@@ -57,6 +58,12 @@ function Sünnet() {
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>
+            <SEOHelmet
+                title="Sünnet Düğünü Organizasyonu"
+                description="Sultan Düğün Salonları'nda çocuğunuz için özel sünnet düğünü organizasyonu. Eğlenceli ve unutulmaz bir gün için modern salonlarımızda profesyonel hizmet."
+                keywords="sünnet düğünü, sünnet organizasyonu, bursa sünnet düğünü, çocuk eğlencesi, sünnet merasimi, sultan düğün sünnet"
+                ogImage={s11}
+            />
             {/* Hero Section */}
             <div className="relative flex justify-center items-center w-full overflow-hidden">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh] object-cover opacity-60" />

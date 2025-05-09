@@ -24,6 +24,7 @@ import f3 from "../assets/Hizmet/3.png"
 import f4 from "../assets/Hizmet/Düğün1.jpg"
 import f5 from "../assets/Hizmet/Nişan1.jpg"
 import galeri8 from "../assets/Galeri/galeri9.jpg";
+import SEOHelmet from './SEOHelmet';
 
 function Toplantı() {
     let content = [
@@ -57,6 +58,12 @@ function Toplantı() {
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>
+            <SEOHelmet
+                title="Toplantı Organizasyonu"
+                description="Sultan Düğün Salonları'nda kurumsal toplantı, seminer ve etkinlikler için profesyonel hizmet. Modern salonlarımızda şık ve konforlu toplantı ortamı."
+                keywords="toplantı salonu, kurumsal toplantı, seminer organizasyonu, etkinlik salonu, bursa toplantı salonu, sultan toplantı salonu"
+                ogImage={galeri8}
+            />
             {/* Hero Section */}
             <div className="relative flex justify-center items-center w-full overflow-hidden">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh] object-cover opacity-60" />

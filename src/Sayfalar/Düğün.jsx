@@ -1,9 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import backg from "../assets/Slider/slider2.jpg";
 import SalonCard from './SalonCard';
 import s11 from "../assets/s11.jpg";
 import s10 from "../assets/s10.jpg";
 import yt from "../assets/yt.jpg";
+import SEOHelmet from './SEOHelmet';
 import {
     FaUsers,
     FaUmbrellaBeach,
@@ -25,6 +26,8 @@ import f4 from "../assets/Hizmet/Düğün1.jpg"
 import f5 from "../assets/Hizmet/Nişan1.jpg"
 
 function Düğün() {
+    const [isLoading, setIsLoading] = useState(true);
+
     let content = [
         { img: f1 },
         { img: f2 },
@@ -52,10 +55,37 @@ function Düğün() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
+
+        // Simulate loading time
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+
+        return () => clearTimeout(timer);
     }, []);
+
+    if (isLoading) {
+        return (
+            <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-beyaz">
+                <div className="relative">
+                    <div className="w-32 h-32 border-4 border-altin/20 rounded-full animate-spin"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-24 h-24 border-4 border-t-4 border-t-altin border-r-amber-200 border-b-white border-l-amber-200 rounded-full animate-spin"></div>
+                    </div>
+                </div>
+                <div className="mt-8 text-2xl font-cormorant text-sertaltin animate-pulse">Yükleniyor...</div>
+            </div>
+        );
+    }
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>
+            <SEOHelmet
+                title="Düğün Organizasyonu"
+                description="Sultan Düğün Salonları'nda hayatınızın en özel gününü unutulmaz kılın. 1200 kişilik kapasiteye kadar modern ve şık düğün salonlarımızda profesyonel düğün organizasyonu hizmetleri."
+                keywords="düğün organizasyonu, bursa düğün salonu, düğün hizmetleri, gelin odası, sultan düğün, bursa düğün organizasyonu"
+                ogImage={s11}
+            />
             {/* Hero Section */}
             <div className="relative flex justify-center items-center w-full overflow-hidden">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh] object-cover opacity-60" />

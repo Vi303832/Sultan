@@ -22,6 +22,7 @@ import f2 from "../assets/Hizmet/2.png"
 import f3 from "../assets/Hizmet/3.png"
 import f4 from "../assets/Hizmet/Düğün1.jpg"
 import f5 from "../assets/Hizmet/Nişan1.jpg"
+import SEOHelmet from './SEOHelmet';
 
 function Nişan() {
     let content = [
@@ -53,6 +54,12 @@ function Nişan() {
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>
+            <SEOHelmet
+                title="Nişan Organizasyonu"
+                description="Sultan Düğün Salonları'nda şık ve özel nişan organizasyonları. Evlilik yolculuğunuzun ilk adımı için modern salonlarımızda profesyonel hizmet."
+                keywords="nişan organizasyonu, nişan töreni, bursa nişan salonu, nişan hizmetleri, sultan düğün nişan, özel nişan organizasyonu"
+                ogImage={s10}
+            />
             {/* Hero Section */}
             <div className="relative flex justify-center items-center w-full overflow-hidden">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh] object-cover opacity-60" />

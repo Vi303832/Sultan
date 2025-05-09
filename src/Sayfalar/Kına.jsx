@@ -22,6 +22,7 @@ import f3 from "../assets/Hizmet/3.png"
 import f4 from "../assets/Hizmet/Düğün1.jpg"
 import f5 from "../assets/Hizmet/Nişan1.jpg"
 import kına from "../assets/kına.jpg"
+import SEOHelmet from './SEOHelmet';
 
 function Kına() {
     let content = [
@@ -53,6 +54,12 @@ function Kına() {
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>
+            <SEOHelmet
+                title="Kına Gecesi Organizasyonu"
+                description="Sultan Düğün Salonları'nda geleneksel ve modern kına gecesi organizasyonları. Şık dekorasyonu, profesyonel ekibi ve özel hizmetleriyle hayalinizdeki kına gecesini gerçeğe dönüştürün."
+                keywords="kına gecesi, kına gecesi organizasyonu, bursa kına organizasyonu, kına salonu, geleneksel kına gecesi, sultan düğün kına"
+                ogImage={kına}
+            />
             {/* Hero Section */}
             <div className="relative flex justify-center items-center w-full overflow-hidden">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh] object-cover opacity-60" />

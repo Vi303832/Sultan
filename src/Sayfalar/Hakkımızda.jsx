@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import Hkkfoto from "../assets/Hakkımızda.jpg"
 import Gl from "../assets/Gl.png"
 import HeroHakkında from "../assets/HeroHakkında.jpg";
+import SEOHelmet from './SEOHelmet';
 
 function Hakkımızda() {
 
@@ -13,6 +14,12 @@ function Hakkımızda() {
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>
+            <SEOHelmet
+                title="Hakkımızda"
+                description="2015'ten beri Osmangazi Bursa'da faaliyet gösteren Sultan Düğün ve Toplantı Salonları'nın hikayesi, değerleri ve vizyonu."
+                keywords="hakkımızda, sultan düğün hakkında, düğün salonu hikayesi, bursa düğün salonu geçmişi, sultan düğün vizyonu"
+                ogImage={HeroHakkında}
+            />
             <div className="relative flex justify-center items-center">
                 <img src={Hkkfoto} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]  object-cover opacity-80" />
                 <div className="absolute top-0 left-0 w-full h-60  bg-gradient-to-b from-white to-transparent"></div>
@@ -53,7 +60,7 @@ function Hakkımızda() {
                             Sultan Düğün Salonu Bursa
                         </div>
                         <div className=' opacity-80'>
-                            Şehir merkezinde bulunan Sultan Düğün Salonları Osmangazi/Bursa 2015’ten beri çiftlerimizin düğün, nişan, kına gibi en özel günlerine ev sahipliği yapıyor. İçerisinde bulunan 5 düğün salonu seçeneği ve terasıyla konukların ilgisini çekiyor. Uzman aynı zamanda dinamik çalışan kadromuzla davetlilerimizi memnun etmek ve salonumuzdan gülümseyerek ayrılmalarını sağlamak için özen gösteriyoruz. Merkezi bir konumda yer alıyor olmamız ulaşım konusunda büyük bir kolaylığı beraberinde getiriyor..
+                            Şehir merkezinde bulunan Sultan Düğün Salonları Osmangazi/Bursa 2015'ten beri çiftlerimizin düğün, nişan, kına gibi en özel günlerine ev sahipliği yapıyor. İçerisinde bulunan 5 düğün salonu seçeneği ve terasıyla konukların ilgisini çekiyor. Uzman aynı zamanda dinamik çalışan kadromuzla davetlilerimizi memnun etmek ve salonumuzdan gülümseyerek ayrılmalarını sağlamak için özen gösteriyoruz. Merkezi bir konumda yer alıyor olmamız ulaşım konusunda büyük bir kolaylığı beraberinde getiriyor..
                         </div>
                         <div>
 

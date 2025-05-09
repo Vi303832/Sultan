@@ -4,6 +4,7 @@ import Gl from "../assets/Gl.png"
 import { MdEmail } from "react-icons/md";
 import { RiMapPin2Fill } from "react-icons/ri";
 import { FaPhoneAlt } from "react-icons/fa";
+import SEOHelmet from './SEOHelmet';
 
 
 function İletişim() {
@@ -15,6 +16,11 @@ function İletişim() {
 
     return (
         <div className='min-h-[100vh] bg-beyaz font-arial'>
+            <SEOHelmet
+                title="İletişim"
+                description="Sultan Düğün ve Toplantı Salonları iletişim bilgileri. Adres, telefon, e-posta bilgilerimiz ve bize ulaşabileceğiniz tüm kanallar."
+                keywords="iletişim, sultan düğün iletişim, bursa düğün salonu iletişim, düğün salonu adres, sultan telefon, rezervasyon"
+            />
             <div className="relative flex justify-center items-center">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]  object-cover opacity-80" />
                 <div className="absolute top-0 left-0 w-full h-60  bg-gradient-to-b from-white to-transparent"></div>

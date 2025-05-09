@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import backg from "../assets/Galeri/Galeripp.jpg";
 import Galericard from "./Galericard.jsx";
+import SEOHelmet from './SEOHelmet';
 import galeri1 from "../assets/Galeri/nurbanu3.jpg";
 import galeri2 from "../assets/Galeri/galeri1.jpg";
 import galeri3 from "../assets/Galeri/galeri3.jpg";
@@ -84,6 +85,12 @@ function Galeri() {
 
     return (
         <div>
+            <SEOHelmet
+                title="Galeri"
+                description="Sultan Düğün & Toplantı Salonları fotoğraf galerisi. Salonlarımızın şık dekorasyonu, gerçekleştirdiğimiz düğün, nişan, kına ve sünnet organizasyonlarından kareler."
+                keywords="düğün salonları fotoğrafları, düğün galeri, nişan fotoğrafları, kına gecesi fotoğrafları, salon galeri, sultan düğün galeri"
+                ogImage={galeri1}
+            />
             <div className='min-h-[100vh] bg-beyaz'>
                 <div className="relative flex justify-center items-center">
                     <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh] object-cover opacity-60" />

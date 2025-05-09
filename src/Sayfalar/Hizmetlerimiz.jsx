@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 import backg from "../assets/Slider/slider2.jpg"
 import SalonCard from './SalonCard'
 import s11 from "../assets/s11.jpg"
@@ -12,18 +12,47 @@ import galeri8 from "../assets/Galeri/galeri9.jpg";
 import galeri14 from "../assets/Galeri/dgn4.jpg";
 import galeri7 from "../assets/Galeri/galeri8.jpg";
 import nurbanu1 from "../assets/Salon/nurbanu1.jpg"
+import SEOHelmet from './SEOHelmet';
 
 function Hizmetlerimiz() {
     let navigate = useNavigate()
+    const [isLoading, setIsLoading] = useState(true);
 
 
     useEffect(() => {
         // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
         window.scrollTo(0, 0);
+
+        // Simulate loading time
+        const timer = setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+
+        return () => clearTimeout(timer);
     }, []);
+
+    if (isLoading) {
+        return (
+            <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-beyaz">
+                <div className="relative">
+                    <div className="w-32 h-32 border-4 border-altin/20 rounded-full animate-spin"></div>
+                    <div className="absolute inset-0 flex items-center justify-center">
+                        <div className="w-24 h-24 border-4 border-t-4 border-t-altin border-r-amber-200 border-b-white border-l-amber-200 rounded-full animate-spin"></div>
+                    </div>
+                </div>
+                <div className="mt-8 text-2xl font-cormorant text-sertaltin animate-pulse">Yükleniyor...</div>
+            </div>
+        );
+    }
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>
+            <SEOHelmet
+                title="Hizmetlerimiz"
+                description="Sultan Düğün Salonları'nda profesyonel düğün, nişan, kına, sünnet ve toplantı organizasyonu hizmetleri. Bursa'da en şık ve konforlu salonlarda unutulmaz organizasyonlar."
+                keywords="düğün organizasyonu, nişan organizasyonu, kına gecesi, sünnet düğünü, toplantı salonu, hizmetlerimiz, bursa organizasyon"
+                ogImage={s11}
+            />
             <div className="relative flex justify-center items-center overflow-hidden">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]  object-cover opacity-60" />
                 <div className="absolute top-0 left-0 w-full h-60  bg-gradient-to-b from-white to-transparent"></div>

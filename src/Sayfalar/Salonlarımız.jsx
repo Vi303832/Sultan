@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
 import backg from "../assets/Slider/slider2.jpg"
 import SalonCard from './SalonCard'
+import n1 from "../assets/Salon/nurbanu1.jpg"
+
+import SEOHelmet from './SEOHelmet'
 
 
 function Salonlarımız() {
@@ -12,6 +15,12 @@ function Salonlarımız() {
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>
+            <SEOHelmet
+                title="Salonlarımız"
+                description="Sultan Düğün ve Toplantı Salonları'nda farklı boyut ve kapasitede 5 ayrı salon. Nurbanu, Mihrimah, Kösem, Hürrem ve Valide salonlarıyla her organizasyona özel seçenekler."
+                keywords="düğün salonları, nişan salonları, kına salonları, toplantı salonları, bursa salonlar, sultan düğün salonları, nurbanu salon, mihrimah salon, kösem salon, hürrem salon, valide salon"
+                ogImage={n1}
+            />
             <div className="relative flex justify-center items-center overflow-hidden">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]  object-cover opacity-60" />
                 <div className="absolute top-0 left-0 w-full h-60  bg-gradient-to-b from-white to-transparent"></div>

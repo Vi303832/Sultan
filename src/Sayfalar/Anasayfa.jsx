@@ -18,6 +18,7 @@ import YouTubeVideo from './YoutubeVideo';
 import YorumSlider from './YorumSlider';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
+import SEOHelmet from './SEOHelmet';
 
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -37,6 +38,12 @@ function Anasayfa() {
 
     return (
         <div className='w-[100%] overflow-hidden relative min-h-screen bg-beyaz '>
+            <SEOHelmet
+                title="Ana Sayfa"
+                description="Sultan Düğün Salonları Bursa'da uygun fiyatlarla şık düğün, nişan, kına ve sünnet organizasyonları. Profesyonel ekip, modern salonlar ve kaliteli hizmet."
+                keywords="düğün salonu, düğün organizasyonu, nişan organizasyonu, kına gecesi, sünnet düğünü, bursa düğün salonları"
+                ogImage={s11}
+            />
             <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src={Heroicon} />
 
             <div className='mt-[15vh] max-xs:mt-[20vh] flex justify-center items-center h-[35vw] max-xl:h-[40vw] max-lg:h-[50vw] m  max-md:h-[60vw] max-sm:h-[70vw]  
@@ -98,7 +105,7 @@ function Anasayfa() {
                         Sultan Düğün Salonları Bursa
                     </div>
                     <div className=' opacity-80 max-xs:text-[16px] max-xs:text-center   max-xs:w-[80vw] max-xxs:w-[95vw]'>
-                        Şehir merkezinde bulunan Sultan Düğün Salonları Osmangazi/Bursa 2015’ten beri çiftlerimizin düğün, nişan, kına gibi en özel günlerine ev sahipliği yapıyor. İçerisinde bulunan 5 düğün salonu seçeneği ve terasıyla konukların ilgisini çekiyor. Uzman aynı zamanda dinamik çalışan kadromuzla davetlilerimizi memnun etmek ve salonumuzdan gülümseyerek ayrılmalarını sağlamak için özen gösteriyoruz. Merkezi bir konumda yer alıyor olmamız ulaşım konusunda büyük bir kolaylığı beraberinde getiriyor..
+                        Şehir merkezinde bulunan Sultan Düğün Salonları Osmangazi/Bursa 2015'ten beri çiftlerimizin düğün, nişan, kına gibi en özel günlerine ev sahipliği yapıyor. İçerisinde bulunan 5 düğün salonu seçeneği ve terasıyla konukların ilgisini çekiyor. Uzman aynı zamanda dinamik çalışan kadromuzla d    avetlilerimizi memnun etmek ve salonumuzdan gülümseyerek ayrılmalarını sağlamak için özen gösteriyoruz. Merkezi bir konumda yer alıyor olmamız ulaşım konusunda büyük bir kolaylığı beraberinde getiriyor..
                     </div>
                     <div className='max-xs:flex max-xs:w-full max-xs:justify-center'>
                         <button onClick={() => navigate("/Salonlar")} className=' cursor-pointer  max-xxs:px-4 max-xxs:py-2  flex gap-2 px-8 py-2 text-beyaz justify-center items-center font-arial text-lg font-light bg-altin opacity-80  max-xs:text-xl'>

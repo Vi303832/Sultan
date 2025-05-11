@@ -18,32 +18,10 @@ function Hizmetlerimiz() {
     let navigate = useNavigate()
     const [isLoading, setIsLoading] = useState(true);
 
-
     useEffect(() => {
         // Sayfa her render olduğunda sayfanın başına gitmek için scrollTo kullanabiliriz
         window.scrollTo(0, 0);
-
-        // Simulate loading time
-        const timer = setTimeout(() => {
-            setIsLoading(false);
-        }, 2000);
-
-        return () => clearTimeout(timer);
     }, []);
-
-    if (isLoading) {
-        return (
-            <div className="fixed inset-0 z-50 flex flex-col items-center justify-center bg-beyaz">
-                <div className="relative">
-                    <div className="w-32 h-32 border-4 border-altin/20 rounded-full animate-spin"></div>
-                    <div className="absolute inset-0 flex items-center justify-center">
-                        <div className="w-24 h-24 border-4 border-t-4 border-t-altin border-r-amber-200 border-b-white border-l-amber-200 rounded-full animate-spin"></div>
-                    </div>
-                </div>
-                <div className="mt-8 text-2xl font-cormorant text-sertaltin animate-pulse">Yükleniyor...</div>
-            </div>
-        );
-    }
 
     return (
         <div className='min-h-[100vh] bg-beyaz'>

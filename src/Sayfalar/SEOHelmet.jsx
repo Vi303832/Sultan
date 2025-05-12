@@ -3,9 +3,9 @@ import { Helmet } from 'react-helmet-async';
 
 function SEOHelmet({ title, description, keywords, ogImage, ogUrl, canonical }) {
     // Default values
-    const siteTitle = "Sultan Düğün Salonu";
-    const siteDescription = "Sultan Düğün Salonu Bursa'da, düğün, nişan, kına, sünnet ve toplantı organizasyonları için en iyi fiyatlarla, şık ve modern salonlar, profesyonel hizmet ve unutulmaz anlar sunar. Bursa'nın en çok tercih edilen düğün salonu!";
-    const siteKeywords = "sultan düğün salonu, sultan düğün salonu bursa, düğün salonu bursa, bursa düğün salonu, nişan salonu, kına gecesi, sünnet düğünü, toplantı salonu, sultan düğün salonları, organizasyon, düğün organizasyonu, bursa organizasyon";
+    const siteTitle = "Sultan Düğün Salonu Bursa | Sultan Düğün Salonu";
+    const siteDescription = "Sultan Düğün Salonu Bursa'da, düğün, nişan, kına ve sünnet organizasyonları için en iyi fiyatlarla, şık ve modern salonlar, profesyonel hizmet ve unutulmaz anlar sunar. Bursa'nın en çok tercih edilen düğün salonu!";
+    const siteKeywords = "sultan düğün salonu, sultan düğün salonu bursa, düğün salonu bursa, bursa düğün salonu, sultan düğün salonları, düğün organizasyonu, bursa düğün, bursa düğün salonları, en iyi düğün salonu, uygun fiyat düğün salonu, lüks düğün salonu, bursa sultan düğün salonu";
 
     // Convert image path to absolute URL if needed
     let ogImageUrl = ogImage;

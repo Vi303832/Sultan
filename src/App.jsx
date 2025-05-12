@@ -20,9 +20,9 @@ import Düğün from './Sayfalar/Düğün'
 import Kına from './Sayfalar/Kına'
 import Sünnet from './Sayfalar/Sünnet'
 import Toplantı from './Sayfalar/Toplantı'
-
 import Nişan from './Sayfalar/Nişan'
 import Hizmetlerimiz from './Sayfalar/Hizmetlerimiz'
+import NotFound from './Sayfalar/404'
 import "./style.css"
 
 function App() {
@@ -163,6 +163,11 @@ function App() {
 
         } />
 
+        <Route path="*" element={
+          <Layout>
+            <NotFound />
+          </Layout>
+        } />
 
       </Routes>
     </>

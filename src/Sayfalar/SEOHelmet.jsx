@@ -3,15 +3,15 @@ import { Helmet } from 'react-helmet-async';
 
 function SEOHelmet({ title, description, keywords, ogImage, ogUrl, canonical }) {
     // Default values
-    const siteTitle = "Sultan Düğün & Toplantı Salonları Bursa";
-    const siteDescription = "Sultan Düğün Salonları Bursa'da düğün, nişan, kına, sünnet ve toplantı organizasyonları için en uygun fiyatlarla şık salonlar ve profesyonel hizmet.";
-    const siteKeywords = "düğün salonu bursa, nişan salonu, kına gecesi, sünnet düğünü, toplantı salonu, sultan düğün salonları, organizasyon, düğün organizasyonu";
+    const siteTitle = "Sultan Düğün Salonu";
+    const siteDescription = "Sultan Düğün Salonu Bursa'da, düğün, nişan, kına, sünnet ve toplantı organizasyonları için en iyi fiyatlarla, şık ve modern salonlar, profesyonel hizmet ve unutulmaz anlar sunar. Bursa'nın en çok tercih edilen düğün salonu!";
+    const siteKeywords = "sultan düğün salonu, sultan düğün salonu bursa, düğün salonu bursa, bursa düğün salonu, nişan salonu, kına gecesi, sünnet düğünü, toplantı salonu, sultan düğün salonları, organizasyon, düğün organizasyonu, bursa organizasyon";
 
     // Convert image path to absolute URL if needed
     let ogImageUrl = ogImage;
     if (ogImage && typeof ogImage === 'string' && !ogImage.startsWith('http')) {
         // This is a workaround since we don't know the actual domain yet
-        // In a production environment, you'd use your actual domain
+        // In a production environment, you'd use your actual domains
         ogImageUrl = `https://sultandüğünsalonu.com${ogImage.startsWith('/') ? '' : '/'}${ogImage}`;
     }
 

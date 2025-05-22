@@ -48,11 +48,11 @@ function Anasayfa() {
               max-xs:!h-[80vw]  max-xxs:!h-[105vw] max-[350px]:!h-[130vw]   '>
                 <div className='flex flex-col gap-5 items-center '>
                     <div className='text-sertaltin  text-8xl max-lg:!text-5xl font-scheherazade  flex flex-col items-center'>
-                        <div className=' '>
+                        <h1 className=' '>
                             <span className='text-9xl max-lg:text-7xl'>S</span>
                             ULTA
                             <span className='text-9xl max-lg:text-7xl'>N</span>
-                        </div>
+                        </h1>
                         <div className='w-full flex flex-col items-center  '>
                             <hr className='text-center w-[150%] max-xs:w-[120%]' />
                             <hr className='text-center w-[150%] max-xs:w-[120%]' />
@@ -60,9 +60,9 @@ function Anasayfa() {
                             <hr className='text-center w-[150%] max-xs:w-[120%]' />
                         </div>
                     </div>
-                    <div className='text-5xl max-lg:text-4xl max-md:px-10 text-center font-cormorant'>
+                    <h2 className='text-5xl max-lg:text-4xl max-md:px-10 text-center font-cormorant'>
                         Sultan Düğün & Toplantı Salonları
-                    </div>
+                    </h2>
                     <div className='font-arial text-lg font-light opacity-70 text-center   max-md:text-[16px]'>
                         En özel anlarınıza  en şık şekilde  eşlik ediyoruz
                     </div>

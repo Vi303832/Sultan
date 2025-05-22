@@ -47,11 +47,11 @@ function Valide() {
                 ogImage={n1}
             />
             <div className='bg-beyaz  min-h-screen'>
-                <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src={Heroicon} />
+                <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src={Heroicon} alt="Valide Sultan Hero Görseli" />
                 <div className='pt-[25vh]  max-xs:pt-[40vh] pb-20 max-lg:px-0    px-20'>
                     <div className='w-full h-[40vh]  gap-5 justify-center items-center mb-10 hidden max-lg:flex  '>
-                        <img src={mihribah2left} className='h-full object-cover hidden max-lg:flex  w-[30%]  rounded-tl-full' />
-                        <img src={mihribah2right} className='h-full object-cover  hidden max-lg:flex  w-[30%]  rounded-tr-full' />
+                        <img src={mihribah2left} className='h-full object-cover hidden max-lg:flex  w-[30%]  rounded-tl-full' alt="Valide Sultan Sol Görsel" />
+                        <img src={mihribah2right} className='h-full object-cover  hidden max-lg:flex  w-[30%]  rounded-tr-full' alt="Valide Sultan Sağ Görsel" />
                     </div>
                     <div className='w-full flex max-lg:flex-col  justify-center items-center  min-h-[80vh]   '>
 

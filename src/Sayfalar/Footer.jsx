@@ -13,6 +13,7 @@ function Footer() {
 
                     {/* Logo ve Açıklama */}
                     <div className="flex flex-col items-center lg:items-start">
+                        <h2 className="sr-only">Sultan Düğün Salonları</h2>
                         <img src={Logo} alt="Sultan Düğün Salonları" className="h-28 mb-6 cursor-pointer hover:opacity-80 transition-all" />
                         <p className="font-cormorant text-lg opacity-90 cursor-pointer hover:text-altin transition-all">
                             En özel anınıza en şık şekilde eşlik ediyoruz.
@@ -21,7 +22,7 @@ function Footer() {
 
                     {/* İletişim Bilgileri */}
                     <div className="flex flex-col items-center lg:items-start">
-                        <h3 className="text-2xl font-cormorant mb-8 text-beyaz">İletişim</h3>
+                        <h2 className="text-2xl font-cormorant mb-8 text-beyaz">İletişim</h2>
                         <div className="flex flex-col gap-5">
                             <div className="flex items-center gap-3 hover:text-altin transition-all cursor-pointer">
                                 <FaEnvelope className="text-lg" />
@@ -40,7 +41,7 @@ function Footer() {
 
                     {/* Salonlarımız */}
                     <div className="flex flex-col items-center lg:items-start">
-                        <h3 className="text-2xl font-cormorant mb-8 text-beyaz">Salonlarımız</h3>
+                        <h2 className="text-2xl font-cormorant mb-8 text-beyaz">Salonlarımız</h2>
                         <ul className="flex flex-col gap-4">
                             {[
                                 { path: "/Mihrimah", name: "Mihrimah Sultan" },
@@ -60,19 +61,22 @@ function Footer() {
                             ))}
                         </ul>
                     </div>
-
                     {/* Sosyal Medya ve Hakkımızda */}
                     <div className="flex flex-col items-center lg:items-start">
-                        <h3 className="text-2xl font-cormorant mb-8 text-beyaz">Sosyal Medya</h3>
+                        <h2 className="text-2xl font-cormorant mb-8 text-beyaz">Sosyal Medya</h2>
                         <div className="flex flex-col gap-6">
                             <div className="flex gap-6">
                                 <a href="https://www.instagram.com/sultandugunsalonlaribursa/?hl=en"
-                                    className="text-3xl hover:text-altin transition-all duration-300 cursor-pointer">
+                                    className="text-3xl hover:text-altin transition-all duration-300 cursor-pointer"
+                                    aria-label="Instagram sayfamızı ziyaret edin">
                                     <FaInstagram />
+                                    <span className="sr-only">Instagram</span>
                                 </a>
                                 <a href="https://www.facebook.com/sultandugunsalonlaribursa/?locale=tr_TR"
-                                    className="text-3xl hover:text-altin transition-all duration-300 cursor-pointer">
+                                    className="text-3xl hover:text-altin transition-all duration-300 cursor-pointer"
+                                    aria-label="Facebook sayfamızı ziyaret edin">
                                     <FaFacebook />
+                                    <span className="sr-only">Facebook</span>
                                 </a>
                             </div>
                             <button

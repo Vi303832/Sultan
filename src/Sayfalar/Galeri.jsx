@@ -93,7 +93,7 @@ function Galeri() {
             />
             <div className='min-h-[100vh] bg-beyaz'>
                 <div className="relative flex justify-center items-center">
-                    <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh] object-cover opacity-60" />
+                    <img src={backg} alt="Galeri Arka Planı" className="w-full h-[70vh] max-md:h-[60vh] object-cover opacity-60" />
                     <div className="absolute top-0 left-0 w-full h-60 bg-gradient-to-b from-white to-transparent"></div>
                     <div className='text-7xl max-md:text-5xl max-md:px-10 text-center absolute mt-30 font-scheherazade'>
                         <div>Galeri</div>

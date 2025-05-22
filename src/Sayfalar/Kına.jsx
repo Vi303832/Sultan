@@ -106,7 +106,7 @@ function Kına() {
                     <div className='w-full lg:w-1/2'>
                         <img
                             src={kına}
-                            alt="Kına"
+                            alt="Kına Gecesi Organizasyonu Görseli"
                             className='w-full h-auto rounded-lg shadow-xl hover:shadow-2xl transition-shadow duration-300'
                         />
                     </div>

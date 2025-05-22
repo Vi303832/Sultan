@@ -44,7 +44,7 @@ function Anasayfa() {
                 keywords="düğün salonu, düğün organizasyonu, nişan organizasyonu, kına gecesi, sünnet düğünü, bursa düğün salonları"
                 ogImage={s11}
             />
-            <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src="https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918739/Hero4_nrh84a.png" />
+            <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src="https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918739/Hero4_nrh84a.png" alt="Sultan Düğün Salonları Hero Görseli" />
 
             <div className='mt-[15vh] max-xs:mt-[20vh] flex justify-center items-center h-[35vw] max-xl:h-[40vw] max-lg:h-[50vw] m  max-md:h-[60vw] max-sm:h-[70vw]  
               max-xs:!h-[80vw]  max-xxs:!h-[105vw] max-[350px]:!h-[130vw]   '>

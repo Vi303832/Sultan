@@ -13,7 +13,7 @@ function Card({ yazı, başlık, foto, url }) {
             <div className='flex h-full w-full  max-lg:flex-col justify-center items-center '>
 
                 <div className='h-full w-full bg-amber-800  justify-center hidden max-lg:flex '>
-                    <img src={foto} className='h-full object-cover w-[100%]' />
+                    <img src={foto} className='h-full object-cover w-[100%]' alt="Salon Fotoğrafı" />
                 </div>
 
                 <div className='w-[50%] h-full p-12 flex flex-col max-sm:items-center gap-8 text-start max-lg:w-full max-xs:pb-10 max-xs:p-0'>
@@ -33,7 +33,7 @@ function Card({ yazı, başlık, foto, url }) {
                     </button>
                 </div>
                 <div className='h-full w-[50%]  flex justify-center items-center max-lg:hidden  '>
-                    <img src={foto} className='h-full object-cover w-[100%]' />
+                    <img src={foto} className='h-full object-cover w-[100%]' alt="Salon Fotoğrafı" />
                 </div>
             </div>
 

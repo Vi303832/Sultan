@@ -9,15 +9,14 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 // Slider Resimleri
-import slider1 from "../assets/Slider/slider1.jpg";
-import slider2 from "../assets/Slider/slider2.jpg";
-import slider3 from "../assets/Slider/slider3.jpg";
-import slider4 from "../assets/Slider/slider4.jpg";
-import slider5 from "../assets/Slider/slider5.jpg";
-import slider6 from "../assets/Slider/slider6.jpg";
-import slider7 from "../assets/Slider/slider7.jpg";
-
-const slides = [slider1, slider2, slider3, slider4, slider5, slider6, slider7];
+const slides = [
+    "https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918873/slider6_yp8zcz.jpg",
+    "https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918873/slider1_qposam.jpg",
+    "https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918873/slider5_ot8yl7.jpg",
+    "https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918874/slider2_wweezi.jpg",
+    "https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918874/slider7_qhtvvt.jpg",
+    "https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918874/slider3_dawxpv.jpg"
+];
 
 function SmSlider() {
     return (

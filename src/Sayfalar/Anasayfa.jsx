@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import { FaArrowRightLong } from "react-icons/fa6";
 
 
@@ -6,17 +6,14 @@ import HeroHakkında from "../assets/HeroHakkında.jpg";
 import { useNavigate } from "react-router";
 import Card from './Card';
 import ReCard from './ReCard';
-import SliderComponent from './SliderComponent';
-import MdSlider from "./mdSlider"
-import SmSlider from './smSlider';
+
 import s11 from "../assets/s11.jpg"
 import s10 from "../assets/s10.jpg"
 import sünnet1 from "../assets/sünnet1.jpg"
 import nurbanu1 from "../assets/Salon/nurbanu1.jpg"
 import cont2 from "../assets/contpic2.png"
 import kına from "../assets/kına.jpg"
-import YouTubeVideo from './YoutubeVideo';
-import YorumSlider from './YorumSlider';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper/modules';
 import SEOHelmet from './SEOHelmet';
@@ -26,12 +23,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-
-
-
-
-
-
+// Lazy imports
+const SliderComponent = lazy(() => import('./SliderComponent'));
+const MdSlider = lazy(() => import('./mdSlider'));
+const SmSlider = lazy(() => import('./smSlider'));
+const YorumSlider = lazy(() => import('./YorumSlider'));
+const YouTubeVideo = lazy(() => import('./YoutubeVideo'));
 
 function Anasayfa() {
 
@@ -45,7 +42,7 @@ function Anasayfa() {
                 keywords="düğün salonu, düğün organizasyonu, nişan organizasyonu, kına gecesi, sünnet düğünü, bursa düğün salonları"
                 ogImage={s11}
             />
-            <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src="https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918739/Hero4_nrh84a.png" alt="Sultan Düğün Salonları Hero Görseli" />
+            <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src="https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918739/Hero4_nrh84a.png" alt="Sultan Düğün Salonları Hero Görseli" loading="eager" fetchPriority='high' />
 
             <div className='mt-[15vh] max-xs:mt-[20vh] flex justify-center items-center h-[35vw] max-xl:h-[40vw] max-lg:h-[50vw] m  max-md:h-[60vw] max-sm:h-[70vw]  
               max-xs:!h-[80vw]  max-xxs:!h-[105vw] max-[350px]:!h-[130vw]   '>
@@ -79,14 +76,20 @@ function Anasayfa() {
             {/* Swiper Slider 400px*/}
             <div className='py-20   '>
                 <div className='h-[80vh] flex slider-container max-lg:hidden px-10'>
-                    <SliderComponent />
+                    <Suspense fallback={<div>Yükleniyor...</div>}>
+                        <SliderComponent />
+                    </Suspense>
                 </div>
                 <div className='h-[50vw]  slider-container hidden max-lg:flex  max-md:hidden   px-10'>
-                    <MdSlider />
+                    <Suspense fallback={<div>Yükleniyor...</div>}>
+                        <MdSlider />
+                    </Suspense>
                 </div>
 
                 <div className='h-[70vw] max-xxs:h-[130vw] max-xs:h-[100vw]  flex slider-container min-md:hidden px-10 max-xs:px-5 max-xxs:px-2 '>
-                    <SmSlider />
+                    <Suspense fallback={<div>Yükleniyor...</div>}>
+                        <SmSlider />
+                    </Suspense>
                 </div>
             </div>
 
@@ -124,12 +127,16 @@ function Anasayfa() {
                 <Card yazı="Sultan Düğün Salonları olarak, kurumsal etkinlikler ve toplantılar için şık ve konforlu salonlarımızda profesyonel hizmet sunuyoruz. İhtiyaçlarınıza özel düzenlemelerle, toplantılarınızın verimli ve etkileyici geçmesini sağlıyoruz." başlık="Toplantı Organizasyonları" foto={nurbanu1} url={"Toplantı"} />
             </div>
             <div className='pt-10 h-[130vh] max-xs:h-[70vh]  max-xs:pt-0  max-xs:w-full overflow-hidden'>
-                <YouTubeVideo />
+                <Suspense fallback={<div>Yükleniyor...</div>}>
+                    <YouTubeVideo />
+                </Suspense>
             </div>
 
             <div className='flex justify-center items-center   '>
                 <div className='px-20  w-[80%] max-lg:w-[100%] max-md:px-0 max-md:h-[110vh] ' >
-                    <YorumSlider />
+                    <Suspense fallback={<div>Yükleniyor...</div>}>
+                        <YorumSlider />
+                    </Suspense>
                 </div>
             </div>
 

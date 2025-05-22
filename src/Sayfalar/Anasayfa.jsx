@@ -37,9 +37,9 @@ function Anasayfa() {
     return (
         <div className='w-[100%] overflow-hidden relative min-h-screen bg-beyaz '>
             <SEOHelmet
-                title="Ana Sayfa"
-                description="Sultan Düğün Salonları Bursa'da uygun fiyatlarla şık düğün, nişan, kına ve sünnet organizasyonları. Profesyonel ekip, modern salonlar ve kaliteli hizmet."
-                keywords="düğün salonu, düğün organizasyonu, nişan organizasyonu, kına gecesi, sünnet düğünü, bursa düğün salonları"
+                title="Sultan Düğün Salonları | Bursa'nın En Şık Düğün, Nişan, Kına ve Toplantı Salonları"
+                description="Sultan Düğün Salonları Bursa'da düğün, nişan, kına gecesi, sünnet ve toplantı organizasyonları için modern, şık ve uygun fiyatlı salonlar. Profesyonel ekip, merkezi konum, yüksek müşteri memnuniyeti. Bursa'nın en çok tercih edilen düğün salonu."
+                keywords="Sultan Düğün Salonları, Bursa düğün salonu, düğün salonları, nişan salonu, kına gecesi, sünnet düğünü, toplantı salonu, organizasyon, uygun fiyat, modern salon, profesyonel hizmet, Bursa organizasyon, en iyi düğün salonu, merkezi konum, müşteri memnuniyeti"
                 ogImage={s11}
             />
             <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src="https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918739/Hero4_nrh84a.png" alt="Sultan Düğün Salonları Hero Görseli" loading="eager" fetchPriority='high' />

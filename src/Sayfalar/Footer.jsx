@@ -14,7 +14,11 @@ function Footer() {
                     {/* Logo ve Açıklama */}
                     <div className="flex flex-col items-center lg:items-start">
                         <h2 className="sr-only">Sultan Düğün Salonları</h2>
-                        <img src={Logo} alt="Sultan Düğün Salonları" className="h-28 mb-6 cursor-pointer hover:opacity-80 transition-all" />
+                        <img
+                            src={Logo}
+                            alt="Sultan Düğün Salonları"
+                            className="h-28 w-auto object-contain mb-6 cursor-pointer hover:opacity-80 transition-all"
+                        />
                         <p className="font-cormorant text-lg opacity-90 cursor-pointer hover:text-altin transition-all">
                             En özel anınıza en şık şekilde eşlik ediyoruz.
                         </p>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaArrowRightLong } from "react-icons/fa6";
 
+
 import HeroHakkında from "../assets/HeroHakkında.jpg";
 import { useNavigate } from "react-router";
 import Card from './Card';
@@ -44,7 +45,7 @@ function Anasayfa() {
                 keywords="düğün salonu, düğün organizasyonu, nişan organizasyonu, kına gecesi, sünnet düğünü, bursa düğün salonları"
                 ogImage={s11}
             />
-            <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src="https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918739/Hero4_nrh84a.png" alt="Sultan Düğün Salonları Hero Görseli" loading="lazy" />
+            <img className='-rotate-45 -top-10 -left-16 absolute max-[360px]:-left-20 max-[520px]:-left-27 ' src="https://res.cloudinary.com/dwruhrrkm/image/upload/v1747918739/Hero4_nrh84a.png" alt="Sultan Düğün Salonları Hero Görseli" />
 
             <div className='mt-[15vh] max-xs:mt-[20vh] flex justify-center items-center h-[35vw] max-xl:h-[40vw] max-lg:h-[50vw] m  max-md:h-[60vw] max-sm:h-[70vw]  
               max-xs:!h-[80vw]  max-xxs:!h-[105vw] max-[350px]:!h-[130vw]   '>
@@ -92,11 +93,11 @@ function Anasayfa() {
             <div className='flex justify-center items-center gap-10 w-full  max-lg:flex-col max-lg:px-5 font-arial max-lg:!mt-0 px-20  max-xxs:px-0   max-xs:gap-2  mt-30   max-xxs:!h-[700px]    mb-60 max-sm:!mb-20  '>
 
                 <div className=' w-[50%] h-full max-xs:h-[40vh]      max-lg:w-[80%] flex items-center justify-center overflow-hidden max-xxs:w-full      '>
-                    <img src={HeroHakkında} className=' max-xxs:hidden object-contain max-xs:h-full  max-xs:object-cover' alt="Sultan Düğün Salonları Hakkında" loading="lazy" />
+                    <img src={HeroHakkında} className=' max-xxs:hidden object-contain max-xs:h-full  max-xs:object-cover' alt="Sultan Düğün Salonları Hakkında" loading="lazy" width="600" height="400" />
                 </div>
 
                 <div className='max-xxs:block hidden' >
-                    <img src={HeroHakkında} alt="Sultan Düğün Salonları Hakkında Mobil" loading="lazy" />
+                    <img src={HeroHakkında} alt="Sultan Düğün Salonları Hakkında Mobil" loading="lazy" width="300" height="200" />
                 </div>
 
 
@@ -138,7 +139,7 @@ function Anasayfa() {
 
             <div className='py-20 max-lg:py-10 px-20 w-full max-xxs:py-30 max-md:px-5  flex justify-center items-center  max-xs:px-2' >
 
-                <img src={cont2} className='w-full  max-xs:h-[50vh] max-xxs:h-[60vh] h-[80vh]    object-cover  opacity-90  ' alt="Sultan Düğün Salonları İletişim Banner" loading="lazy" />
+                <img src={cont2} className='w-full  max-xs:h-[50vh] max-xxs:h-[60vh] h-[80vh]    object-cover  opacity-90  ' alt="Sultan Düğün Salonları İletişim Banner" loading="lazy" width="1200" height="800" />
 
                 <div className='absolute max-sm:gap-10 flex flex-col max-sm:h-[70vh] max-sm:w-[70%]  max-xs:!h-[40vh]  gap-3 items-center p-10  max-xs:p-0 justify-center max-xs:!w-[80%]   '>
 

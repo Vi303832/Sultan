@@ -12,7 +12,7 @@ import Nurbanu from './Sayfalar/Nurbanu'
 import BeniAra from './Sayfalar/BeniAra'
 import Hakkımızda from "./Sayfalar/Hakkımızda"
 import İletişim from "./Sayfalar/İletişim"
-import Salon from "./Sayfalar/Salon"
+
 import Salonlarımız from "./Sayfalar/Salonlarımız"
 import Teklif from "./Sayfalar/Teklif"
 import Layout from './Sayfalar/Layout'

@@ -15,9 +15,9 @@ function Hakkımızda() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>
             <SEOHelmet
-                title="Hakkımızda"
-                description="2015'ten beri Osmangazi Bursa'da faaliyet gösteren Sultan Düğün ve Toplantı Salonları'nın hikayesi, değerleri ve vizyonu."
-                keywords="hakkımızda, sultan düğün hakkında, düğün salonu hikayesi, bursa düğün salonu geçmişi, sultan düğün vizyonu"
+                title="Sultan Düğün Salonları Hakkında | Bursa'nın En Çok Tercih Edilen Düğün Salonu"
+                description="Sultan Düğün Salonları (Bursa) hakkında detaylı bilgi. 2015'ten beri Bursa'nın en şık ve modern düğün, nişan, kına ve toplantı salonları. Sultan Düğün Salonu Bursa, müşteri memnuniyeti ve profesyonel hizmet."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, hakkımızda, bursa düğün salonu, bursa organizasyon, en iyi düğün salonu, profesyonel hizmet"
                 ogImage={HeroHakkında}
             />
             <div className="relative flex justify-center items-center">

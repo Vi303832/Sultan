@@ -86,9 +86,9 @@ function Galeri() {
     return (
         <div>
             <SEOHelmet
-                title="Galeri"
-                description="Sultan Düğün & Toplantı Salonları fotoğraf galerisi. Salonlarımızın şık dekorasyonu, gerçekleştirdiğimiz düğün, nişan, kına ve sünnet organizasyonlarından kareler."
-                keywords="düğün salonları fotoğrafları, düğün galeri, nişan fotoğrafları, kına gecesi fotoğrafları, salon galeri, sultan düğün galeri"
+                title="Galeri | Sultan Düğün Salonları Bursa"
+                description="Sultan Düğün Salonları Bursa'da gerçekleştirilen düğün, nişan, kına ve sünnet organizasyonlarından kareler. Sultan Düğün Salonu Bursa, şık dekorasyon ve profesyonel hizmet ile unutulmaz anlar sunar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, düğün salonları fotoğrafları, düğün galeri, nişan fotoğrafları, kına gecesi fotoğrafları, salon galeri"
                 ogImage={galeri1}
             />
             <div className='min-h-[100vh] bg-beyaz'>

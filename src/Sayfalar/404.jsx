@@ -8,8 +8,9 @@ export default function NotFound() {
     return (
         <div className="min-h-screen flex flex-col items-center justify-center bg-beyaz text-center px-4">
             <SEOHelmet
-                title="Sayfa Bulunamadı (404)"
-                description="Aradığınız sayfa bulunamadı. Sultan Düğün Salonları Bursa ana sayfasına dönebilirsiniz."
+                title="Sayfa Bulunamadı (404) | Sultan Düğün Salonları Bursa"
+                description="Aradığınız sayfa bulunamadı. Sultan Düğün Salonları Bursa ana sayfasına dönebilirsiniz. Sultan Düğün Salonu Bursa, Bursa'nın en çok tercih edilen düğün salonu."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, 404, sayfa bulunamadı, bursa düğün salonu"
             />
             <img src={Logo} alt="Sultan Düğün Salonları Logo" className="h-32 mb-8 opacity-80" />
             <h1 className="text-7xl font-bold text-sertaltin mb-4">404</h1>

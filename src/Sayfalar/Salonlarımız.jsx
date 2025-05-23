@@ -16,9 +16,9 @@ function Salonlarımız() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>
             <SEOHelmet
-                title="Salonlarımız"
-                description="Sultan Düğün ve Toplantı Salonları'nda farklı boyut ve kapasitede 5 ayrı salon. Nurbanu, Mihrimah, Kösem, Hürrem ve Valide salonlarıyla her organizasyona özel seçenekler."
-                keywords="düğün salonları, nişan salonları, kına salonları, toplantı salonları, bursa salonlar, sultan düğün salonları, nurbanu salon, mihrimah salon, kösem salon, hürrem salon, valide salon"
+                title="Salonlarımız | Sultan Düğün Salonları Bursa"
+                description="Sultan Düğün Salonları Bursa'da farklı boyut ve kapasitede 5 ayrı salon. Sultan Düğün Salonu Bursa, Nurbanu, Mihrimah, Kösem, Hürrem ve Valide salonlarıyla her organizasyona özel seçenekler sunar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, düğün salonları, nişan salonları, kına salonları, toplantı salonları, bursa salonlar, nurbanu salon, mihrimah salon, kösem salon, hürrem salon, valide salon"
                 ogImage={n1}
             />
             <div className="relative flex justify-center items-center overflow-hidden">

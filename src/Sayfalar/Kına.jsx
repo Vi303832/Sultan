@@ -55,9 +55,9 @@ function Kına() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>
             <SEOHelmet
-                title="Kına Gecesi Organizasyonu"
-                description="Sultan Düğün Salonları'nda geleneksel ve modern kına gecesi organizasyonları. Şık dekorasyonu, profesyonel ekibi ve özel hizmetleriyle hayalinizdeki kına gecesini gerçeğe dönüştürün."
-                keywords="kına gecesi, kına gecesi organizasyonu, bursa kına organizasyonu, kına salonu, geleneksel kına gecesi, sultan düğün kına"
+                title="Kına Gecesi Organizasyonu | Sultan Düğün Salonları Bursa"
+                description="Sultan Düğün Salonları Bursa'da geleneksel ve modern kına gecesi organizasyonları. Sultan Düğün Salonu Bursa, şık dekorasyon ve profesyonel ekibiyle hayalinizdeki kına gecesini sunar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, kına gecesi, kına gecesi organizasyonu, bursa kına organizasyonu, kına salonu, geleneksel kına gecesi"
                 ogImage={kına}
             />
             {/* Hero Section */}

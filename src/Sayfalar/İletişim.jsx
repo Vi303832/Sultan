@@ -17,9 +17,9 @@ function İletişim() {
     return (
         <div className='min-h-[100vh] bg-beyaz font-arial'>
             <SEOHelmet
-                title="İletişim"
-                description="Sultan Düğün ve Toplantı Salonları iletişim bilgileri. Adres, telefon, e-posta bilgilerimiz ve bize ulaşabileceğiniz tüm kanallar."
-                keywords="iletişim, sultan düğün iletişim, bursa düğün salonu iletişim, düğün salonu adres, sultan telefon, rezervasyon"
+                title="İletişim | Sultan Düğün Salonları Bursa"
+                description="Sultan Düğün Salonları Bursa iletişim bilgileri. Sultan Düğün Salonu Bursa, adres, telefon, e-posta ve tüm iletişim kanallarımız burada."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, iletişim, bursa düğün salonu iletişim, düğün salonu adres, rezervasyon"
             />
             <div className="relative flex justify-center items-center">
                 <img src={backg} alt="Background" className="w-full h-[70vh] max-md:h-[60vh]  object-cover opacity-80" />

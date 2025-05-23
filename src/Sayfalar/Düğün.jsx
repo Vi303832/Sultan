@@ -60,9 +60,9 @@ function Düğün() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>
             <SEOHelmet
-                title="Düğün Organizasyonu"
-                description="Sultan Düğün Salonları'nda hayatınızın en özel gününü unutulmaz kılın. 1200 kişilik kapasiteye kadar modern ve şık düğün salonlarımızda profesyonel düğün organizasyonu hizmetleri."
-                keywords="düğün organizasyonu, bursa düğün salonu, düğün hizmetleri, gelin odası, sultan düğün, bursa düğün organizasyonu"
+                title="Düğün Organizasyonu | Sultan Düğün Salonları Bursa"
+                description="Sultan Düğün Salonları Bursa'da hayatınızın en özel gününü unutulmaz kılın. Sultan Düğün Salonu Bursa, modern ve şık salonlarda profesyonel düğün organizasyonu hizmetleri sunar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, düğün organizasyonu, bursa düğün salonu, düğün hizmetleri, gelin odası, en iyi düğün salonu"
                 ogImage={s11}
             />
             {/* Hero Section */}

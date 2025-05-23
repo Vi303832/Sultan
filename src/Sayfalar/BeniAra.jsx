@@ -51,9 +51,9 @@ export default function BeniAra() {
     return (
         <>
             <SEOHelmet
-                title="Beni Arayın"
-                description="Sultan Düğün Salonları Bursa - Bize iletişim formu ile ulaşın, en kısa sürede sizi arayalım. Hızlı ve kolay iletişim için formu doldurun."
-                keywords="beni ara, iletişim formu, sultan düğün salonları iletişim, bursa düğün salonu, hızlı iletişim"
+                title="Beni Arayın | Sultan Düğün Salonları Bursa"
+                description="Sultan Düğün Salonları Bursa - Bize iletişim formu ile ulaşın, en kısa sürede sizi arayalım. Sultan Düğün Salonu Bursa, hızlı ve kolay iletişim için formu doldurun."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, beni ara, iletişim formu, bursa düğün salonu, hızlı iletişim"
             />
             <div className='min-h-[100vh] bg-beyaz'>
 

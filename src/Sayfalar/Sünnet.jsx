@@ -59,9 +59,9 @@ function Sünnet() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>
             <SEOHelmet
-                title="Sünnet Düğünü Organizasyonu"
-                description="Sultan Düğün Salonları'nda çocuğunuz için özel sünnet düğünü organizasyonu. Eğlenceli ve unutulmaz bir gün için modern salonlarımızda profesyonel hizmet."
-                keywords="sünnet düğünü, sünnet organizasyonu, bursa sünnet düğünü, çocuk eğlencesi, sünnet merasimi, sultan düğün sünnet"
+                title="Sultan Düğün Salonları Bursa | Sünnet Düğünü Organizasyonu"
+                description="Sultan Düğün Salonları Bursa'da sünnet düğünü organizasyonu. Sultan Düğün Salonu Bursa, modern ve konforlu salonlarda unutulmaz sünnet düğünleri için profesyonel hizmet sunar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, sünnet düğünü, sünnet organizasyonu, bursa sünnet düğünü, çocuk eğlencesi, profesyonel hizmet"
                 ogImage={s11}
             />
             {/* Hero Section */}

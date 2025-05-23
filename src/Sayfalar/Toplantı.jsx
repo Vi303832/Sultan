@@ -59,9 +59,9 @@ function Toplantı() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>
             <SEOHelmet
-                title="Toplantı Organizasyonu"
-                description="Sultan Düğün Salonları'nda kurumsal toplantı, seminer ve etkinlikler için profesyonel hizmet. Modern salonlarımızda şık ve konforlu toplantı ortamı."
-                keywords="toplantı salonu, kurumsal toplantı, seminer organizasyonu, etkinlik salonu, bursa toplantı salonu, sultan toplantı salonu"
+                title="Sultan Düğün Salonları Bursa | Toplantı ve Organizasyon Salonları"
+                description="Sultan Düğün Salonları Bursa'da kurumsal toplantı, seminer ve etkinlikler için modern ve şık salonlar. Sultan Düğün Salonu Bursa, profesyonel hizmet ve merkezi konum avantajı."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, toplantı salonu, kurumsal toplantı, bursa toplantı salonu, organizasyon, profesyonel hizmet"
                 ogImage={galeri8}
             />
             {/* Hero Section */}

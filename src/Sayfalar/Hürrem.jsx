@@ -44,9 +44,9 @@ function Hürrem() {
     return (
         <>
             <SEOHelmet
-                title="Hürrem Sultan Düğün Salonu"
-                description="Hürrem Sultan Düğün Salonu, altın ve krem tonlarının lüks ile buluştuğu, Bursa'da ihtişamlı ve şık organizasyonlar için ideal bir mekandır."
-                keywords="hürrem sultan, düğün salonu, bursa düğün, lüks düğün salonu, altın detaylı salon, sultan düğün salonları"
+                title="Hürrem Sultan Düğün Salonu | Sultan Düğün Salonları Bursa"
+                description="Hürrem Sultan Düğün Salonu Bursa'da ihtişamlı ve şık organizasyonlar için Sultan Düğün Salonları'nın en prestijli salonlarından biridir. Sultan Düğün Salonu Bursa, altın ve krem tonlarıyla lüksü sunar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, hürrem sultan, düğün salonu, bursa düğün, lüks düğün salonu, altın detaylı salon"
                 ogImage={h1}
             />
             <div className='bg-beyaz  min-h-screen'>

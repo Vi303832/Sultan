@@ -41,9 +41,9 @@ function Valide() {
     return (
         <>
             <SEOHelmet
-                title="Valide Sultan Düğün Salonu"
-                description="Valide Sultan Düğün Salonu, teras katında ferah ve aydınlık ortamı, açılır tavanı ve lüks dekorasyonu ile Bursa'da unutulmaz organizasyonlar için ideal bir mekandır."
-                keywords="valide sultan, düğün salonu, bursa düğün, teras düğün salonu, açılır tavan, lüks düğün salonu, sultan düğün salonları"
+                title="Valide Sultan Düğün Salonu | Sultan Düğün Salonları Bursa"
+                description="Valide Sultan Düğün Salonu Bursa'da ferah ve lüks organizasyonlar için Sultan Düğün Salonları'nın en büyük salonlarından biridir. Sultan Düğün Salonu Bursa, açılır tavanı ve geniş dans pistiyle öne çıkar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, valide sultan, düğün salonu, bursa düğün, teras düğün salonu, lüks düğün salonu"
                 ogImage={n1}
             />
             <div className='bg-beyaz  min-h-screen'>

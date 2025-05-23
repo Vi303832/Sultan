@@ -43,9 +43,9 @@ function Nurbanu() {
     return (
         <>
             <SEOHelmet
-                title="Nurbanu Sultan Düğün Salonu"
-                description="Nurbanu Sultan Düğün Salonu, beyazın asaleti ve modern tasarımıyla Bursa'da şık ve zarif organizasyonlar için ideal bir mekandır."
-                keywords="nurbanu sultan, düğün salonu, bursa düğün, modern düğün salonu, beyaz düğün salonu, sultan düğün salonları"
+                title="Nurbanu Sultan Düğün Salonu | Sultan Düğün Salonları Bursa"
+                description="Nurbanu Sultan Düğün Salonu Bursa'da modern ve zarif organizasyonlar için Sultan Düğün Salonları'nın en beğenilen salonlarından biridir. Sultan Düğün Salonu Bursa, beyaz ve modern tasarımıyla öne çıkar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, nurbanu sultan, düğün salonu, bursa düğün, modern düğün salonu, beyaz düğün salonu"
                 ogImage={n3}
             />
             <div className='bg-beyaz  min-h-screen'>

@@ -26,9 +26,9 @@ function Hizmetlerimiz() {
     return (
         <div className='min-h-[100vh] bg-beyaz'>
             <SEOHelmet
-                title="Hizmetlerimiz"
-                description="Sultan Düğün Salonları'nda profesyonel düğün, nişan, kına, sünnet ve toplantı organizasyonu hizmetleri. Bursa'da en şık ve konforlu salonlarda unutulmaz organizasyonlar."
-                keywords="düğün organizasyonu, nişan organizasyonu, kına gecesi, sünnet düğünü, toplantı salonu, hizmetlerimiz, bursa organizasyon"
+                title="Hizmetlerimiz | Sultan Düğün Salonları Bursa"
+                description="Sultan Düğün Salonları Bursa'da profesyonel düğün, nişan, kına, sünnet ve toplantı organizasyonu hizmetleri. Sultan Düğün Salonu Bursa, en şık ve konforlu salonlarda unutulmaz organizasyonlar sunar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, düğün organizasyonu, nişan organizasyonu, kına gecesi, sünnet düğünü, toplantı salonu, hizmetlerimiz, bursa organizasyon"
                 ogImage={s11}
             />
             <div className="relative flex justify-center items-center overflow-hidden">

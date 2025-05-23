@@ -41,9 +41,9 @@ function Kösem() {
     return (
         <>
             <SEOHelmet
-                title="Kösem Sultan Düğün Salonu"
-                description="Kösem Sultan Düğün Salonu, altın tonlarının sıcaklığı ve zarafetiyle Bursa'da klasik ve şık organizasyonlar için ideal bir mekandır."
-                keywords="kösem sultan, düğün salonu, bursa düğün, klasik düğün salonu, altın tonları, sultan düğün salonları"
+                title="Kösem Sultan Düğün Salonu | Sultan Düğün Salonları Bursa"
+                description="Kösem Sultan Düğün Salonu Bursa'da klasik ve şık organizasyonlar için Sultan Düğün Salonları'nın en özel salonlarından biridir. Sultan Düğün Salonu Bursa, altın tonları ve zarafetiyle öne çıkar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, kösem sultan, düğün salonu, bursa düğün, klasik düğün salonu, altın tonları"
                 ogImage={kösem1}
             />
             <div className='bg-beyaz  min-h-screen'>

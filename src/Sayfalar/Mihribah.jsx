@@ -46,9 +46,9 @@ function Mihribah() {
     return (
         <>
             <SEOHelmet
-                title="Mihrimah Sultan Düğün Salonu"
-                description="Mihrimah Sultan Düğün Salonu, şık ve lüks tasarımıyla Bursa'da unutulmaz düğün, nişan ve özel davetler için mükemmel bir atmosfer sunar."
-                keywords="mihrimah sultan, düğün salonu, bursa düğün, lüks düğün salonu, nişan, özel davet, sultan düğün salonları"
+                title="Mihrimah Sultan Düğün Salonu | Sultan Düğün Salonları Bursa"
+                description="Mihrimah Sultan Düğün Salonu Bursa'da lüks ve şık organizasyonlar için Sultan Düğün Salonları'nın en gözde salonlarından biridir. Sultan Düğün Salonu Bursa, modern ve zarif atmosferiyle öne çıkar."
+                keywords="Sultan Düğün Salonları, Sultan Düğün Salonu, Sultan Düğün Salonu Bursa, Sultan Düğün Salonları Bursa, mihrimah sultan, düğün salonu, bursa düğün, lüks düğün salonu, nişan, özel davet"
                 ogImage={mihribah1}
             />
             <div className='bg-beyaz  min-h-screen w-full overflow-hidden   '>
